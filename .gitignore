@@ -1,0 +1,4 @@
+#ignored files
+.vscode/
+/assets/
+.ftpconfig
