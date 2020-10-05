@@ -1,0 +1,43 @@
+/*VARIABELN**************************/
+/*Farben*/
+/*ALLGEMEIN**************************/
+/*Grundeinstellungen*/
+* {
+  margin: 0 0;
+  padding: 0 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*Markierfarbe*/
+::selection {
+  background: var(--akzent);
+  color: var(--negativ);
+}
+
+::-moz-selection {
+  background: var(--akzent);
+  color: var(--negativ);
+}
+
+/*Schriften*/
+/*DESKTOP****************************/
+/*DESKTOP****************************/
+/*DESKTOP****************************/
+/*TABLET*****************************/
+/*TABLET*****************************/
+/*TABLET*****************************/
+@media only screen and (max-width: 900px) {
+  /*Code*/
+}
+/*MOBILE*****************************/
+/*MOBILE*****************************/
+/*MOBILE*****************************/
+@media only screen and (max-width: 414px) {
+  /*Code*/
+}
+
+/*# sourceMappingURL=main.css.map */
