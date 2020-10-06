@@ -7,13 +7,13 @@ $b1_link = '/tutorial.php';
 //Button 2
 $b2_titel = 'Entdeckermodus';
 $b2_btn = 'start';
-$b2_link = '/infoscreen_freeplay.php';
+$b2_link = '/freeplay.php';
 //Button 3
 $b3_titel = 'Spielmodus';
 $b3_btn1 = 'easy';
 $b3_btn2 = 'medium';
 $b3_btn3 = 'hard';
-$b3_link = '/infoscreen_spielmodus.php';
+$b3_link = '/play.php';
 ?>
 
 <?php include('templates/head.php') ?>
@@ -33,9 +33,9 @@ $b3_link = '/infoscreen_spielmodus.php';
         <div>
             <h2><?php echo $b3_titel ?></h2>
             <div class="flex">
-                <button class="full"><a href="<?php echo $b3_link ?>"><?php echo $b3_btn1 ?></a></button>
-                <button class="full"><a href="<?php echo $b3_link ?>"><?php echo $b3_btn2 ?></a></button>
-                <button class="full"><a href="<?php echo $b3_link ?>"><?php echo $b3_btn3 ?></a></button>
+                <button><a href="<?php echo $b3_link ?>"><?php echo $b3_btn1 ?></a></button>
+                <button><a href="<?php echo $b3_link ?>"><?php echo $b3_btn2 ?></a></button>
+                <button><a href="<?php echo $b3_link ?>"><?php echo $b3_btn3 ?></a></button>
             </div>
         </div>
     </article>
