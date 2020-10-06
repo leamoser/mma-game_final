@@ -1,16 +1,16 @@
 import { fetchStops } from './fetchStops.js';
-import { Connection } from '../classes/connection.js';
+import { allConnections, Connection } from '../classes/connection.js';
 import { allPlaces, Place } from '../classes/place.js';
 
 //Variabeln
 const otherParameters = { method: "GET" };
-const limit = 3;
-let allConnections = [];
+const limit = 8;
 
 //Funktion
 let fetchPlace = (placeStart) => {
     allConnections.length = 0;
     document.querySelector('#ct_schedule').innerHTML = '';
+    document.querySelector('#placeCurrent').innerHTML += placeStart + ' | ';
     //URL
     let url = `https://fahrplan.search.ch/api/stationboard.json?stop=${placeStart}&show_delays=1&limit=${limit}&transportation_types=train`;
     //Fetch
@@ -24,7 +24,7 @@ let fetchPlace = (placeStart) => {
             new Place(data.stop.name, data.stop.lon, data.stop.lat);
             //Neue Instanz für alle Connections
             data.connections.forEach((connection) => {
-                allConnections.push(new Connection(connection.time, placeStart, connection.terminal.name, connection.line));
+                new Connection(connection.time, placeStart, connection.terminal.name, connection.line);
             })
             //Alle Instanzen im DOM ausgeben
             allConnections.forEach((connection) => {

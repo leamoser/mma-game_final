@@ -25,6 +25,7 @@ $b2_text = 'und los...';
 <section id="game">
     <article id="ct_cockpit">
         <h1>Cockpit</h1>
+        <p id="placeCurrent">Deine Reise: </p>
     </article>
     <?php include('templates/map.php') ?>
     <article id="ct_schedule">

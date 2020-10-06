@@ -1,5 +1,5 @@
 //Instanzensammlung
-//let allConnections = [];
+let allConnections = [];
 
 //Variabeln
 let schedule = document.querySelector('article#ct_schedule');
@@ -11,12 +11,11 @@ class Connection {
         this.placeStart = placeStart;
         this.placeEnd = placeEnd;
         this.traintype = traintype;
-        //this.setAsInstance();
-        console.log('Connection');
+        this.setAsInstance();
     }
-    /* setAsInstance() {
-         allConnections.push(this);
-     }*/
+    setAsInstance() {
+        allConnections.push(this);
+    }
     sliceTime() {
         return this.time.slice(11, 16);
     }
@@ -36,4 +35,4 @@ class Connection {
 }
 
 //Export
-export { Connection };
+export { allConnections, Connection };

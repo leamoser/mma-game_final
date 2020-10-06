@@ -1,7 +1,7 @@
 //Imports
 import { Stop } from '../classes/stop.js';
 import { fetchPlace } from '../modules/fetchPlace.js';
-import { Connection } from '../classes/connection.js';
+import { allConnections, Connection } from '../classes/connection.js';
 
 //Funktion
 let fetchStops = (placeStart, placeEnd, time) => {
