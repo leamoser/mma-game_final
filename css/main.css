@@ -1,5 +1,22 @@
+/*IMPORTS****************************/
+/*Normalize*/
+@import "modules/normalize.css";
+/*Sizes*/
+@import "sizes/tablet.css";
+@import "sizes/mobile.css";
+
 /*VARIABELN**************************/
-/*Farben*/
+:root{
+  /*Farben*/
+  --co-hauptfarbe: #27348B;
+  --co-hauptfarbe-80: #4D5AB5;
+  --co-hauptfarbe-50: #9FA6DB;
+  --co-akzent-neg: #EB0001;
+  --co-akzent-pos: #BBE01D;
+  --co-positiv: #000000;
+  --co-negativ: #ffffff;
+}
+
 /*ALLGEMEIN**************************/
 /*Grundeinstellungen*/
 * {
@@ -14,30 +31,13 @@ html {
 
 /*Markierfarbe*/
 ::selection {
-  background: var(--akzent);
-  color: var(--negativ);
+  background: var(--co-hauptfarbe);
+  color: var(--co-hauptfarbe-50);
 }
 
 ::-moz-selection {
-  background: var(--akzent);
-  color: var(--negativ);
+  background: var(--co-hauptfarbe);
+  color: var(--co-hauptfarbe-50);
 }
 
 /*Schriften*/
-/*DESKTOP****************************/
-/*DESKTOP****************************/
-/*DESKTOP****************************/
-/*TABLET*****************************/
-/*TABLET*****************************/
-/*TABLET*****************************/
-@media only screen and (max-width: 900px) {
-  /*Code*/
-}
-/*MOBILE*****************************/
-/*MOBILE*****************************/
-/*MOBILE*****************************/
-@media only screen and (max-width: 414px) {
-  /*Code*/
-}
-
-/*# sourceMappingURL=main.css.map */
