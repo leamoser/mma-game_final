@@ -1,13 +1,14 @@
 @import "sizes/tablet.css";
 @import "sizes/mobile.css";
 @import "modules/normalize.css";
+@import "modules/map.css";
 
 /*VARIABELN**************************/
 :root{
   /*Farben*/
   --co-hauptfarbe: #27348B;
-  --co-hauptfarbe-80: #4D5AB5;
-  --co-hauptfarbe-50: #9FA6DB;
+  --co-hauptfarbe-80: #5970C5;
+  --co-hauptfarbe-50: #8BABFE;
   --co-akzent-neg: #EB0001;
   --co-akzent-pos: #BBE01D;
   --co-positiv: #000000;

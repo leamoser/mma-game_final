@@ -1,0 +1,7 @@
+.mapboxgl-ctrl-logo,
+.mapboxgl-ctrl-bottom-right{
+    display: none !important;
+}
+.mapboxgl-canvas:focus{
+    outline: none;
+}
