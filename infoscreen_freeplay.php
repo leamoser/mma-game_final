@@ -1,3 +1,4 @@
+<<<<<<< current
 <?php
 $startort = 'Gib hier deinen Startort ein.';
 $startort_placeholder = 'Gossau SG';
@@ -17,3 +18,24 @@ $startort_placeholder = 'Gossau SG';
     </article>
 </section>
 <?php include('templates/foot.php') ?>
+=======
+<?php
+$startort = 'Gib hier deinen Startort ein.';
+$startort_placeholder = 'Gossau SG';
+
+?>
+
+<?php include('templates/head.php') ?>
+<section>
+    <article>
+        <h2><?php echo $startort ?></h2>
+        <form action="#" method="get">
+            <input id="startort" type="text" placeholder="<?php echo $startort_placeholder ?>">
+        </form>
+    </article>
+    <article>
+
+    </article>
+</section>
+<?php include('templates/foot.php') ?>
+>>>>>>> before discard
