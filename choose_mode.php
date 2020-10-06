@@ -33,9 +33,18 @@ $b3_link = '/play.php';
         <div>
             <h2><?php echo $b3_titel ?></h2>
             <div class="flex">
-                <button><a href="<?php echo $b3_link ?>"><?php echo $b3_btn1 ?></a></button>
-                <button><a href="<?php echo $b3_link ?>"><?php echo $b3_btn2 ?></a></button>
-                <button><a href="<?php echo $b3_link ?>"><?php echo $b3_btn3 ?></a></button>
+                <form action="/templates/calc.php" method="post">
+                    <input type="hidden" value="<?php echo $b3_btn1 ?>" name="levelValue">
+                    <input type="submit" value="<?php echo $b3_btn1 ?>" name="levelSend">
+                </form>
+                <form action="/templates/calc.php" method="post">
+                    <input type="hidden" value="<?php echo $b3_btn2 ?>" name="levelValue">
+                    <input type="submit" value="<?php echo $b3_btn2 ?>" name="levelSend">
+                </form>
+                <form action="/templates/calc.php" method="post">
+                    <input type="hidden" value="<?php echo $b3_btn3 ?>" name="levelValue">
+                    <input type="submit" value="<?php echo $b3_btn3 ?>" name="levelSend">
+                </form>
             </div>
         </div>
     </article>

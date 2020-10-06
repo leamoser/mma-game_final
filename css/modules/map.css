@@ -6,3 +6,11 @@
   background-color: var(--co-akzent-neg);
   border-radius: 50%;
 }
+
+.mapboxgl-ctrl-logo,
+.mapboxgl-ctrl-bottom-right{
+    display: none !important;
+}
+.mapboxgl-canvas:focus{
+    outline: none;
+}
