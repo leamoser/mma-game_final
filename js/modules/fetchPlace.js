@@ -1,15 +1,18 @@
 import { fetchStops } from './fetchStops.js';
-import { allConnections, Connection } from '../classes/connection.js';
+import { Connection } from '../classes/connection.js';
 import { allPlaces, Place } from '../classes/place.js';
 
 //Variabeln
 const otherParameters = { method: "GET" };
-const limit = 10;
+const limit = 3;
+let allConnections = [];
 
 //Funktion
 let fetchPlace = (placeStart) => {
+    allConnections.length = 0;
+    document.querySelector('#ct_schedule').innerHTML = '';
     //URL
-    let url = `https://fahrplan.search.ch/api/stationboard.json?stop=${placeStart}&show_delays=1&limit=${limit}`;
+    let url = `https://fahrplan.search.ch/api/stationboard.json?stop=${placeStart}&show_delays=1&limit=${limit}&transportation_types=train`;
     //Fetch
     fetch(url, otherParameters)
         .then((response) => {
@@ -21,7 +24,7 @@ let fetchPlace = (placeStart) => {
             new Place(data.stop.name, data.stop.lon, data.stop.lat);
             //Neue Instanz für alle Connections
             data.connections.forEach((connection) => {
-                new Connection(connection.time, placeStart, connection.terminal.name, connection.line);
+                allConnections.push(new Connection(connection.time, placeStart, connection.terminal.name, connection.line));
             })
             //Alle Instanzen im DOM ausgeben
             allConnections.forEach((connection) => {
@@ -33,25 +36,13 @@ let fetchPlace = (placeStart) => {
             lastPlace.placeOnMap();
         })
         .then(() => {
-            //Eventlisteners auf alle Buttons
+            //Eventlisteners auf alle Orte
             let btnsMore = document.querySelectorAll('.btn_more');
             btnsMore.forEach((btn) => {
                 btn.addEventListener('click', function (event) {
                     fetchStops(event.target.getAttribute('data-placestart'), event.target.getAttribute('data-placeend'), event.target.getAttribute('data-time'));
                 }, false)
             })
-            //Event für Zug wählen
-            /*
-            let trainbuttons = document.querySelectorAll('.chooseTrain');
-            trainbuttons.forEach((button) => {
-                button.addEventListener('click', function () {
-                    let selectedDepart = this.parentElement.parentElement.children[4].children[0].value;
-                    fetchDepartData(selectedDepart);
-
-                    // clearData();
-                })
-            })
-            */
         })
 }
 

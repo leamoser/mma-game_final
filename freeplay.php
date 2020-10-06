@@ -24,7 +24,7 @@ $b2_text = 'und los...';
 <hr>
 <section id="game">
     <article id="ct_cockpit">
-        <h1>Cocpit</h1>
+        <h1>Cockpit</h1>
     </article>
     <?php include('templates/map.php') ?>
     <article id="ct_schedule">

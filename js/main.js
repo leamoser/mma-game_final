@@ -1,5 +1,5 @@
 //IMPORTS**************************************************
-import { allConnections, Connection } from './classes/connection.js';
+import { Connection } from './classes/connection.js';
 import { allPlaces, Place } from './classes/place.js';
 import { Stop } from './classes/stop.js';
 import { fetchPlace } from './modules/fetchPlace.js';
