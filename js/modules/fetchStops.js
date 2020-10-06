@@ -1,8 +1,12 @@
+//Imports
+import { Stop } from '../classes/stop.js';
+
+//Funktion
 let fetchStops = (placeStart, placeEnd, time) => {
-    let parent = this.parentElement;
+    //Container holen
+    let parent = event.target.parentElement.parentElement.children[1];
     parent.innerHTML = '';
-    let output = `<select id="zwischenstationen_${depart}"></select>`;
-    parent.innerHTML += output;
+    //Fetch
     let url = `https://fahrplan.search.ch/api/route.json?from=${placeStart}&to=${placeEnd}&time=${time}&num=1`;
     const otherParameters = {
         method: "GET"
@@ -12,19 +16,19 @@ let fetchStops = (placeStart, placeEnd, time) => {
             return response.json()
         })
         .then((data) => {
-            // console.log(data);
+            //Alle Stops erfasssen inkl. Endhaltestelle
             let allStops = data.connections[0].legs[0].stops;
-            let itemParent = parent.children[0];
-            // console.log('Parent', itemParent);
-            //Für jeden Stop ein Ausstiegeobjekt erstellen und dieses dann im Dom anzeigen
+            let finalStop = new Stop(time, placeEnd, stop.stopid);
+            allStops.push(finalStop);
+
+            console.log(allStops);
             allStops.forEach((stop) => {
-                let item = new Zwischenhalt(time, placeStart, placeEnd, stop.name);
-                itemParent.innerHTML += item.outputToDom();
+                let item = new Stop(stop.departure, placeStart, placeEnd, stop.name, stop.stopid);
+                parent.innerHTML += item.outputToDom();
             })
-            //placeEnd auch als Option anfügen
-            let finalstation = new Zwischenhalt(time, placeStart, placeEnd, placeEnd);
-            itemParent.innerHTML += finalstation.outputToDom();
+
         })
 }
 
+//Export
 export { fetchStops };

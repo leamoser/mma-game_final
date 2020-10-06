@@ -1,9 +1,6 @@
-/*IMPORTS****************************/
-/*Normalize*/
-@import "modules/normalize.css";
-/*Sizes*/
 @import "sizes/tablet.css";
 @import "sizes/mobile.css";
+@import "modules/normalize.css";
 
 /*VARIABELN**************************/
 :root{
@@ -19,11 +16,6 @@
 
 /*ALLGEMEIN**************************/
 /*Grundeinstellungen*/
-* {
-  margin: 0 0;
-  padding: 0 0;
-  box-sizing: border-box;
-}
 
 html {
   scroll-behavior: smooth;

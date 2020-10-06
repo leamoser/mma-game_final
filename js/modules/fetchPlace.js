@@ -33,14 +33,13 @@ let fetchPlace = (placeStart) => {
             lastPlace.placeOnMap();
         })
         .then(() => {
-            /*
+            //Eventlisteners auf alle Buttons
             let btnsMore = document.querySelectorAll('.btn_more');
             btnsMore.forEach((btn) => {
                 btn.addEventListener('click', function (event) {
                     fetchStops(event.target.getAttribute('data-placestart'), event.target.getAttribute('data-placeend'), event.target.getAttribute('data-time'));
                 }, false)
             })
-            */
             //Event für Zug wählen
             /*
             let trainbuttons = document.querySelectorAll('.chooseTrain');

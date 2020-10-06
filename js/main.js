@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     //INIT*************************************************
     let init = () => {
-        //do stuff
+        //Laden der ersten Verbindungen
         let placeStart = 'Basel';
         fetchPlace(placeStart);
     }
