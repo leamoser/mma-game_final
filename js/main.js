@@ -8,7 +8,6 @@ import { fetchJson } from './modules/fetchJson.js';
 
 //VARIABELN************************************************
 const subpage = window.location.pathname;
->>>>>>> f7fdd8769a8e25c8850a1ac5b133f7f6c97550d2
 
 //AUSFÜHRUNG***********************************************
 document.addEventListener('DOMContentLoaded', function () {
