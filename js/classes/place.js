@@ -1,3 +1,5 @@
+import { map } from '../modules/map.js';
+
 //Instanzensammlung
 let allPlaces = [];
 
@@ -10,17 +12,23 @@ class Place {
         this.placeStart = placeStart;
         this.lat = lat
         this.lon = lon;
-        this.setAsInstance()
+        this.setAsInstance();
     }
     setAsInstance() {
         allPlaces.push(this);
     }
     placeOnMap() {
-        //Rückgabe im GEOJSON-Format für Mapbox
-        return {
-            'type': 'Point',
-            'coordinates': [this.lon, this.lat]
-        }
+        //VARIANTE 1: Rückgabe im GEOJSON-Format für Mapbox
+        // return {
+        //     'type': 'Point',
+        //     'coordinates': [this.lon, this.lat]
+        // }
+        //VARIANTE 2: add Marker als HTML Element
+        let dot = document.createElement('span');
+        dot.className="placeDot";
+        let marker = new mapboxgl.Marker(dot)
+          .setLngLat([this.lon, this.lat])
+          .addTo(map);
     }
 }
 
