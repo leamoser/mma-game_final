@@ -1,0 +1,10 @@
+/*Bold*/
+@font-face {
+    font-family: helvetica_bold;
+    src: url(../../assets/fonts/HelveticaNeueLTStd-Bd.woff);
+}
+/*Light*/
+@font-face {
+    font-family: helvetica_light;
+    src: url(../../assets/fonts/HelveticaNeueLTStd-Lt.woff);
+}

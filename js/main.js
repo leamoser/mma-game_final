@@ -4,6 +4,7 @@ import { allPlaces, Place } from './classes/place.js';
 import { Stop } from './classes/stop.js';
 import { fetchPlace } from './modules/fetchPlace.js';
 import { fetchJson } from './modules/fetchJson.js';
+import { getData } from './modules/getData.js';
 
 //VARIABELN************************************************
 const subpage = window.location.pathname;
@@ -33,16 +34,18 @@ document.addEventListener('DOMContentLoaded', function () {
     //INIT*************************************************
     let init = () => {
         if (subpage.search('play') != -1) {
-            //Laden der ersten Verbindungen
-            let placeStart = 'Basel';
-            fetchPlace(placeStart);
             //Laden von Orten mit JSON wenn richtige Unterseite
             let mode = document.querySelector('section#infoscreen').getAttribute('data-level');
             if (mode === 'freeplay') {
-                fetchJson('/assets/json/freeplay-places.json');
+                fetchJson('/assets/json/freeplay-places.json', subpage);
             } else {
-                fetchJson('/assets/json/levels-' + mode + '.json');
+                fetchJson('/assets/json/levels-' + mode + '.json', subpage);
             }
+            //Event wenn man und los klickt
+            document.querySelector('button#startPlay').addEventListener('click', function () {
+                event.preventDefault();
+                getData(subpage);
+            })
         }
     }
     init();

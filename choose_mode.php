@@ -17,18 +17,22 @@ $b3_link = '/play.php';
 ?>
 
 <?php include('templates/head.php') ?>
-<section>
+<section class="maincontainer" id="choosemode">
     <article>
         <h2><?php echo $titel ?></h2>
     </article>
     <article>
         <div>
             <h2><?php echo $b1_titel ?></h2>
-            <button class="full"><a href="<?php echo $b1_link ?>"><?php echo $b1_btn ?></a></button>
+            <button class="full"><a href="<?php echo $b1_link ?>">
+                    <p><?php echo $b1_btn ?></p>
+                </a></button>
         </div>
         <div>
             <h2><?php echo $b2_titel ?></h2>
-            <button class="full"><a href="<?php echo $b2_link ?>"><?php echo $b2_btn ?></a></button>
+            <button class="full"><a href="<?php echo $b2_link ?>">
+                    <p><?php echo $b2_btn ?>
+                </a></p></button>
         </div>
         <div>
             <h2><?php echo $b3_titel ?></h2>

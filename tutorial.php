@@ -3,7 +3,7 @@
 ?>
 
 <?php include('templates/head.php') ?>
-<section>
+<section class="maincontainer">
     <article>
         <h1>Tutorial</h1>
     </article>

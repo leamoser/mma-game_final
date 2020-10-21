@@ -2,6 +2,7 @@
 @import "sizes/mobile.css";
 @import "modules/normalize.css";
 @import "modules/map.css";
+@import "modules/fonts.css";
 
 /*VARIABELN**************************/
 :root{
@@ -13,24 +14,201 @@
   --co-akzent-pos: #BBE01D;
   --co-positiv: #000000;
   --co-negativ: #ffffff;
+  /*Schriften*/
+  --f-l-bold: normal 1.875rem/106% helvetica_bold, sans-serif;
+  --f-m-bold: normal 1.25rem/110% helvetica_bold, sans-serif;
+  --f-s-bold: normal 0.625rem/110% helvetica_bold, sans-serif;
+  --f-m-light: normal 1.25rem/110% helvetica_light, sans-serif;
+  /*Abstände*/
+  --ga-around: 40px;
+  --ga-sml: calc( var(--ga-around) / 2 );
+  --ga-mini: 7px;
+  /*Grössen*/
+  --sz-h-button: 80px;
+  --sz-w-minusgaps: calc( 100vw - calc( var(--ga-around) * 2 ) );
+  --sz-h-minusgaps: calc( 100vh - calc( var(--ga-around) * 2 ) );
+  /*Grids*/
+  --gr-dreier: repeat(3, 1fr);
 }
 
 /*ALLGEMEIN**************************/
+/*Dev*/
+nav{
+  display: none;
+}
 /*Grundeinstellungen*/
-
 html {
   scroll-behavior: smooth;
 }
-
+body{
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+button:focus{
+  outline: none;
+}
+/*Links*/
+body section.maincontainer a{
+  color: inherit;
+  text-decoration: none;
+}
 /*Markierfarbe*/
 ::selection {
   background: var(--co-hauptfarbe);
   color: var(--co-hauptfarbe-50);
 }
-
 ::-moz-selection {
   background: var(--co-hauptfarbe);
   color: var(--co-hauptfarbe-50);
 }
-
 /*Schriften*/
+h1,
+h2,
+h3{
+  font: var(--f-l-bold);
+  padding: 0 0;
+  margin: 10px 0 3px 0;
+}
+input[type="submit"]{
+  font: var(--f-m-bold);
+}
+p{
+  font: var(--f-m-light);
+  margin: 10px 0 3px 0;
+  padding: 0 0;
+}
+button.full p{
+  font: var(--f-l-bold);
+}
+/*Grundaufbau*/
+section.maincontainer{
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  padding: var(--ga-around);
+}
+button.full{
+  width: var(--sz-w-minusgaps);
+  background-color: var(--co-negativ);
+  color: var(--co-hauptfarbe);
+  border: none;
+  height: var(--sz-h-button);
+  padding: 0 0;
+}
+button.full:focus{
+  outline: none;
+}
+
+/*Einzelne Seiten**************************/
+/*Startseite*/
+section#index{
+  background-color: var(--co-hauptfarbe);
+  color: var(--co-negativ);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--ga-around);
+}
+/*Modus*/
+section#choosemode{
+  background-color: var(--co-hauptfarbe);
+  color: var(--co-negativ);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+section#choosemode div{
+  padding-top: var(--ga-sml);
+}
+section#choosemode div.flex{
+  padding: 0 0;
+  display: grid;
+  grid-gap: var(--ga-sml);
+  grid-template-columns: var(--gr-dreier);
+}
+section#choosemode div.flex input[type="submit"]{
+  color: var(--co-hauptfarbe);
+  background-color: var(--co-negativ);
+  height: var(--sz-h-button);
+  width: 100%;
+  border: none;
+}
+/*Freeplay UND Play*/
+section#infoscreen{
+  background-color: var(--co-negativ);
+  color: var(--co-hauptfarbe);
+}
+section#infoscreen #infoscreen_flex{
+  height: var(--sz-h-minusgaps);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section#infoscreen div.infobox{
+  padding-bottom: var(--ga-sml);
+}
+section#infoscreen div.infobox :last-child{
+  color: var(--co-hauptfarbe-50);
+}
+section#infoscreen button.full{
+  background-color: var(--co-hauptfarbe);
+  color: var(--co-negativ);
+  margin-top: var(--ga-sml);
+}
+/*Gamecontainer*/
+section#game{
+  padding-bottom: 0px;
+}
+section#game article{
+  width: 100vw;
+  margin-left: calc( var(--ga-around) * -1 );
+}
+section#game article#ct_cockpit{
+  padding: 0 var(--ga-around) var(--ga-around) var(--ga-around);
+}
+section#game div.ct_connection{
+  background-color: var(--co-hauptfarbe);
+  color: var(--co-negativ);
+  padding: var(--ga-sml);
+  margin-top: var(--ga-mini);
+}
+section#game div.ct_connection div.info_basic{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+section#game button.btn_more{
+  background-color: var(--co-hauptfarbe-80);
+  color: var(--co-negativ);
+  font: var(--f-m-bold);
+  border: none;
+  height: auto;
+  width: 10%;
+  padding: var(--ga-mini) var(--ga-mini) 3px var(--ga-mini);
+}
+section#game div.info_extended{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: auto;
+  overflow-x: scroll;
+  padding-top: var(--ga-mini);
+}
+section#game button.btnPlace{
+  background-color: var(--co-hauptfarbe-50);
+  color: var(--co-negativ);
+  border: none;
+  padding: var(--ga-mini) var(--ga-mini) 0 var(--ga-mini);
+  width: auto;
+  margin-right: var(--ga-mini);
+  white-space: nowrap;
+  font: var(--f-m-light);
+}
+section#game button.btnPlace:last-child{
+  background-color: var(--co-negativ);
+  color: var(--co-hauptfarbe);
+}

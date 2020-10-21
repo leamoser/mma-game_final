@@ -1,29 +1,43 @@
 <?php include('templates/sessionhandler.php') ?>
 <?php
 $level = 'Level';
-$startort = 'Gib hier deinen Startort ein.';
+$startort = 'Dein Startort ist:';
 $zielort = 'Dein Zielort ist:';
 $b1_text = 'Anderer Zielort';
 $b2_text = 'und los...';
+$explainer = 'Um diesen Ort zu erreichen brauchst du mindestens 2 Umstiege und hast maximal 10 Umstiege zur Verfügung.';
 ?>
 
 <?php include('templates/head.php') ?>
-<section id="infoscreen" data-level="<?php echo $_SESSION['level'] ?>">
-    <article>
-        <h2><?php echo $level ?></h2>
-        <h3 id="level"><?php echo $_SESSION['level'] ?></h3>
-        <h2><?php echo $startort ?></h2>
-        <h3 id="placeStart">Genf</h3>
-        <h2><?php echo $zielort ?></h2>
-        <h3 id="placeEnd">Genf</h3>
-    </article>
-    <article>
-        <button class="full" id="placeNew"><?php echo $b1_text ?></button>
-        <button class="full" id="startPlay"><?php echo $b2_text ?></button>
-    </article>
+<section class="maincontainer" id="infoscreen" data-level="<?php echo $_SESSION['level'] ?>">
+    <div id="infoscreen_flex">
+        <article>
+            <div class="infobox">
+                <h2><?php echo $level ?></h2>
+                <h3 id="level"><?php echo $_SESSION['level'] ?></h3>
+            </div>
+            <div class="infobox">
+                <h2><?php echo $startort ?></h2>
+                <h3 id="placeStart">Biel</h3>
+            </div>
+            <div class="infobox">
+                <h2><?php echo $zielort ?></h2>
+                <h3 id="placeEnd">Genf</h3>
+            </div>
+            <p><?php echo $explainer ?></p>
+        </article>
+        <article>
+            <button class="full" id="placeNew">
+                <p><?php echo $b1_text ?></p>
+            </button>
+            <button class="full" id="startPlay">
+                <p><?php echo $b2_text ?></p>
+            </button>
+        </article>
+    </div>
 </section>
 <hr>
-<section id="game">
+<section class="maincontainer" id="game">
     <article id="ct_cockpit">
         <h1>Cockpit</h1>
         <p id="placeStart">Startort: </p>

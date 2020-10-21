@@ -7,22 +7,30 @@ $b2_text = 'und los...';
 ?>
 
 <?php include('templates/head.php') ?>
-<section id="infoscreen" data-level="freeplay">
-    <form action="#" method="post">
+<section class="maincontainer" id="infoscreen" data-level="freeplay">
+    <form action="#" method="post" id="infoscreen_flex">
         <article>
-            <h2><?php echo $startort ?></h2>
-            <input type="text" placeholder="<?php echo $startort_placeholder ?>">
-            <h2><?php echo $zielort ?></h2>
-            <h3 id="placeEnd">Genf</h3>
+            <div class="infobox">
+                <h2><?php echo $startort ?></h2>
+                <input type="text" placeholder="<?php echo $startort_placeholder ?>" name="startPlace" id="inputStartPlace">
+            </div>
+            <div class="infobox">
+                <h2><?php echo $zielort ?></h2>
+                <h3 id="placeEnd">...</h3>
+            </div>
         </article>
         <article>
-            <button class="full" id="placeNew"><?php echo $b1_text ?></button>
-            <input type="submit" value="<?php echo $b2_text ?>" name="startFreeplay">
+            <button class="full" id="placeNew">
+                <p><?php echo $b1_text ?></p>
+            </button>
+            <button class="full" id="startPlay">
+                <p><?php echo $b2_text ?></p>
+            </button>
         </article>
     </form>
 </section>
 <hr>
-<section id="game">
+<section class="maincontainer" id="game">
     <article id="ct_cockpit">
         <h1>Cockpit</h1>
         <p id="placeStart">Startort: </p>
