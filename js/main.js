@@ -6,30 +6,30 @@ import { fetchPlace } from './modules/fetchPlace.js';
 import { map } from './modules/map.js';
 import { fetchJson } from './modules/fetchJson.js';
 import { getData } from './modules/getData.js';
+import { loadNav } from './modules/loadNav.js';
+
 
 //VARIABELN************************************************
 const subpage = window.location.pathname;
+const navtoggle = document.querySelector('#nav_toggle');
 
 //AUSFÜHRUNG***********************************************
 document.addEventListener('DOMContentLoaded', function () {
-    //PREPS****************************************************
-    //disable rotation
-    map.dragRotate.disable();
-
-    let point= [8.22, 46.8];
-    let features = map.queryRenderedFeatures(point,{layers: ['berge']});
-    console.log(features);
-
-    map.on('load', function () {
-        //layer ausblenden die nicht gebraucht werden
-        //Auf klick einblenden
-        //initMap();
-    })
-
-    //STUFF************************************************
+    //PREPS KARTE******************************************
+    if (subpage.search('play') != -1) {
+        map.dragRotate.disable();
+        let point = [8.22, 46.8];
+        let features = map.queryRenderedFeatures(point, { layers: ['berge'] });
+        map.on('load', function () {
+            //layer ausblenden die nicht gebraucht werden
+            //Auf klick einblenden
+            //initMap();
+        })
+    }
 
     //INIT*************************************************
     let init = () => {
+        //Gamemodus
         if (subpage.search('play') != -1) {
             //Laden von Orten mit JSON wenn richtige Unterseite
             let mode = document.querySelector('section#infoscreen').getAttribute('data-level');
@@ -44,6 +44,14 @@ document.addEventListener('DOMContentLoaded', function () {
                 getData(subpage);
             })
         }
+        //Bodyvariabeln für CSS
+        if (subpage.search('play') != -1) {
+            document.querySelector('body').classList.add('play');
+        }
+        //Burger
+        navtoggle.addEventListener('click', function () {
+            loadNav(event);
+        }, false);
     }
     init();
 }, false);

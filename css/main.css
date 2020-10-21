@@ -3,8 +3,9 @@
 @import "modules/normalize.css";
 @import "modules/map.css";
 @import "modules/fonts.css";
+@import "modules/resets.css";
 
-/*VARIABELN**************************/
+/*VARIABELN********************************/
 :root{
   /*Farben*/
   --co-hauptfarbe: #27348B;
@@ -23,45 +24,23 @@
   --ga-around: 40px;
   --ga-sml: calc( var(--ga-around) / 2 );
   --ga-mini: 7px;
+  --ga-buttons: 10px;
   /*Grössen*/
-  --sz-h-button: 80px;
   --sz-w-minusgaps: calc( 100vw - calc( var(--ga-around) * 2 ) );
   --sz-h-minusgaps: calc( 100vh - calc( var(--ga-around) * 2 ) );
   /*Grids*/
   --gr-dreier: repeat(3, 1fr);
 }
 
-/*ALLGEMEIN**************************/
-/*Dev*/
-nav{
-  display: none;
-}
-/*Grundeinstellungen*/
-html {
-  scroll-behavior: smooth;
-}
+/*ALLGEMEIN***********************************/
+/*Hintergrundfarbe Seite*/
 body{
-  overflow-y: scroll;
-  overflow-x: hidden;
+  background-color: var(--co-hauptfarbe);
 }
-button:focus{
-  outline: none;
+body.play{
+  background-color: var(--co-negativ);
 }
-/*Links*/
-body section.maincontainer a{
-  color: inherit;
-  text-decoration: none;
-}
-/*Markierfarbe*/
-::selection {
-  background: var(--co-hauptfarbe);
-  color: var(--co-hauptfarbe-50);
-}
-::-moz-selection {
-  background: var(--co-hauptfarbe);
-  color: var(--co-hauptfarbe-50);
-}
-/*Schriften*/
+/*Grundeinstellungen zu Schriftarten*/
 h1,
 h2,
 h3{
@@ -80,24 +59,106 @@ p{
 button.full p{
   font: var(--f-l-bold);
 }
-/*Grundaufbau*/
+/*Grundaufbau der Seite über alle Pages*/
 section.maincontainer{
   width: 100%;
   min-height: 100vh;
   height: auto;
   padding: var(--ga-around);
 }
+/*Buttons auf der ganzen Seite*/
+button{
+  padding: var(--ga-buttons) 0;
+}
+input[type="submit"]{
+  padding: calc( var(--ga-buttons) + 7px ) 0 var(--ga-buttons) 0;
+}
 button.full{
+  cursor: pointer;
   width: var(--sz-w-minusgaps);
   background-color: var(--co-negativ);
   color: var(--co-hauptfarbe);
   border: none;
-  height: var(--sz-h-button);
+}
+input[type="text"]{
+  font: var(--f-l-bold);
+  color: var(--co-hauptfarbe-50);
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid var(--co-hauptfarbe-50);
+  width: 100%;
+  margin-top: var(--ga-mini);
+  padding: var(--ga-mini) 0;
+  border-radius: 0px;
+  overflow: visible;
+}
+
+/*NAVIGATION*****************************************/
+/*Toggle*/
+div.navigation p{
+  cursor: pointer;
+  position: fixed;
+  color: var(--co-hauptfarbe);
+  background-color: var(--co-negativ);
+  padding: 14px 14px 8px 14px ;
+  top: 0px;
+  right: var(--ga-around);
+  margin: 0 0;
+  z-index: 3;
+  transition: 0.5s;
+}
+div.navigation.open p{
+  background-color: var(--co-hauptfarbe);
+  color: var(--co-negativ);
+}
+/*Navigationscontainer*/
+div.navigation nav{
+  width: 100vw;
+  height: 100vh;
+  padding: var(--ga-around);
+  background-color: var(--co-negativ);
+  color: var(--co-hauptfarbe);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  transform: translateY(-120vh);
+  transition: 0.5s;
+}
+div.navigation.open nav{
+  transform: translateY(0vh);
+}
+body.play div.navigation p{
+  background-color: var(--co-hauptfarbe);
+  color: var(--co-negativ);
+}
+body.play div.navigation.open p{
+  color: var(--co-hauptfarbe);
+  background-color: var(--co-negativ);
+}
+body.play div.navigation nav{
+  background-color: var(--co-hauptfarbe);
+  color: var(--co-negativ);
+}
+/*Aufbau Nav im Container*/
+div.navigation nav ul{
+  list-style-type: none;
   padding: 0 0;
 }
-button.full:focus{
-  outline: none;
+div.navigation nav li{
+  font: var(--f-l-bold);
+  color: var(--co-hauptfarbe);
+  padding: var(--ga-mini) 0;
 }
+body.play div.navigation nav li{
+  font: var(--f-l-bold);
+  color: var(--co-negativ);
+}
+div.navigation nav a{
+  color: inherit;
+  text-decoration: none;
+}
+
 
 /*Einzelne Seiten**************************/
 /*Startseite*/
@@ -196,7 +257,12 @@ section#game div.info_extended{
   flex-wrap: nowrap;
   width: auto;
   overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
   padding-top: var(--ga-mini);
+}
+section#game div.info_extended::-webkit-scrollbar{
+  display: none;
 }
 section#game button.btnPlace{
   background-color: var(--co-hauptfarbe-50);
