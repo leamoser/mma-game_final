@@ -10,7 +10,17 @@ const limit = 5;
 let fetchPlace = (placeStart, time) => {
     allConnections.length = 0;
     document.querySelector('#ct_schedule').innerHTML = '';
-    document.querySelector('#placeCurrent').innerHTML += placeStart + ' | ';
+    //Schreiben der Jurney-Informationen
+    let stationsContainer = document.querySelector('#placeCurrentInfo');
+    let placeStartContainer = document.querySelector('#placeStartInfo');
+    let placeEndContainer = document.querySelector('#placeEndInfo');
+    if (stationsContainer.innerHTML == '') {
+        placeStartContainer.innerHTML = 'Startort: ' + placeStart;
+        placeEndContainer.innerHTML = 'Endort: ' + document.querySelector('#placeEnd').innerHTML;
+        stationsContainer.innerHTML = 'Deine Reise: ';
+    } else {
+        stationsContainer.innerHTML += placeStart + ', ';
+    }
     //URL
     let url = `https://fahrplan.search.ch/api/stationboard.json?stop=${placeStart}&show_delays=1&limit=${limit}&transportation_types=train&time=${time}&time_type=depart`;
     //Fetch

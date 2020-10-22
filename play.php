@@ -39,9 +39,9 @@ $explainer = 'Um diesen Ort zu erreichen brauchst du mindestens 2 Umstiege und h
 <section class="maincontainer hide" id="game">
     <article id="ct_cockpit">
         <h1>Cockpit</h1>
-        <p id="placeStart">Startort: </p>
-        <p id="placeCurrent">Deine Reise: </p>
-        <p id="placeEnd">Endstation: </p>
+        <p id="placeStartInfo"></p>
+        <p id="placeCurrentInfo"></p>
+        <p id="placeEndInfo"></p>
     </article>
     <?php include('templates/map.php') ?>
     <article id="ct_schedule">
