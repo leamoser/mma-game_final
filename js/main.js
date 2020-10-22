@@ -8,6 +8,7 @@ import { fetchJson } from './modules/fetchJson.js';
 import { getData } from './modules/getData.js';
 import { loadNav } from './modules/loadNav.js';
 import { displayGameInterface } from './modules/gameInterface.js';
+import { getTime } from './modules/getTime.js';
 
 
 //VARIABELN************************************************
@@ -42,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
             //Event wenn man und los klickt
             document.querySelector('button#startPlay').addEventListener('click', function () {
                 event.preventDefault();
-                getData(subpage);
+                getData(subpage, getTime());
                 displayGameInterface();
             })
         }

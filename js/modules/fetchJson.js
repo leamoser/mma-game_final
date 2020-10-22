@@ -5,7 +5,6 @@ let fetchJson = (path, subpage) => {
             return response.json();
         })
         .then((data) => {
-            console.log(data);
             let getRandomValue = (number) => {
                 return Math.floor((Math.random() * number));
             }
@@ -25,7 +24,6 @@ let fetchJson = (path, subpage) => {
                 placeStartContainer.innerHTML = placeStart;
                 placeEndContainer.innerHTML = placeEnd;
             }
-
         })
         .catch(function (error) {
             console.log('Error: ' + error.message);

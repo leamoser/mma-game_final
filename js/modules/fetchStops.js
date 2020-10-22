@@ -20,20 +20,23 @@ let fetchStops = (placeStart, placeEnd, time) => {
         .then((data) => {
             //Alle Stops erfasssen inkl. Endhaltestelle
             let allStops = data.connections[0].legs[0].stops;
+            let arrivalTime = data.connections[0].legs[1].arrival;
             //für alle Stops eine Instanz erstellen
             allStops.forEach((stop) => {
                 let item = new Stop(stop.departure, stop.name, stop.stopid);
                 parent.innerHTML += item.outputToDom();
             })
             //Endstation anhängen (muss am schluss sein!)
-            let finalStop = new Stop(time, placeEnd, '8888888');
+            let finalStop = new Stop(arrivalTime, placeEnd, '8888888');
             parent.innerHTML += finalStop.outputToDom();
         })
         .then(() => {
             let btnsPlace = document.querySelectorAll('.btnPlace');
             btnsPlace.forEach((btn) => {
                 btn.addEventListener('click', function (event) {
-                    fetchPlace(event.target.getAttribute('data-place'));
+                    let time_raw = this.getAttribute('data-time');
+                    let time = time_raw.slice(11, 16);
+                    fetchPlace(event.target.getAttribute('data-place'), time);
                 }, false)
             })
         })

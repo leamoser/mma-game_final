@@ -4,15 +4,15 @@ import { allPlaces, Place } from '../classes/place.js';
 
 //Variabeln
 const otherParameters = { method: "GET" };
-const limit = 8;
+const limit = 5;
 
 //Funktion
-let fetchPlace = (placeStart) => {
+let fetchPlace = (placeStart, time) => {
     allConnections.length = 0;
     document.querySelector('#ct_schedule').innerHTML = '';
     document.querySelector('#placeCurrent').innerHTML += placeStart + ' | ';
     //URL
-    let url = `https://fahrplan.search.ch/api/stationboard.json?stop=${placeStart}&show_delays=1&limit=${limit}&transportation_types=train`;
+    let url = `https://fahrplan.search.ch/api/stationboard.json?stop=${placeStart}&show_delays=1&limit=${limit}&transportation_types=train&time=${time}&time_type=depart`;
     //Fetch
     fetch(url, otherParameters)
         .then((response) => {

@@ -1,8 +1,7 @@
 import { fetchPlace } from './fetchPlace.js';
 
-let getData = (subpage) => {
+let getData = (subpage, time) => {
     let placeStart;
-    let placeEnd = document.querySelector('#placeEnd').innerHTML;
     //Daten holen
     if (subpage.search('freeplay') != -1) {
         //Freeplay
@@ -12,7 +11,7 @@ let getData = (subpage) => {
     }
     //Daten weitergeben
     //paintCocpit(placeStart, placeEnd);
-    fetchPlace(placeStart);
+    fetchPlace(placeStart, time);
 }
 
 export { getData };
