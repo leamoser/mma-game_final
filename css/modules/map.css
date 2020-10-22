@@ -1,8 +1,8 @@
 @import "root.css";
 
 .placeDot{
-  width: 10px;
-  height:10px;
+  width: 7px;
+  height: 7px;
   background-color: var(--co-akzent-neg);
   border-radius: 50%;
 }

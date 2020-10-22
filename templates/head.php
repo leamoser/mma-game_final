@@ -13,4 +13,5 @@
 </head>
 
 <body>
-    <?php include('navigation.php') ?>
+    <main>
+        <?php include('navigation.php') ?>

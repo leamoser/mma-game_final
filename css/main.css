@@ -26,7 +26,10 @@
   --ga-mini: 7px;
   --ga-buttons: 10px;
   /*Grössen*/
-  --sz-w-minusgaps: calc( 100vw - calc( var(--ga-around) * 2 ) );
+  --sz-w-screen-fix: 100vw;
+  --sz-w-screen: 414px;
+  --sz-w-minusgaps-fix: calc( var(--sz-w-screen-fix) - calc( var(--ga-around) * 2 ) );
+  --sz-w-minusgaps: calc( var(--sz-w-screen) - calc( var(--ga-around) * 2 ) );
   --sz-h-minusgaps: calc( 100vh - calc( var(--ga-around) * 2 ) );
   /*Grids*/
   --gr-dreier: repeat(3, 1fr);
@@ -39,6 +42,11 @@ body{
 }
 body.play{
   background-color: var(--co-negativ);
+}
+main{
+  max-width: var(--sz-w-screen);
+  width: 100%;
+  margin: 0 auto;
 }
 /*Grundeinstellungen zu Schriftarten*/
 h1,
@@ -61,6 +69,7 @@ button.full p{
 }
 /*Grundaufbau der Seite über alle Pages*/
 section.maincontainer{
+  max-width: var(--sz-w-screen);
   width: 100%;
   min-height: 100vh;
   height: auto;
@@ -75,7 +84,8 @@ input[type="submit"]{
 }
 button.full{
   cursor: pointer;
-  width: var(--sz-w-minusgaps);
+  max-width: var(--sz-w-minusgaps);
+  width: var(--sz-w-minusgaps-fix);
   background-color: var(--co-negativ);
   color: var(--co-hauptfarbe);
   border: none;
@@ -86,7 +96,8 @@ input[type="text"]{
   border: none;
   background-color: transparent;
   border-bottom: 2px solid var(--co-hauptfarbe-50);
-  width: 100%;
+  max-width: var(--sz-w-minusgaps);
+  width: var(--sz-w-minusgaps-fix);
   margin-top: var(--ga-mini);
   padding: var(--ga-mini) 0;
   border-radius: 0px;
@@ -102,7 +113,7 @@ div.navigation p{
   background-color: var(--co-negativ);
   padding: 14px 14px 8px 14px ;
   top: 0px;
-  right: var(--ga-around);
+  right: 0;
   margin: 0 0;
   z-index: 3;
   transition: 0.5s;
@@ -113,7 +124,8 @@ div.navigation.open p{
 }
 /*Navigationscontainer*/
 div.navigation nav{
-  width: 100vw;
+  max-width: var(--sz-w-screen);
+  width: var(--sz-w-screen-fix);
   height: 100vh;
   padding: var(--ga-around);
   background-color: var(--co-negativ);
@@ -223,7 +235,8 @@ section#game{
   padding-bottom: 0px;
 }
 section#game article{
-  width: 100vw;
+  max-width: var(--sz-w-screen);
+  width: var(--sz-w-screen-fix);
   margin-left: calc( var(--ga-around) * -1 );
 }
 section#game article#ct_cockpit{

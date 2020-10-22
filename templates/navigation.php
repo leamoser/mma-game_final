@@ -1,5 +1,5 @@
 <div class="navigation">
-    <p id="nav_toggle">Menu</p>
+    <p id="nav_toggle">=</p>
     <nav id="nav_content">
         <ul>
             <li><a href="/">Home</a></li>

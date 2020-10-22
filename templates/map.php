@@ -1,3 +1,3 @@
 <article class="ct_map">
-    <div id="map" style="width: 100vw; height: 50vh;"></div>
+    <div id="map" style="width: var(--sz-w-screen-fix); max-width: var(--sz-w-screen); height: 40vh;"></div>
 </article>
