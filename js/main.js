@@ -7,6 +7,7 @@ import { map } from './modules/map.js';
 import { fetchJson } from './modules/fetchJson.js';
 import { getData } from './modules/getData.js';
 import { loadNav } from './modules/loadNav.js';
+import { displayGameInterface } from './modules/gameInterface.js';
 
 
 //VARIABELN************************************************
@@ -42,6 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
             document.querySelector('button#startPlay').addEventListener('click', function () {
                 event.preventDefault();
                 getData(subpage);
+                displayGameInterface();
             })
         }
         //Bodyvariabeln für CSS

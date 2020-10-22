@@ -29,8 +29,7 @@ $b2_text = 'und los...';
         </article>
     </form>
 </section>
-<hr>
-<section class="maincontainer" id="game">
+<section class="maincontainer hide" id="game">
     <article id="ct_cockpit">
         <h1>Cockpit</h1>
         <p id="placeStart">Startort: </p>

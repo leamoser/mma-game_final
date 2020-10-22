@@ -212,6 +212,11 @@ section#choosemode div.flex input[type="submit"]{
 section#infoscreen{
   background-color: var(--co-negativ);
   color: var(--co-hauptfarbe);
+  display: block;
+  transition: 0.5s;
+}
+section#infoscreen.hide{
+  display: none;
 }
 section#infoscreen #infoscreen_flex{
   height: var(--sz-h-minusgaps);
@@ -233,6 +238,11 @@ section#infoscreen button.full{
 /*Gamecontainer*/
 section#game{
   padding-bottom: 0px;
+  display: block;
+  height: auto;
+}
+section#game.hide{
+  display: none;
 }
 section#game article{
   max-width: var(--sz-w-screen);

@@ -18,11 +18,11 @@ $explainer = 'Um diesen Ort zu erreichen brauchst du mindestens 2 Umstiege und h
             </div>
             <div class="infobox">
                 <h2><?php echo $startort ?></h2>
-                <h3 id="placeStart">Biel</h3>
+                <h3 id="placeStart">...</h3>
             </div>
             <div class="infobox">
                 <h2><?php echo $zielort ?></h2>
-                <h3 id="placeEnd">Genf</h3>
+                <h3 id="placeEnd">...</h3>
             </div>
             <p><?php echo $explainer ?></p>
         </article>
@@ -36,8 +36,7 @@ $explainer = 'Um diesen Ort zu erreichen brauchst du mindestens 2 Umstiege und h
         </article>
     </div>
 </section>
-<hr>
-<section class="maincontainer" id="game">
+<section class="maincontainer hide" id="game">
     <article id="ct_cockpit">
         <h1>Cockpit</h1>
         <p id="placeStart">Startort: </p>
