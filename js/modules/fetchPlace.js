@@ -15,11 +15,11 @@ let fetchPlace = (placeStart, time) => {
     let placeStartContainer = document.querySelector('#placeStartInfo');
     let placeEndContainer = document.querySelector('#placeEndInfo');
     if (stationsContainer.innerHTML == '') {
-        placeStartContainer.innerHTML = 'Startort: ' + placeStart;
+        placeStartContainer.innerHTML = 'Startort: ' + placeStart + ' (' + time + ')';
         placeEndContainer.innerHTML = 'Endort: ' + document.querySelector('#placeEnd').innerHTML;
         stationsContainer.innerHTML = 'Deine Reise: ';
     } else {
-        stationsContainer.innerHTML += placeStart + ', ';
+        stationsContainer.innerHTML += placeStart + ' (' + time + ')' + ', ';
     }
     //URL
     let url = `https://fahrplan.search.ch/api/stationboard.json?stop=${placeStart}&show_delays=1&limit=${limit}&transportation_types=train&time=${time}&time_type=depart`;
