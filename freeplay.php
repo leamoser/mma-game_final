@@ -31,10 +31,10 @@ $b2_text = 'und los...';
 </section>
 <section class="maincontainer hide" id="game">
     <article id="ct_cockpit">
-        <h1>Cockpit</h1>
         <p id="placeStartInfo"></p>
         <p id="placeCurrentInfo"></p>
         <p id="placeEndInfo"></p>
+        <p id="journeyDuration"></p>
     </article>
     <?php include('templates/map.php') ?>
     <article id="ct_schedule">

@@ -38,7 +38,6 @@ $explainer = 'Um diesen Ort zu erreichen brauchst du mindestens 2 Umstiege und h
 </section>
 <section class="maincontainer hide" id="game">
     <article id="ct_cockpit">
-        <h1>Cockpit</h1>
         <p id="placeStartInfo"></p>
         <p id="placeCurrentInfo"></p>
         <p id="placeEndInfo"></p>
