@@ -3,7 +3,6 @@ import { allConnections, Connection } from './classes/connection.js';
 import { allPlaces, Place } from './classes/place.js';
 import { Stop } from './classes/stop.js';
 import { fetchPlace } from './modules/fetchPlace.js';
-import { map } from './modules/map.js';
 import { fetchJson } from './modules/fetchJson.js';
 import { getData } from './modules/getData.js';
 import { loadNav } from './modules/loadNav.js';
@@ -18,16 +17,9 @@ const navtoggle = document.querySelector('#nav_toggle');
 //AUSFÜHRUNG***********************************************
 document.addEventListener('DOMContentLoaded', function () {
     //PREPS KARTE******************************************
-    if (subpage.search('play') != -1) {
-        map.dragRotate.disable();
-        let point = [8.22, 46.8];
-        let features = map.queryRenderedFeatures(point, { layers: ['berge'] });
-        map.on('load', function () {
-            //layer ausblenden die nicht gebraucht werden
-            //Auf klick einblenden
-            //initMap();
-        })
-    }
+    // if (subpage.search('play') != -1) {
+    //
+    // }
 
     //INIT*************************************************
     let init = () => {

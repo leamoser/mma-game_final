@@ -7,6 +7,7 @@ import { displayJourneyInfo } from '../modules/displayJourneyInfo.js';
 const otherParameters = { method: "GET" };
 const limit = 5;
 
+
 //Funktion
 let fetchPlace = (placeStart, time) => {
     allConnections.length = 0;
@@ -25,6 +26,10 @@ let fetchPlace = (placeStart, time) => {
             //Ort kreieren
             let place = new Place(data.stop.name, data.stop.lon, data.stop.lat);
             place.placeOnMap();
+
+            // FUNKTION, UM VERBINDUNG ZU ZEICHNEN AUF DER KARTE
+            // drawConnection( data.stop.lon, data.stop.lat, 47.368650, 8.539183);
+
             //Neue Instanz für alle Connections
             data.connections.forEach((connection) => {
                 new Connection(connection.time, placeStart, connection.terminal.name, connection.line);
@@ -48,5 +53,7 @@ let fetchPlace = (placeStart, time) => {
             })
         })
 }
+
+
 
 export { fetchPlace };

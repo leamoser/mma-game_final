@@ -1,4 +1,4 @@
-//Instanzensammlung
+//Instanzensammlung = alle nächsten Verbindungen ab einem Startort
 let allConnections = [];
 
 //Variabeln

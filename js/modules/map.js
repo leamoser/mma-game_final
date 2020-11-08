@@ -1,5 +1,8 @@
 const whatpage = window.location.pathname;
 let map;
+const btnLayerHills = document.querySelector('#mapButtonMountain');
+const btnLayerWater = document.querySelector('#mapButtonWater');
+let buttonsMap = [btnLayerHills, btnLayerWater];
 
 if (whatpage.search('play') != -1) {
   //Map
@@ -17,6 +20,35 @@ if (whatpage.search('play') != -1) {
     maxZoom: 13,
     maxBounds: bounds
   });
+  map.dragRotate.disable();
+
+  // let features = map.queryRenderedFeatures(point, { layers: ['berge'] });
+  map.on('load', function () {
+    map.setLayoutProperty('hillshade', 'visibility', 'none');
+    map.setLayoutProperty('wasser', 'visibility', 'none');
+
+  })
+
+  buttonsMap.forEach(btn => {
+    btn.onclick = function(e){
+      e.preventDefault();
+      e.stopPropagation();
+      if(btn.id === 'mapButtonMountain'){
+        toggleLayer('hillshade');
+      }else if(btn.id === 'mapButtonWater'){
+        toggleLayer('water');
+      }
+    }
+  })
+
+  function toggleLayer( layer){
+    let visibility = map.getLayoutProperty(layer, 'visibility');
+    if(visibility === 'none'){
+      map.setLayoutProperty(layer, 'visibility', 'visible');
+    }else{
+      map.setLayoutProperty(layer, 'visibility', 'none');
+    }
+  }
 } else {
   map = null;
 }

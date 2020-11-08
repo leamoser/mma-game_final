@@ -14,3 +14,9 @@
 .mapboxgl-canvas:focus{
     outline: none;
 }
+
+#mapButtons button{
+    max-width: 2.5em;
+    background-color: var(--co-hauptfarbe-50);
+    border: none;
+}

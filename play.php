@@ -44,6 +44,7 @@ $explainer = 'Um diesen Ort zu erreichen brauchst du mindestens 2 Umstiege und h
     </article>
     <?php include('templates/map.php') ?>
     <article id="ct_schedule">
+        <div id="placeCurrentInfo"></div>
     </article>
 </section>
 <?php include('templates/foot.php') ?>
