@@ -2,11 +2,12 @@ import { fetchStops } from './fetchStops.js';
 import { allConnections, Connection } from '../classes/connection.js';
 import { allPlaces, Place } from '../classes/place.js';
 import { displayJourneyInfo } from '../modules/displayJourneyInfo.js';
+import { drawConnection } from "./drawConnection.js";
 
 //Variabeln
 const otherParameters = { method: "GET" };
 const limit = 5;
-
+let move = 0;
 
 //Funktion
 let fetchPlace = (placeStart, time) => {
@@ -27,8 +28,6 @@ let fetchPlace = (placeStart, time) => {
             let place = new Place(data.stop.name, data.stop.lon, data.stop.lat);
             place.placeOnMap();
 
-            // FUNKTION, UM VERBINDUNG ZU ZEICHNEN AUF DER KARTE
-            // drawConnection( data.stop.lon, data.stop.lat, 47.368650, 8.539183);
 
             //Neue Instanz für alle Connections
             data.connections.forEach((connection) => {
@@ -38,10 +37,13 @@ let fetchPlace = (placeStart, time) => {
             allConnections.forEach((connection) => {
                 connection.outputToDom();
             })
-        })
-        .then(() => {
-            let lastPlace = allPlaces[allPlaces.length - 1];
-            lastPlace.placeOnMap();
+
+            // Verbindungen auf der Karte zeichnen
+            move++;
+            if(allPlaces.length>1){
+                let lastPlace = allPlaces[allPlaces.length - 2];
+                drawConnection( lastPlace.lon, lastPlace.lat, place.lon, place.lat, move);
+            }
         })
         .then(() => {
             //Eventlisteners auf alle Orte

@@ -3,7 +3,7 @@
 .placeDot{
   width: 7px;
   height: 7px;
-  background-color: var(--co-akzent-neg);
+  background-color: var(--co-hauptfarbe);
   border-radius: 50%;
 }
 
