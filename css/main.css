@@ -103,6 +103,14 @@ input[type="text"]{
   border-radius: 0;
   overflow: visible;
 }
+select{
+  width: 100%;
+  background-color: red;
+  display: none;
+}
+select.open{
+  display: block;
+}
 
 /*NAVIGATION*****************************************/
 /*Toggle*/

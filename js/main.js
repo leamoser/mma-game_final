@@ -21,7 +21,6 @@ document.addEventListener('DOMContentLoaded', function () {
     // if (subpage.search('play') != -1) {
     //
     // }
-
     //INIT*************************************************
     let init = () => {
         //Gamemodus
