@@ -8,16 +8,16 @@ import { wait } from "./wait.js";
 
 //Variabeln
 const otherParameters = { method: "GET" };
-const limit = 5;
+const limit = 10;
 let move = 0;
-let ct_journeyinfo = document.querySelector('#ct_journeyinfo>h1');
+let ct_journeyinfo = document.querySelector('#ct_journeyinfo>h2');
 
 //Funktion
-let fetchPlace = (placeStart, time) => {
+let fetchPlace = (placeStart, time, gametype) => {
     allConnections.length = 0;
     document.querySelector('#ct_schedule').innerHTML = '';
     //Schreiben der Jurney-Informationen
-    displayJourneyInfo(time, placeStart);
+    displayJourneyInfo(time, placeStart, gametype);
 
     //URL
     let url = `https://fahrplan.search.ch/api/stationboard.json?stop=${placeStart}&show_delays=1&limit=${limit}&transportation_types=train&time=${time}&time_type=depart`;
@@ -29,7 +29,6 @@ let fetchPlace = (placeStart, time) => {
         //Neuer Dot initialisieren
         .then((data) => {
             //Ort kreieren
-            console.log(data)
             let place = new Place(data.stop.name, data.stop.lon, data.stop.lat);
             place.setAsInstance();
             place.placeOnMap(1);
@@ -66,7 +65,7 @@ let fetchPlace = (placeStart, time) => {
             let btnsMore = document.querySelectorAll('.btn_more');
             btnsMore.forEach((btn) => {
                 btn.addEventListener('click', function (event) {
-                    fetchStops(event.target.getAttribute('data-placestart'), event.target.getAttribute('data-placeend'), event.target.getAttribute('data-time'));
+                    fetchStops(event.target.getAttribute('data-placestart'), event.target.getAttribute('data-placeend'), event.target.getAttribute('data-time'), gametype);
                 }, false)
             })
         })

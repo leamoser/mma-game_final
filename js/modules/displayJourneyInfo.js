@@ -6,8 +6,10 @@ const placeEndContainer = document.querySelector('#placeEndInfo');
 const durationContainer = document.querySelector('#journeyDuration');
 const gameWonContainer = document.querySelector('#ct_gameWon');
 const gameLostContainer = document.querySelector('#ct_gameLost');
+const freeGameWonContainer = document.querySelector('#ct_freeGameWon');
 
-let displayJourneyInfo = (time, placeStart) => {
+
+let displayJourneyInfo = (time, placeStart, gametype) => {
     if (stationsContainer.innerHTML == '') {
         placeStartContainer.innerHTML = 'Startort: ' + placeStart + ' (' + time + ')';
         placeStartContainer.setAttribute('data-time', time);
@@ -19,8 +21,13 @@ let displayJourneyInfo = (time, placeStart) => {
     if (durationContainer != null) {
         durationContainer.innerHTML = calculateDuration(time, placeStartContainer);
     }
+
     if(placeStart == (document.querySelector('#placeEnd').innerHTML)){
-        gameWonContainer.classList.remove('hide');
+        if(gametype === 1){               // im levelplay modus
+            gameWonContainer.classList.remove('hide');
+        }else if (gametype === 0){        // im freeplay modus
+            freeGameWonContainer.classList.remove('hide');
+        }
     }
 }
 export { displayJourneyInfo };

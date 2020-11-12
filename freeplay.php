@@ -42,9 +42,13 @@ $b2_text = 'und los...';
     <article id="ct_journeyinfo" class="hide">
         <h2></h2>
     </article>
-    <article id="ct_gameWon" class="hide">
+    <article id="ct_freeGameWon" class="hide">
         <h2>Du bist an deinem Zielort angekommen</h2>
         <h2>Dein Nächster Zielort:</h2>
+        <div class="infobox">
+            <h2><?php echo $zielort ?></h2>
+            <h3 id="placeEnd">...</h3>
+        </div>
         <h3></h3>
     </article>
     <article id="ct_gameLost" class="hide">
