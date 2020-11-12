@@ -1,4 +1,11 @@
-//Funktion
+import { shuffle } from "./shuffle.js";
+
+
+const endPlaceContainer = document.querySelector('#placeEnd');
+const placeStartContainer = document.querySelector('#placeStart');
+const placeEndContainer = document.querySelector('#placeEnd');
+let destinations = [];
+
 let fetchJson = (path, subpage) => {
     fetch(path)
         .then((response) => {
@@ -10,17 +17,16 @@ let fetchJson = (path, subpage) => {
             }
             if (subpage.search('freeplay') != -1) {
                 //Freeplay
-                let index = getRandomValue(data.destinations.length);
-                let endPlace = data.destinations[index];
-                let endPlaceContainer = document.querySelector('#placeEnd');
+                destinations = data.destinations;
+                shuffle(destinations);
+                destinations.length = 10;
+                let endPlace = destinations[0];
                 endPlaceContainer.innerHTML = endPlace.destination;
             } else {
                 //Play
                 let index = getRandomValue(data.connections.length);
                 let placeStart = data.connections[index]['placeStart'];
                 let placeEnd = data.connections[index]['placeEnd'];
-                let placeStartContainer = document.querySelector('#placeStart');
-                let placeEndContainer = document.querySelector('#placeEnd');
                 placeStartContainer.innerHTML = placeStart;
                 placeEndContainer.innerHTML = placeEnd;
             }
@@ -30,4 +36,4 @@ let fetchJson = (path, subpage) => {
         });
 }
 
-export { fetchJson };
+export { fetchJson , destinations };

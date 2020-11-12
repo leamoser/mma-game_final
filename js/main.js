@@ -3,7 +3,7 @@ import { allConnections, Connection } from './classes/connection.js';
 import { allPlaces, Place } from './classes/place.js';
 import { Stop } from './classes/stop.js';
 import { fetchPlace } from './modules/fetchPlace.js';
-import { fetchJson } from './modules/fetchJson.js';
+import { fetchJson, destinations } from './modules/fetchJson.js';
 import { getData } from './modules/getData.js';
 import { loadNav } from './modules/loadNav.js';
 import { displayGameInterface } from './modules/gameInterface.js';
@@ -17,10 +17,12 @@ const navtoggle = document.querySelector('#nav_toggle');
 
 //AUSFÜHRUNG***********************************************
 document.addEventListener('DOMContentLoaded', function () {
-    //PREPS KARTE******************************************
-    // if (subpage.search('play') != -1) {
-    //
-    // }
+    let buttonsHideOnClick = document.querySelectorAll('.hideOnClick');
+    buttonsHideOnClick.forEach(button => {
+        button.onclick = function(){
+            button.parentElement.classList.add('hide');
+        }
+    })
     //INIT*************************************************
     let init = () => {
         //Gamemodus

@@ -46,15 +46,17 @@ $b2_text = 'und los...';
     <article id="ct_freeGameWon" class="hide">
         <h2>Du bist an deinem Zielort angekommen</h2>
         <h2>Dein Nächster Zielort:</h2>
-        <div class="infobox">
-            <h2><?php echo $zielort ?></h2>
-            <h3 id="placeEnd">...</h3>
-        </div>
-        <h3></h3>
+        <h3 id="placeEndNew"></h3>
+        <button class="full hideOnClick"><p>Weiter</p></button>
+        <button class="full"><p>Spiel abbrechen</p></button>
     </article>
     <article id="ct_gameLost" class="hide">
         <h1>Game Over</h1>
         <p>Du hast das Spiel verloren</p>
+    </article>
+    <article id="ct_gameWon" class="hide">
+        <h2>Du hast gewonnen!</h2>
+        <h3>Du bist ein Traingame Meister :)</h3>
     </article>
 </section>
 <?php include('templates/foot.php') ?>
