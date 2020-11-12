@@ -32,9 +32,24 @@ $b2_text = 'und los...';
 </section>
 <section class="maincontainer hide" id="game">
     <article id="ct_cockpit">
-        <p id="placeStartInfo"></p>
-        <p id="placeCurrentInfo"></p>
-        <p id="placeEndInfo"></p>
+        <div class="timespan">
+            <div>
+                <span class="indicator"></span>
+                <p id="placeStartInfo"></p>
+            </div>
+            <div id="journeyInfo">
+                <div>
+                    <span class="indicator"></span>
+                    <p id="placeCurrentInfo"></p>
+                </div>
+            </div>
+            <div>
+                <span class="indicator"></span>
+                <p id="placeEndInfo"></p>
+            </div>
+        </div>
+    </article>
+    <article id="ct_duration">
         <p id="journeyDuration"></p>
     </article>
     <?php include('templates/map.php') ?>

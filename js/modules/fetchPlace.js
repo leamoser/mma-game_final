@@ -46,14 +46,14 @@ let fetchPlace = (placeStart, time, gametype) => {
 
             // Verbindungen auf der Karte zeichnen
             move++;
-            if(allPlaces.length>1){
+            if (allPlaces.length > 1) {
                 let lastPlace = allPlaces[allPlaces.length - 2];
-                drawConnection( lastPlace.lon, lastPlace.lat, place.lon, place.lat, move);
+                drawConnection(lastPlace.lon, lastPlace.lat, place.lon, place.lat, move);
             }
 
             // Neuer Ort im Journey Info Popup anzeigen
-            if(move>1){
-                ct_journeyinfo.innerHTML = "Du fährst nach "+placeStart;
+            if (move > 1) {
+                ct_journeyinfo.innerHTML = "Du fährst nach " + placeStart;
                 ct_journeyinfo.parentNode.classList.remove('hide');
                 wait(1000).then(() => {
                     ct_journeyinfo.parentNode.classList.add('hide');
