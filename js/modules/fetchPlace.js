@@ -27,10 +27,19 @@ let nthMove = 0;
 let fetchPlace = (placeStart, placeEnd, time, gametype) => {
     allConnections.length = 0;
     document.querySelector('#ct_schedule').innerHTML = '';
-    //Schreiben der Jurney-Informationen
+
+    // PlaceEnd wird immer aktualisiert, wenn sich Wert im Cockpit ändert
+    // (relevant für Freeplay, wo sich PlaceEnd ändert)
+    if(document.querySelector('#placeEndInfo').innerHTML != ''){
+        placeEnd = document.querySelector('#placeEndInfo').innerHTML;
+    }
+
+    //Schreiben der Journey-Informationen
     displayJourneyInfo(placeStart, placeEnd, gametype, time, nthMove);
+
     //URL
     let url = `https://fahrplan.search.ch/api/stationboard.json?stop=${placeStart}&show_delays=1&limit=${limit}&transportation_types=train&time=${time}&time_type=depart`;
+
     //Fetch
     fetch(url, otherParameters)
         .then((response) => {

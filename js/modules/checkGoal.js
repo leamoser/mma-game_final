@@ -27,7 +27,6 @@ let checkGoal = (placeStart, placeEnd, gametype, time) => {
                 document.querySelector('#placeEndNew').innerHTML = destinations[counterWon].destination;
                 // Cockpit neu laden
                 initCockpit(time, placeStart, destinations[counterWon].destination)
-                // getData('freeplay', time);
             }else{
                 gameWonContainer.classList.remove('hide');
             }
