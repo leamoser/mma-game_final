@@ -27,7 +27,7 @@ let getPossibleTrainstations = (event) => {
             let input = event.target.value;
             if (input.length >= 3) {
                 data.forEach((station) => {
-                    if (station.haltestelle.search(input) != -1) {
+                    if (station.haltestelle.search(new RegExp(input, "i")) != -1) {
                         allMatchingStations.push(station.haltestelle);
                     }
                 })
