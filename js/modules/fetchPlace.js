@@ -3,22 +3,32 @@ import { allConnections, Connection } from '../classes/connection.js';
 import { allPlaces, Place } from '../classes/place.js';
 import { displayJourneyInfo } from '../modules/displayJourneyInfo.js';
 import { drawConnection } from "./drawConnection.js";
-import { wait } from "./wait.js";
+import { breakScreen} from "./breakScreen.js";
+
+// Wird jedes mal ausgeführt, wenn neuer Ort ausgewählt wurde
+// bei jedem nthMove wird das alles ausgeführt
+// - displayJourneyInfo() ->
+// - API Abfrage für die möglichen Zugverbindungen ab Startort
+// - Neue Place Instanz
+//      - in allPlaces gepusht
+//      - auf der Karte gezeichnet
+// - alle Connections werden instanziert und ausgegeben
+// - falls mehr als zwei Spielzüge (nthMove) vorhanden, wird Verbindung gezeichnet mit drawConnection()
+// - nach jedem Spielzug wird Break Screen aufgerufen
+// - Für alle Connections wird ein Button erstellt, mit EventListener -> auf klick fetchStops()
 
 
 //Variabeln
 const otherParameters = { method: "GET" };
 const limit = 10;
-let move = 0;
-let ct_journeyinfo = document.querySelector('#ct_journeyinfo>h2');
+let nthMove = 0;
 
 //Funktion
-let fetchPlace = (placeStart, time, gametype) => {
+let fetchPlace = (placeStart, placeEnd, time, gametype) => {
     allConnections.length = 0;
     document.querySelector('#ct_schedule').innerHTML = '';
     //Schreiben der Jurney-Informationen
-    displayJourneyInfo(time, placeStart, gametype);
-
+    displayJourneyInfo(placeStart, placeEnd, gametype, time, nthMove);
     //URL
     let url = `https://fahrplan.search.ch/api/stationboard.json?stop=${placeStart}&show_delays=1&limit=${limit}&transportation_types=train&time=${time}&time_type=depart`;
     //Fetch
@@ -33,7 +43,6 @@ let fetchPlace = (placeStart, time, gametype) => {
             place.setAsInstance();
             place.placeOnMap(1);
 
-
             //Neue Instanz für alle Connections
             data.connections.forEach((connection) => {
                 new Connection(connection.time, placeStart, connection.terminal.name, connection.line);
@@ -45,19 +54,15 @@ let fetchPlace = (placeStart, time, gametype) => {
             })
 
             // Verbindungen auf der Karte zeichnen
-            move++;
+            nthMove++;
             if (allPlaces.length > 1) {
                 let lastPlace = allPlaces[allPlaces.length - 2];
-                drawConnection(lastPlace.lon, lastPlace.lat, place.lon, place.lat, move);
+                drawConnection(lastPlace.lon, lastPlace.lat, place.lon, place.lat, nthMove);
             }
 
-            // Neuer Ort im Journey Info Popup anzeigen
-            if (move > 1) {
-                ct_journeyinfo.innerHTML = "Du fährst nach " + placeStart;
-                ct_journeyinfo.parentNode.classList.remove('hide');
-                wait(1000).then(() => {
-                    ct_journeyinfo.parentNode.classList.add('hide');
-                });
+            // Neuer Ort im Journey Info Break Screen anzeigen
+            if (nthMove > 1) {
+                breakScreen(placeStart);
             }
         })
         .then(() => {
@@ -65,12 +70,10 @@ let fetchPlace = (placeStart, time, gametype) => {
             let btnsMore = document.querySelectorAll('.btn_more');
             btnsMore.forEach((btn) => {
                 btn.addEventListener('click', function (event) {
-                    fetchStops(event.target.getAttribute('data-placestart'), event.target.getAttribute('data-placeend'), event.target.getAttribute('data-time'), gametype);
+                    fetchStops(event.target.getAttribute('data-placestart'), event.target.getAttribute('data-placeend'),  event.target.getAttribute('data-time'), gametype, placeEnd);
                 }, false)
             })
         })
 }
-
-
 
 export { fetchPlace };

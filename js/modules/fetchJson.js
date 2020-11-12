@@ -1,5 +1,7 @@
 import { shuffle } from "./shuffle.js";
 
+// Wird 1x ausgeführt, wenn Modus gewählt wird
+// Holt Spiel Daten (assets/json/...) und befüllt Infoscreen
 
 const endPlaceContainer = document.querySelector('#placeEnd');
 const placeStartContainer = document.querySelector('#placeStart');
@@ -27,6 +29,8 @@ let fetchJson = (path, subpage) => {
                 let index = getRandomValue(data.connections.length);
                 let placeStart = data.connections[index]['placeStart'];
                 let placeEnd = data.connections[index]['placeEnd'];
+
+
                 placeStartContainer.innerHTML = placeStart;
                 placeEndContainer.innerHTML = placeEnd;
             }

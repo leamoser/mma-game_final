@@ -4,7 +4,7 @@ import { fetchPlace } from '../modules/fetchPlace.js';
 import { allConnections, Connection } from '../classes/connection.js';
 
 //Funktion
-let fetchStops = (placeStart, placeEnd, time, gametype) => {
+let fetchStops = (placeStart, placeEnd, time, gametype, finalPlaceEnd) => {
     //Container holen
     let parent = event.target.parentElement.parentElement.children[1];
     parent.innerHTML = '';
@@ -36,7 +36,7 @@ let fetchStops = (placeStart, placeEnd, time, gametype) => {
                 btn.addEventListener('click', function (event) {
                     let time_raw = this.getAttribute('data-time');
                     let time = time_raw.slice(11, 16);
-                    fetchPlace(event.target.getAttribute('data-place'), time, gametype);
+                    fetchPlace(event.target.getAttribute('data-place'), finalPlaceEnd, time, gametype);
                 }, false)
             })
         })
