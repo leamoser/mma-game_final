@@ -296,6 +296,8 @@ section#game article#ct_duration{
   padding: 5px calc( var(--ga-around) / 2 );
   background-color: var(--co-akzent-pos);
   color: var(--co-negativ);
+  position: relative;
+  z-index: 1;
 }
 
 
@@ -352,7 +354,6 @@ section#game div.info_extended{
   overflow-x: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  padding-top: var(--ga-mini);
 }
 section#game div.info_extended::-webkit-scrollbar{
   display: none;

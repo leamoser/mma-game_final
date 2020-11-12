@@ -23,8 +23,9 @@ div#map{
 .mapboxgl-canvas:focus{
     outline: none;
 }
-canvas.mapboxgl-canvas{
-    width: 100vw;
+div#map{
+    transform: scale(1.1);
+    overflow-x: hidden;
 }
 /*BUTTONS--------------------*/
 #mapButtons{
