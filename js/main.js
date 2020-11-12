@@ -8,6 +8,7 @@ import { getData } from './modules/getData.js';
 import { loadNav } from './modules/loadNav.js';
 import { displayGameInterface } from './modules/gameInterface.js';
 import { getTime } from './modules/getTime.js';
+import { getPossibleTrainstations } from './modules/getPossibleTrainstations.js';
 
 
 //VARIABELN************************************************
@@ -39,6 +40,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 displayGameInterface();
             })
         }
+        if (subpage.search('freeplay') != -1) {
+            let inputField = document.querySelector('input#inputStartPlace');
+            inputField.addEventListener('keyup', function (event) {
+                getPossibleTrainstations(event);
+            })
+        }
         //Bodyvariabeln für CSS
         if (subpage.search('play') != -1) {
             document.querySelector('body').classList.add('play');
@@ -47,6 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
         navtoggle.addEventListener('click', function () {
             loadNav(event);
         }, false);
+
     }
     init();
 }, false);
