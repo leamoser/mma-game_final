@@ -3,11 +3,14 @@ import { allConnections, Connection } from '../classes/connection.js';
 import { allPlaces, Place } from '../classes/place.js';
 import { displayJourneyInfo } from '../modules/displayJourneyInfo.js';
 import { drawConnection } from "./drawConnection.js";
+import { wait } from "./wait.js";
+
 
 //Variabeln
 const otherParameters = { method: "GET" };
 const limit = 5;
 let move = 0;
+let ct_journeyinfo = document.querySelector('#ct_journeyinfo>h1');
 
 //Funktion
 let fetchPlace = (placeStart, time) => {
@@ -26,9 +29,11 @@ let fetchPlace = (placeStart, time) => {
         //Neuer Dot initialisieren
         .then((data) => {
             //Ort kreieren
+            console.log(data)
             let place = new Place(data.stop.name, data.stop.lon, data.stop.lat);
             place.setAsInstance();
             place.placeOnMap(1);
+
 
             //Neue Instanz für alle Connections
             data.connections.forEach((connection) => {
@@ -47,7 +52,14 @@ let fetchPlace = (placeStart, time) => {
                 drawConnection( lastPlace.lon, lastPlace.lat, place.lon, place.lat, move);
             }
 
-
+            // Neuer Ort im Journey Info Popup anzeigen
+            if(move>1){
+                ct_journeyinfo.innerHTML = "Du fährst nach "+placeStart;
+                ct_journeyinfo.parentNode.classList.remove('hide');
+                wait(1000).then(() => {
+                    ct_journeyinfo.parentNode.classList.add('hide');
+                });
+            }
         })
         .then(() => {
             //Eventlisteners auf alle Orte

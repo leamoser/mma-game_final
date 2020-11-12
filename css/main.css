@@ -100,7 +100,7 @@ input[type="text"]{
   width: var(--sz-w-minusgaps-fix);
   margin-top: var(--ga-mini);
   padding: var(--ga-mini) 0;
-  border-radius: 0px;
+  border-radius: 0;
   overflow: visible;
 }
 
@@ -112,7 +112,7 @@ div.navigation p{
   color: var(--co-hauptfarbe);
   background-color: var(--co-negativ);
   padding: 14px 14px 8px 14px ;
-  top: 0px;
+  top: 0;
   right: 0;
   margin: 0 0;
   z-index: 3;
@@ -205,7 +205,7 @@ section#choosemode div.flex{
 section#choosemode div.flex input[type="submit"]{
   color: var(--co-hauptfarbe);
   background-color: var(--co-negativ);
-  height: var(--sz-h-button);
+  height: auto;
   width: 100%;
   border: none;
 }
@@ -238,7 +238,7 @@ section#infoscreen button.full{
 }
 /*Gamecontainer*/
 section#game{
-  padding-bottom: 0px;
+  padding-bottom: 0;
   display: block;
   height: auto;
 }
@@ -253,6 +253,27 @@ section#game article{
 section#game article#ct_cockpit{
   padding: 0 var(--ga-around) var(--ga-around) var(--ga-around);
 }
+
+section#game article#ct_gameWon , section#game article#ct_gameLost , section#game article#ct_journeyinfo{
+  position: fixed;
+  top: 0;
+  padding: 1.5em;
+  min-height: 100vh;
+}
+section#game article#ct_journeyinfo{
+  background-color: var(--co-hauptfarbe-80);
+}
+
+section#game article#ct_gameWon{
+  background-color: var(--co-akzent-pos);
+}
+
+section#game article#ct_gameLost {
+  background-color: var(--co-akzent-neg);
+
+}
+
+
 section#game div.ct_connection{
   background-color: var(--co-hauptfarbe);
   color: var(--co-negativ);

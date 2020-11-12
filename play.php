@@ -46,5 +46,16 @@ $explainer = 'Um diesen Ort zu erreichen brauchst du mindestens 2 Umstiege und h
     <article id="ct_schedule">
         <div id="placeCurrentInfo"></div>
     </article>
+    <article id="ct_journeyinfo" class="hide">
+        <h2></h2>
+    </article>
+    <article id="ct_gameWon" class="hide">
+        <h2>Du hast gewonnen!</h2>
+        <h3>Du bist ein Traingame Meister :)</h3>
+    </article>
+    <article id="ct_gameLost" class="hide">
+        <h2>Game Over</h2>
+        <h3>Du hast das Spiel verloren</h3>
+    </article>
 </section>
 <?php include('templates/foot.php') ?>

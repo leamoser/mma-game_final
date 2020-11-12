@@ -4,7 +4,7 @@ import { map } from '../modules/map.js';
 let allPlaces = [];
 
 // lon = -- =x
-// lat = | = y
+// lat = | = y = Längen
 
 //Class
 class Place {

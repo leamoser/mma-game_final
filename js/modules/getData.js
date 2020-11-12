@@ -18,7 +18,6 @@ let getData = (subpage, time) => {
     //Daten weitergeben
     //paintCocpit(placeStart, placeEnd);
     fetchPlaceEnd(placeEnd);
-
     fetchPlace(placeStart, time);
 }
 

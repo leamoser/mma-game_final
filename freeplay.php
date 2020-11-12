@@ -12,7 +12,7 @@ $b2_text = 'und los...';
         <article>
             <div class="infobox">
                 <h2><?php echo $startort ?></h2>
-                <input type="text" placeholder="<?php echo $startort_placeholder ?>" name="startPlace" id="inputStartPlace">
+                <input type="text" placeholder="<?php echo $startort_placeholder ?>" name="startPlace" id="inputStartPlace" autocomplete="off">
             </div>
             <div class="infobox">
                 <h2><?php echo $zielort ?></h2>
@@ -38,6 +38,18 @@ $b2_text = 'und los...';
     </article>
     <?php include('templates/map.php') ?>
     <article id="ct_schedule">
+    </article>
+    <article id="ct_journeyinfo" class="hide">
+        <h2></h2>
+    </article>
+    <article id="ct_gameWon" class="hide">
+        <h2>Du bist an deinem Zielort angekommen</h2>
+        <h2>Dein Nächster Zielort:</h2>
+        <h3></h3>
+    </article>
+    <article id="ct_gameLost" class="hide">
+        <h1>Game Over</h1>
+        <p>Du hast das Spiel verloren</p>
     </article>
 </section>
 <?php include('templates/foot.php') ?>

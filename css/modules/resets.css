@@ -38,3 +38,7 @@ body section.maincontainer a{
     background: var(--co-hauptfarbe);
     color: var(--co-hauptfarbe-50);
 }
+
+.hide{
+    display: none;
+}
