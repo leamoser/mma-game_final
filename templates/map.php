@@ -1,5 +1,5 @@
 <article class="ct_map">
-    <div id="map" style="width: var(--sz-w-screen-fix); max-width: var(--sz-w-screen); height: 300px; z-index: -1;"></div>
+    <div id="map" style="width: var(--sz-w-screen-fix); max-width: var(--sz-w-screen); height: 300px; z-index: 0;"></div>
     <div id="mapButtons">
         <button id="mapButtonMountain">
             <img src="../assets/icons/mountain.svg" alt="toggle mountain layer" width="100%">

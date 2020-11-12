@@ -20,3 +20,8 @@
     background-color: var(--co-hauptfarbe-50);
     border: none;
 }
+
+#map{
+    cursor: pointer;
+    z-index: 0;
+}

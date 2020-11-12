@@ -28,7 +28,6 @@ let fetchPlace = (placeStart, time) => {
             let place = new Place(data.stop.name, data.stop.lon, data.stop.lat);
             place.placeOnMap();
 
-
             //Neue Instanz für alle Connections
             data.connections.forEach((connection) => {
                 new Connection(connection.time, placeStart, connection.terminal.name, connection.line);

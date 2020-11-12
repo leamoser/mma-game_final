@@ -20,10 +20,12 @@ if (whatpage.search('play') != -1) {
     maxZoom: 13,
     maxBounds: bounds
   });
-  map.dragRotate.disable();
 
-  // let features = map.queryRenderedFeatures(point, { layers: ['berge'] });
+  map.dragRotate.disable();
+  map.scrollZoom.enable();
+
   map.on('load', function () {
+
     map.setLayoutProperty('hillshade', 'visibility', 'none');
     map.setLayoutProperty('wasser', 'visibility', 'none');
 

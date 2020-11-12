@@ -136,6 +136,7 @@ div.navigation nav{
   position: fixed;
   transform: translateY(-120vh);
   transition: 0.5s;
+  z-index: 2;
 }
 div.navigation.open nav{
   transform: translateY(0vh);
