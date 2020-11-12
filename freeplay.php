@@ -62,8 +62,12 @@ $b2_text = 'und los...';
         <h2>Du bist an deinem Zielort angekommen</h2>
         <h2>Dein Nächster Zielort:</h2>
         <h3 id="placeEndNew"></h3>
-        <button class="full hideOnClick"><p>Weiter</p></button>
-        <button class="full"><p>Spiel abbrechen</p></button>
+        <button class="full hideOnClick">
+            <p>Weiter</p>
+        </button>
+        <button class="full">
+            <p>Spiel abbrechen</p>
+        </button>
     </article>
     <article id="ct_gameLost" class="hide">
         <h1>Game Over</h1>

@@ -21,7 +21,7 @@ let getData = (subpage, time) => {
         gametype = 1;
     }
     // Zielort darstellen
-    fetchPlaceEnd(placeEnd, gametype);
+    fetchPlaceEnd(placeEnd);
     // Startort wird erstes Mal dargestellt
     fetchPlace(placeStart, placeEnd, time, gametype);
 }

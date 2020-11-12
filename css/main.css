@@ -8,13 +8,13 @@
 /*VARIABELN********************************/
 :root{
   /*Farben*/
-  --co-hauptfarbe: #27348B;
-  --co-hauptfarbe-80: #5970C5;
-  --co-hauptfarbe-50: #8BABFE;
-  --co-akzent-neg: #EB0001;
-  --co-akzent-pos: #BBE01D;
+  --co-hauptfarbe: #E84646;
+  --co-hauptfarbe-50: #77BDBE;
+  --co-akzent-fancy: #F7BB17;
+  --co-akzent-neg: #F36C1A;
+  --co-akzent-pos: #98B342;
   --co-positiv: #000000;
-  --co-negativ: #ffffff;
+  --co-negativ: #FFFFFF;
   /*Schriften*/
   --f-l-bold: 700  1.875rem/106% Heebo, sans-serif;
   --f-m-bold: 700 1.25rem/110% Heebo, sans-serif;
@@ -64,6 +64,11 @@ p{
   margin: 5px 0;
   padding: 0 0;
 }
+button,
+input[type="submit"]{
+  background-color: var(--co-akzent-fancy);
+  color: var(--co-negativ);
+}
 button.full p{
   font: var(--f-l-bold);
 }
@@ -86,8 +91,6 @@ button.full{
   cursor: pointer;
   max-width: var(--sz-w-minusgaps);
   width: var(--sz-w-minusgaps-fix);
-  background-color: var(--co-negativ);
-  color: var(--co-hauptfarbe);
   border: none;
 }
 input[type="text"]{
@@ -211,8 +214,6 @@ section#choosemode div.flex{
   grid-template-columns: var(--gr-dreier);
 }
 section#choosemode div.flex input[type="submit"]{
-  color: var(--co-hauptfarbe);
-  background-color: var(--co-negativ);
   height: auto;
   width: 100%;
   border: none;
@@ -292,9 +293,15 @@ section#game article#ct_cockpit div.timespan div{
   text-align: center;
   width: auto;
 }
+section#game article#ct_cockpit div.timespan>div:last-of-type p{
+  color: var(--co-akzent-fancy);
+}
+section#game article#ct_cockpit div.timespan>div:last-of-type span{
+  background-color: var(--co-akzent-fancy);
+}
 section#game article#ct_duration{
   padding: 5px calc( var(--ga-around) / 2 );
-  background-color: var(--co-akzent-pos);
+  background-color: var(--co-akzent-fancy);
   color: var(--co-negativ);
   position: relative;
   z-index: 1;
@@ -335,9 +342,10 @@ section#game div.ct_connection div.info_basic{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: var(--ga-mini);
 }
 section#game button.btn_more{
-  background-color: var(--co-hauptfarbe-80);
+  background-color: var(--co-hauptfarbe-50);
   color: var(--co-negativ);
   font: var(--f-m-bold);
   border: none;
