@@ -262,14 +262,14 @@ section#game article#ct_cockpit{
   padding: 0 var(--ga-around) var(--ga-around) var(--ga-around);
 }
 
-section#game article#ct_gameWon , section#game article#ct_gameLost , section#game article#ct_journeyinfo{
+section#game article#ct_gameWon , section#game article#ct_gameLost , section#game article#ct_journeyinfo , section#game article#ct_freeGameWon{
   position: fixed;
   top: 0;
   padding: 1.5em;
   min-height: 100vh;
 }
 section#game article#ct_journeyinfo{
-  background-color: var(--co-hauptfarbe-80);
+  background-color: var(--co-hauptfarbe-50);
 }
 
 section#game article#ct_gameWon{
@@ -278,9 +278,12 @@ section#game article#ct_gameWon{
 
 section#game article#ct_gameLost {
   background-color: var(--co-akzent-neg);
-
 }
 
+section#game article#ct_freeGameWon{
+  background-color: var(--co-hauptfarbe-50);
+
+}
 
 section#game div.ct_connection{
   background-color: var(--co-hauptfarbe);
