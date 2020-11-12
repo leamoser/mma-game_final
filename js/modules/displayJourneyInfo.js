@@ -11,21 +11,21 @@ const freeGameWonContainer = document.querySelector('#ct_freeGameWon');
 
 let displayJourneyInfo = (time, placeStart, gametype) => {
     if (stationsContainer.innerHTML == '') {
-        placeStartContainer.innerHTML = 'Startort: ' + placeStart + ' (' + time + ')';
+        placeStartContainer.innerHTML = placeStart;
         placeStartContainer.setAttribute('data-time', time);
-        placeEndContainer.innerHTML = 'Zielort: ' + document.querySelector('#placeEnd').innerHTML;
+        placeEndContainer.innerHTML = document.querySelector('#placeEnd').innerHTML;
         stationsContainer.innerHTML = 'Deine Reise: ';
     } else {
-        stationsContainer.innerHTML += placeStart + ' (' + time + ')' + ', ';
+        stationsContainer.innerHTML += placeStart + ',' + time + ')' + ', ';
     }
     if (durationContainer != null) {
         durationContainer.innerHTML = calculateDuration(time, placeStartContainer);
     }
 
-    if(placeStart == (document.querySelector('#placeEnd').innerHTML)){
-        if(gametype === 1){               // im levelplay modus
+    if (placeStart == (document.querySelector('#placeEnd').innerHTML)) {
+        if (gametype === 1) {               // im levelplay modus
             gameWonContainer.classList.remove('hide');
-        }else if (gametype === 0){        // im freeplay modus
+        } else if (gametype === 0) {        // im freeplay modus
             freeGameWonContainer.classList.remove('hide');
         }
     }

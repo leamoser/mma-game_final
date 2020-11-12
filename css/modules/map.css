@@ -1,16 +1,21 @@
 @import "root.css";
 
+/*DOTS----------------------*/
 .placeDot{
   width: 0.6em;
   height: 0.6em;
   background-color: var(--co-hauptfarbe);
   border-radius: 50%;
 }
-
 .placeDotEnd{
     background-color: var(--co-positiv);
 }
-
+/*CONTAINER-------------------*/
+div#map{
+    width: 100vw; 
+    height: 300px; 
+    z-index: 0;
+}
 .mapboxgl-ctrl-logo,
 .mapboxgl-ctrl-bottom-right{
     display: none !important;
@@ -18,13 +23,30 @@
 .mapboxgl-canvas:focus{
     outline: none;
 }
-
-#mapButtons button{
-    max-width: 2.5em;
-    background-color: var(--co-hauptfarbe-50);
-    border: none;
+canvas.mapboxgl-canvas{
+    width: 100vw;
 }
-
+/*BUTTONS--------------------*/
+#mapButtons{
+    position: absolute;
+    width: var(--sz-w-minusgaps);
+    margin: -50px var(--ga-around) 0 var(--ga-around);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+#mapButtons div{
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    background-color: var(--co-negativ);
+    border: 2px solid var(--co-hauptfarbe);
+}
+#mapButtons div:first-of-type{
+    margin-right: 10px;
+}
 #map{
     cursor: pointer;
     z-index: 0;
