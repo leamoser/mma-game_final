@@ -15,6 +15,7 @@ let fetchPlace = (placeStart, time) => {
     document.querySelector('#ct_schedule').innerHTML = '';
     //Schreiben der Jurney-Informationen
     displayJourneyInfo(time, placeStart);
+
     //URL
     let url = `https://fahrplan.search.ch/api/stationboard.json?stop=${placeStart}&show_delays=1&limit=${limit}&transportation_types=train&time=${time}&time_type=depart`;
     //Fetch
@@ -26,12 +27,14 @@ let fetchPlace = (placeStart, time) => {
         .then((data) => {
             //Ort kreieren
             let place = new Place(data.stop.name, data.stop.lon, data.stop.lat);
-            place.placeOnMap();
+            place.setAsInstance();
+            place.placeOnMap(1);
 
             //Neue Instanz für alle Connections
             data.connections.forEach((connection) => {
                 new Connection(connection.time, placeStart, connection.terminal.name, connection.line);
             })
+
             //Alle Instanzen im DOM ausgeben
             allConnections.forEach((connection) => {
                 connection.outputToDom();
@@ -43,6 +46,8 @@ let fetchPlace = (placeStart, time) => {
                 let lastPlace = allPlaces[allPlaces.length - 2];
                 drawConnection( lastPlace.lon, lastPlace.lat, place.lon, place.lat, move);
             }
+
+
         })
         .then(() => {
             //Eventlisteners auf alle Orte

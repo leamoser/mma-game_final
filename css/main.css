@@ -16,10 +16,10 @@
   --co-positiv: #000000;
   --co-negativ: #ffffff;
   /*Schriften*/
-  --f-l-bold: normal 1.875rem/106% helvetica_bold, sans-serif;
-  --f-m-bold: normal 1.25rem/110% helvetica_bold, sans-serif;
-  --f-s-bold: normal 0.625rem/110% helvetica_bold, sans-serif;
-  --f-m-light: normal 1.25rem/110% helvetica_light, sans-serif;
+  --f-l-bold: 700  1.875rem/106% Heebo, sans-serif;
+  --f-m-bold: 700 1.25rem/110% Heebo, sans-serif;
+  --f-s-bold: 700 0.625rem/110% Heebo, sans-serif;
+  --f-m-light: 400 1.25rem/110% Heebo, sans-serif;
   /*Abstände*/
   --ga-around: 40px;
   --ga-sml: calc( var(--ga-around) / 2 );

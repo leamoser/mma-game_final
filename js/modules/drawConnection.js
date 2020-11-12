@@ -2,7 +2,6 @@ import { map } from "../modules/map.js";
 
 let drawConnection = (oldLon, oldLat, newLon, newLat, round) =>{
     let layerId = 'route'+round;
-    console.log(layerId)
     if(map){
         map.addSource(layerId, {
             'type': 'geojson',

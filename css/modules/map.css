@@ -1,10 +1,14 @@
 @import "root.css";
 
 .placeDot{
-  width: 7px;
-  height: 7px;
+  width: 0.6em;
+  height: 0.6em;
   background-color: var(--co-hauptfarbe);
   border-radius: 50%;
+}
+
+.placeDotEnd{
+    background-color: var(--co-positiv);
 }
 
 .mapboxgl-ctrl-logo,

@@ -12,12 +12,11 @@ class Place {
         this.placeStart = placeStart;
         this.lat = lat
         this.lon = lon;
-        this.setAsInstance();
     }
     setAsInstance() {
         allPlaces.push(this);
     }
-    placeOnMap() {
+    placeOnMap(type) {
         //VARIANTE 1: Rückgabe im GEOJSON-Format für Mapbox
         // return {
         //     'type': 'Point',
@@ -25,7 +24,10 @@ class Place {
         // }
         //VARIANTE 2: add Marker als HTML Element
         let dot = document.createElement('span');
-        dot.className="placeDot";
+        dot.classList.add("placeDot");
+        if(type === 0){
+            dot.classList.add("placeDotEnd");
+        }
         let marker = new mapboxgl.Marker(dot)
           .setLngLat([this.lon, this.lat])
           .addTo(map);

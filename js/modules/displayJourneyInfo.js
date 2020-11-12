@@ -8,7 +8,7 @@ let displayJourneyInfo = (time, placeStart) => {
     if (stationsContainer.innerHTML == '') {
         placeStartContainer.innerHTML = 'Startort: ' + placeStart + ' (' + time + ')';
         placeStartContainer.setAttribute('data-time', time);
-        placeEndContainer.innerHTML = 'Endort: ' + document.querySelector('#placeEnd').innerHTML;
+        placeEndContainer.innerHTML = 'Zielort: ' + document.querySelector('#placeEnd').innerHTML;
         stationsContainer.innerHTML = 'Deine Reise: ';
     } else {
         stationsContainer.innerHTML += placeStart + ' (' + time + ')' + ', ';
