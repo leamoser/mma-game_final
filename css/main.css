@@ -120,18 +120,19 @@ select.open{
 div.navigation p{
   cursor: pointer;
   position: fixed;
-  color: var(--co-hauptfarbe);
-  background-color: var(--co-negativ);
+  color: var(--co-negativ);
+  background-color: var(--co-akzent-fancy);
   padding: 10px;
   top: 0;
   right: 0;
   margin: 0 0;
   z-index: 3;
+  width: 32px;
   transition: 0.5s;
 }
 div.navigation.open p{
-  background-color: var(--co-hauptfarbe);
-  color: var(--co-negativ);
+  color: var(--co-akzent-fancy);
+  background-color: var(--co-negativ);
 }
 /*Navigationscontainer*/
 div.navigation nav{
@@ -139,8 +140,8 @@ div.navigation nav{
   width: var(--sz-w-screen-fix);
   height: 100vh;
   padding: var(--ga-around);
-  background-color: var(--co-negativ);
-  color: var(--co-hauptfarbe);
+  background-color: var(--co-akzent-fancy);
+  color: var(--co-negativ);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -152,18 +153,6 @@ div.navigation nav{
 div.navigation.open nav{
   transform: translateY(0vh);
 }
-body.play div.navigation p{
-  background-color: var(--co-hauptfarbe);
-  color: var(--co-negativ);
-}
-body.play div.navigation.open p{
-  color: var(--co-hauptfarbe);
-  background-color: var(--co-negativ);
-}
-body.play div.navigation nav{
-  background-color: var(--co-hauptfarbe);
-  color: var(--co-negativ);
-}
 /*Aufbau Nav im Container*/
 div.navigation nav ul{
   list-style-type: none;
@@ -171,12 +160,10 @@ div.navigation nav ul{
 }
 div.navigation nav li{
   font: var(--f-l-bold);
-  color: var(--co-hauptfarbe);
   padding: var(--ga-mini) 0;
 }
 body.play div.navigation nav li{
   font: var(--f-l-bold);
-  color: var(--co-negativ);
 }
 div.navigation nav a{
   color: inherit;
@@ -317,6 +304,7 @@ section#game article#loadMore{
 /*Zwischenscreens*/
 section#game article#ct_gameWon , section#game article#ct_gameLost , section#game article#ct_journeyinfo , section#game article#ct_freeGameWon{
   position: fixed;
+  z-index: 10;
   top: 0;
   padding: 1.5em;
   min-height: 100vh;
@@ -340,6 +328,8 @@ section#game div.ct_connection{
   background-color: var(--co-hauptfarbe);
   color: var(--co-negativ);
   padding: var(--ga-sml);
+}
+section#game div.ct_connection:not(:first-of-type){
   margin-top: var(--ga-mini);
 }
 section#game div.ct_connection div.info_basic{
@@ -347,7 +337,7 @@ section#game div.ct_connection div.info_basic{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: var(--ga-mini);
+  padding: var(--ga-mini) 0;
 }
 section#game button.btn_more{
   background-color: var(--co-hauptfarbe-50);
