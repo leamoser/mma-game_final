@@ -15,6 +15,9 @@ const durationContainer = document.querySelector('#journeyDuration');
 
 // Funktionen
 let displayJourneyInfo = (placeStart, placeEnd, gametype, time, move) => {
+    console.log('Move: '+nthMove);
+    console.log('Gametype: '+gametype);
+
 
     // Wenn Spiel neu gestartet wird, wird placestart und placeend befüllt
     if (move === 0) {
@@ -25,11 +28,13 @@ let displayJourneyInfo = (placeStart, placeEnd, gametype, time, move) => {
     }
 
     // Abfrage, ob Ziel erreicht
-    checkGoal(placeStart, placeEnd, gametype, time, move);
+    checkGoal(placeStart, placeEnd, gametype, time, nthMove);
 
     // Im Freeplay Modus wird Zeit unterwegs berechnet
     if (gametype === 0) {
         durationContainer.innerHTML = calculateDuration(time, placeStartContainer);
+        toggleLayerButtons(0, 0, 0, move);
+
     }
 
     // im Level Modus werden Buttons für Map Layers
@@ -42,6 +47,7 @@ let displayJourneyInfo = (placeStart, placeEnd, gametype, time, move) => {
     if(gametype === '15'){
         toggleLayerButtons(3, 6, 9, move);
     }
+
 
 
 

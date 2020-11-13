@@ -29,12 +29,12 @@ document.addEventListener('DOMContentLoaded', function () {
             let mode = document.querySelector('section#infoscreen').getAttribute('data-level');
             if (mode === 'freeplay') {
                 appendButtonFetchMore(0);
+                checkMode(0);
                 fetchJson('/assets/json/freeplay-places.json', subpage);
 
             } else {
                 //add event listener to btn fetch more
                 appendButtonFetchMore(mode);
-                
                 checkMode(mode);
                 fetchJson('/assets/json/levels-' + mode + '.json', subpage);
             }

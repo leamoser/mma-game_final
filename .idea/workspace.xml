@@ -17,18 +17,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d80584f-ca39-4cf8-b493-b4e6ceed5801" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/modules/appendButtonFetchMore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/modules/toggleLayerButtons.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/appendButtonFetchMore.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/appendButtonFetchMore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/modules/checkGoal.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/checkGoal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/modules/checkMode.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/checkMode.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/modules/displayJourneyInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/displayJourneyInfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/modules/fetchMorePlaces.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/fetchMorePlaces.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/modules/fetchPlace.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/fetchPlace.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modules/getData.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/getData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modules/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/map.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/map.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/fetchStops.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/fetchStops.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +83,7 @@
       <workItem from="1605169568291" duration="42842000" />
       <workItem from="1605225692317" duration="2198000" />
       <workItem from="1605253546441" duration="21598000" />
-      <workItem from="1605278494842" duration="1341000" />
+      <workItem from="1605278494842" duration="6102000" />
     </task>
     <task id="LOCAL-00001" summary="testpush">
       <created>1604850920494</created>
@@ -214,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605271633946</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="finale bug solving">
+      <created>1605279889767</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1605279889767</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +264,8 @@
     <MESSAGE value="container GameLost, GameWon, etc." />
     <MESSAGE value="update mesh" />
     <MESSAGE value="update map darkmode" />
-    <option name="LAST_COMMIT_MESSAGE" value="update map darkmode" />
+    <MESSAGE value="finale bug solving" />
+    <option name="LAST_COMMIT_MESSAGE" value="finale bug solving" />
   </component>
   <component name="WindowStateProjectService">
     <state x="310" y="96" key="#Deployment" timestamp="1604851561707">
@@ -295,18 +300,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="319" y="159" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604851933795" />
-    <state x="106" y="172" key="Vcs.Push.Dialog.v2" timestamp="1605271694431">
+    <state x="106" y="172" key="Vcs.Push.Dialog.v2" timestamp="1605279891969">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="106" y="172" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605271694431" />
+    <state x="106" y="172" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605279891969" />
     <state x="497" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605254110696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="497" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605254110696" />
-    <state x="483" y="59" width="857" height="852" key="find.popup" timestamp="1605279833717">
+    <state x="483" y="59" width="857" height="852" key="find.popup" timestamp="1605284386555">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="59" width="857" height="852" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605279833717" />
+    <state x="483" y="59" width="857" height="852" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605284386555" />
     <state x="492" y="257" key="git4idea.ui.GitUnstashDialog" timestamp="1605196683573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -329,7 +334,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/modules/checkGoal.js</url>
-          <line>11</line>
+          <line>14</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

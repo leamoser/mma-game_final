@@ -3,6 +3,8 @@ import { getData } from "./getData.js";
 import { initCockpit } from "./initCockpit.js";
 import { fetchPlaceEnd } from "./fetchPlaceEnd.js";
 import { wait } from "./wait.js";
+import {breakScreen} from "./breakScreen.js";
+import {nthMove} from "./fetchPlace.js";
 
 
 // Variables
@@ -16,6 +18,7 @@ const freeGameWonContainer = document.querySelector('#ct_freeGameWon');
 let counterWon = 0;
 
 function showContainer(container) {
+    console.log('show ct wir dausgefüht')
     scheduleContainer.classList.add('hide');
     loadMoreContainer.classList.add('hide');
     container.classList.remove('hide');
@@ -36,9 +39,13 @@ buttonsHideOnClick.forEach(button => {
 
 // Funktion
 let checkGoal = (placeStart, placeEnd, gametype, time, move) => {
+    console.log('PlaceStart: '+placeStart);
+    console.log('PlaceEnd: '+placeEnd);
+    console.log(gametype);
     // Prüft, ob Ziel erreicht wurde (freeplay und level modus)
     if (placeStart === placeEnd) {
         if (gametype > 0) {
+            console.log('you won level modus')
             // im levelplay modus
             showContainer(gameWonContainer);
         } else if (gametype === 0) {
@@ -57,6 +64,9 @@ let checkGoal = (placeStart, placeEnd, gametype, time, move) => {
             }
 
         }
+    }else if(placeStart != placeEnd && move>0 ) {
+        // Neuer Ort im Journey Info Break Screen anzeigen
+        breakScreen(placeStart);
     }
     //  Prüft, ob Spiel verloren wurde (Nur für Level Modus)
     if (gametype > 0) {

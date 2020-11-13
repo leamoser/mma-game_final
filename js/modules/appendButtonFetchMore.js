@@ -6,6 +6,7 @@ let buttonLoadMore = document.querySelector('#loadMoreConnections');
 
 let appendButtonFetchMore = (mode) => {
     let gametype = checkMode(mode);
+    console.log(mode)
 
     buttonLoadMore.addEventListener('click', function () {
         let allConns = document.querySelectorAll('button.btn_more');

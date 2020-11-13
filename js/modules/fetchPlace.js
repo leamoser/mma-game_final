@@ -27,6 +27,7 @@ let nthMove = 0;
 
 //Funktion
 let fetchPlace = (placeStart, placeEnd, time, gametype) => {
+    console.log('FetchPlace Gametype: '+gametype);
     allConnections.length = 0;
     document.querySelector('#ct_schedule').innerHTML = '';
 
@@ -74,10 +75,8 @@ let fetchPlace = (placeStart, placeEnd, time, gametype) => {
                 drawConnection(lastPlace.lon, lastPlace.lat, place.lon, place.lat, nthMove);
             }
 
-            // Neuer Ort im Journey Info Break Screen anzeigen
-            if (nthMove > 1) {
-                breakScreen(placeStart);
-            }
+            //Darkmode einstellen
+            darkMode(time);
         })
         .then(() => {
             //Eventlisteners auf alle Orte
@@ -88,9 +87,6 @@ let fetchPlace = (placeStart, placeEnd, time, gametype) => {
                 }, false)
             })
         })
-
-    //Darkmode einstellen
-    darkMode(time);
 }
 
 export { fetchPlace , nthMove };

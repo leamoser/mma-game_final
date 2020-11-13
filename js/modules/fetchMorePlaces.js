@@ -9,6 +9,7 @@ const limit = 5;
 
 //Funktion
 let fetchMorePlaces = (placeStart, placeEnd, time, gametype) => {
+    console.log(gametype)
     allConnections.length = 0;
     //URL
     let url = `https://fahrplan.search.ch/api/stationboard.json?stop=${placeStart}&show_delays=1&limit=${limit}&transportation_types=train&time=${time}&time_type=depart`;

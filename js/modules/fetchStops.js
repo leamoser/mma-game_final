@@ -5,6 +5,7 @@ import { allConnections, Connection } from '../classes/connection.js';
 
 //Funktion
 let fetchStops = (placeStart, placeEnd, time, gametype, finalPlaceEnd) => {
+    console.log(gametype)
     //Container holen
     let parent = event.target.parentElement.parentElement.children[1];
     parent.innerHTML = '';
