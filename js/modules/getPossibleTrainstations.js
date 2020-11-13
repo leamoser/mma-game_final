@@ -1,6 +1,6 @@
 let createOption = (name, select) => {
     if (name != undefined) {
-        let option = document.createElement('option');
+        let option = document.createElement('p');
         option.setAttribute('value', name);
         option.classList.add('possibleStation');
         option.innerHTML = name;
@@ -8,13 +8,13 @@ let createOption = (name, select) => {
     }
 }
 
-
 let getPossibleTrainstations = (event) => {
     const otherParameters = { method: "GET", maxjsonlength: '3' };
     let path = '/assets/json/trainstations.json';
     let allMatchingStations = [];
     let container = event.target.parentElement;
     let select = document.querySelector('#possiblePlaces');
+    let input = event.target.value;
     select.innerHTML = '';
     //Fetch
     fetch(path, otherParameters)
@@ -24,7 +24,6 @@ let getPossibleTrainstations = (event) => {
         //Neuer Dot initialisieren
         .then((data) => {
             allMatchingStations = [];
-            let input = event.target.value;
             if (input.length >= 3) {
                 data.forEach((station) => {
                     if (station.haltestelle.search(new RegExp(input, "i")) != -1) {
@@ -42,14 +41,17 @@ let getPossibleTrainstations = (event) => {
             }
         })
         .then(() => {
-            let optionPlaces = document.querySelectorAll('.possibleStation');
-            optionPlaces.forEach((option) => {
-                option.addEventListener('click', function (event) {
-                    let input = document.querySelector('#inputStartPlace');
-                    input.innerHTML = event.target.value;
-                    input.value = event.target.value;
+            if (input.length >= 3) {
+                let optionPlaces = document.querySelectorAll('.possibleStation');
+                let parent = optionPlaces[0].parentElement;
+                optionPlaces.forEach((option) => {
+                    option.addEventListener('click', function (event) {
+                        let input = document.querySelector('#inputStartPlace');
+                        input.innerHTML = event.target.innerHTML;
+                        input.value = event.target.innerHTML;
+                    })
                 })
-            })
+            }
         })
 }
 export { getPossibleTrainstations };

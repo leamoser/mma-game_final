@@ -3,7 +3,8 @@ import { allConnections, Connection } from '../classes/connection.js';
 import { allPlaces, Place } from '../classes/place.js';
 import { displayJourneyInfo } from '../modules/displayJourneyInfo.js';
 import { drawConnection } from "./drawConnection.js";
-import { breakScreen} from "./breakScreen.js";
+import { breakScreen } from "./breakScreen.js";
+import { darkMode } from "./darkMode.js";
 
 // Wird jedes mal ausgeführt, wenn neuer Ort ausgewählt wurde
 // bei jedem nthMove wird das alles ausgeführt
@@ -32,14 +33,17 @@ let fetchPlace = (placeStart, placeEnd, time, gametype) => {
     // PlaceEnd wird immer aktualisiert, wenn sich Wert im Cockpit ändert
     // (relevant für Freeplay, wo sich PlaceEnd ändert)#
     let placeEndDom = document.querySelector('#placeEndInfo').innerHTML;
-    if(placeEndDom){
-        if(placeEndDom != placeEnd){
+    if (placeEndDom) {
+        if (placeEndDom != placeEnd) {
             placeEnd = document.querySelector('#placeEndInfo').innerHTML;
         }
     }
 
     //Schreiben der Journey-Informationen
     displayJourneyInfo(placeStart, placeEnd, gametype, time, nthMove);
+
+    //Darkmode einstellen
+    darkMode(time);
 
     //URL
     let url = `https://fahrplan.search.ch/api/stationboard.json?stop=${placeStart}&show_delays=1&limit=${limit}&transportation_types=train&time=${time}&time_type=depart`;
@@ -83,7 +87,7 @@ let fetchPlace = (placeStart, placeEnd, time, gametype) => {
             let btnsMore = document.querySelectorAll('.btn_more');
             btnsMore.forEach((btn) => {
                 btn.addEventListener('click', function (event) {
-                    fetchStops(event.target.getAttribute('data-placestart'), event.target.getAttribute('data-placeend'),  event.target.getAttribute('data-time'), gametype, placeEnd);
+                    fetchStops(event.target.getAttribute('data-placestart'), event.target.getAttribute('data-placeend'), event.target.getAttribute('data-time'), gametype, placeEnd);
                 }, false)
             })
         })

@@ -42,3 +42,6 @@ body section.maincontainer a{
 .hide{
     display: none;
 }
+:focus{
+    outline: none;
+}
