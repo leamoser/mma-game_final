@@ -10,6 +10,7 @@ import { displayGameInterface } from './modules/gameInterface.js';
 import { getTime } from './modules/getTime.js';
 import { getPossibleTrainstations } from './modules/getPossibleTrainstations.js';
 import { fetchMorePlaces } from './modules/fetchMorePlaces.js';
+import { checkMode } from './modules/checkMode.js';
 
 
 //VARIABELN************************************************
@@ -47,6 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (mode === 'freeplay') {
                 fetchJson('/assets/json/freeplay-places.json', subpage);
             } else {
+                checkMode(mode);
                 fetchJson('/assets/json/levels-' + mode + '.json', subpage);
             }
             //Event wenn man und los klickt

@@ -14,7 +14,7 @@ let counterWon = 0;
 let checkGoal = (placeStart, placeEnd, gametype, time) => {
     console.log(placeStart, placeEnd)
     if (placeStart === placeEnd) {
-        if (gametype === 1) {
+        if (gametype > 0) {
             // im levelplay modus
             gameWonContainer.classList.remove('hide');
         }else if (gametype === 0){

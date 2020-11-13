@@ -6,7 +6,7 @@ import { fetchPlaceEnd } from './fetchPlaceEnd.js';
 
 let placeStart;
 let placeEnd;
-let gametype; // 0 = freeplay , 1 = levelmodus
+let gametype; // 0 = freeplay , 7 / 11 / 16 = levelmodus
 
 let getData = (subpage, time) => {
     if (subpage.search('freeplay') != -1) {
@@ -16,9 +16,12 @@ let getData = (subpage, time) => {
         gametype = 0;
     } else {
         // Level Modus
+        let levelMode = document.querySelector('#maxTransitions').getAttribute('data-maxtransitions');
+
         placeStart = document.querySelector('#placeStart').innerHTML;
         placeEnd = document.querySelector('#placeEnd').innerHTML;
-        gametype = 1;
+        gametype = levelMode;
+
     }
     // Zielort darstellen
     fetchPlaceEnd(placeEnd);
