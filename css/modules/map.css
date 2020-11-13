@@ -1,6 +1,10 @@
 @import "root.css";
 
 /*DOTS----------------------*/
+@keyframes flashlight {
+    from {border: 1px solid var(--co-negativ);}
+    to {border: 1px solid var(--co-akzent-fancy);}
+  }
 .placeDot{
   width: 0.6em;
   height: 0.6em;
@@ -19,7 +23,11 @@ div.mapboxgl-canvas-container span{
 }
 div.mapboxgl-canvas-container :last-child{
     opacity: 1;
+    width: 0.9em;
+    height: 0.9em;
+    animation: flashlight 0.5s ease 0s infinite alternate;
 }
+
 /*CONTAINER-------------------*/
 div#map{
     width: 100vw; 
@@ -33,15 +41,19 @@ div#map{
 .mapboxgl-canvas:focus{
     outline: none;
 }
+article.ct_map{
+    overflow-x: hidden;
+}
 div#map{
     transform: scale(1.1);
     overflow-x: hidden;
 }
+
 /*BUTTONS--------------------*/
 #mapButtons{
     position: absolute;
     width: var(--sz-w-minusgaps);
-    margin: -50px var(--ga-around) 0 var(--ga-around);
+    margin: -60px var(--ga-sml) 0 var(--ga-sml);
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
