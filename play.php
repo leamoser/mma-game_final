@@ -47,10 +47,6 @@ $b2_text = 'und los...';
                 <p id="placeStartInfo"></p>
             </div>
             <div id="journeyInfo">
-                <div>
-                    <span class="indicator"></span>
-                    <p id="placeCurrentInfo"></p>
-                </div>
             </div>
             <div>
                 <span class="indicator"></span>

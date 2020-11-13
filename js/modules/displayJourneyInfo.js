@@ -15,8 +15,8 @@ const durationContainer = document.querySelector('#journeyDuration');;
 let displayJourneyInfo = (placeStart, placeEnd, gametype, time, nthMove) => {
     // Wenn Spiel neu gestartet wird, wird placestart und placeend befüllt
     if (nthMove === 0) {
-        initCockpit(time, placeStart , placeEnd);
-    } else if(nthMove > 0){
+        initCockpit(time, placeStart, placeEnd);
+    } else if (nthMove > 0) {
         //Bei jedem Spielzug wird 'Deine Reise' erweitert (ausser beim ersten Spielzug)
         updateCockpit(time, placeStart);
     }
