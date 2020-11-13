@@ -25,6 +25,7 @@ div.mapboxgl-canvas-container :last-child{
     opacity: 1;
     width: 0.9em;
     height: 0.9em;
+    border: 1px solid var(--co-negativ);
     animation: flashlight 0.5s ease 0s infinite alternate;
 }
 
@@ -67,7 +68,7 @@ div#map{
     background-color: var(--co-negativ);
     border: 2px solid var(--co-hauptfarbe);
 }
-#mapButtons div:first-of-type{
+#mapButtons div:not(:last-of-type){
     margin-right: 10px;
 }
 #map{

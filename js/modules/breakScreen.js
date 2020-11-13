@@ -1,17 +1,31 @@
-import {wait} from "./wait.js";
+import { wait } from "./wait.js";
 
 // Variablen
-let ct_journeyinfo = document.querySelector('#ct_journeyinfo>h2');
+const ct_journeyinfo = document.querySelector('#ct_journeyinfo>h2');
+const loadMoreContainer = document.querySelector('#loadMore');
+const scheduleContainer = document.querySelector('#ct_schedule');
 
 // Methoden
-let breakScreen = (place) => {
+function showContainer(container) {
+    scheduleContainer.classList.add('hide');
+    loadMoreContainer.classList.add('hide');
+    container.classList.remove('hide');
+}
 
+function showSchedule() {
+    scheduleContainer.classList.remove('hide');
+    loadMoreContainer.classList.remove('hide');
+}
+
+
+let breakScreen = (place) => {
     ct_journeyinfo.innerHTML = "Du fährst nach " + place;
-    ct_journeyinfo.parentNode.classList.remove('hide');
-    wait(1000).then(() => {
+    showContainer(ct_journeyinfo.parentNode);
+    wait(2000).then(() => {
         ct_journeyinfo.parentNode.classList.add('hide');
+        showSchedule();
     });
 }
 
 
-export {  breakScreen };
+export { breakScreen };

@@ -46,18 +46,12 @@ $b2_text = 'und los...';
                 <p id="placeEndInfo"></p>
             </div>
         </div>
+        <hr>
     </article>
     <article id="ct_cockpit_added">
         <p id="journeyDuration"></p>
     </article>
     <?php include('templates/map.php') ?>
-    <article id="ct_schedule">
-    </article>
-    <article id="loadMore">
-        <button class="full" id="loadMoreConnections">
-            <p>+</p>
-        </button>
-    </article>
     <article id="ct_journeyinfo" class="hide">
         <h2></h2>
         <img src="assets/icons/trainIcon.svg" alt="train icon">
@@ -80,6 +74,13 @@ $b2_text = 'und los...';
     <article id="ct_gameWon" class="hide">
         <h2>Du hast gewonnen!</h2>
         <h3>Du bist ein Traingame Meister :)</h3>
+    </article>
+    <article id="ct_schedule">
+    </article>
+    <article id="loadMore">
+        <button class="full" id="loadMoreConnections">
+            <p>+</p>
+        </button>
     </article>
 </section>
 <?php include('templates/foot.php') ?>

@@ -24,7 +24,7 @@
   --ga-around: 40px;
   --ga-sml: calc( var(--ga-around) / 2 );
   --ga-mini: 7px;
-  --ga-buttons: 10px;
+  --ga-buttons: 12px;
   /*Grössen*/
   --sz-w-screen-fix: 100vw;
   --sz-w-screen: 414px;
@@ -33,6 +33,20 @@
   --sz-h-minusgaps: calc( 100vh - calc( var(--ga-around) * 2 ) );
   /*Grids*/
   --gr-dreier: repeat(3, 1fr);
+}
+
+/*ANIMATIONEN*********************************/
+@keyframes flashlight {
+  from {border: 1px solid var(--co-negativ);}
+  to {border: 1px solid var(--co-akzent-fancy);}
+}
+@keyframes trainmove {
+  from {
+    transform: translateX(-200vw);
+  }
+  to {
+    transform: translateX(100vw);
+  }
 }
 
 /*ALLGEMEIN***********************************/
@@ -69,6 +83,10 @@ input[type="submit"]{
   background-color: var(--co-akzent-fancy);
   color: var(--co-negativ);
 }
+button p{
+  padding: 0 0;
+  margin: 0 0;
+}
 button.full p{
   font: var(--f-l-bold);
 }
@@ -82,10 +100,12 @@ section.maincontainer{
 }
 /*Buttons auf der ganzen Seite*/
 button{
+  cursor: pointer;
   padding: var(--ga-buttons) 0;
 }
 input[type="submit"]{
-  padding: calc( var(--ga-buttons) + 7px ) 0 var(--ga-buttons) 0;
+  cursor: pointer;
+  padding: var(--ga-buttons) 0;
 }
 button.full{
   cursor: pointer;
@@ -220,6 +240,9 @@ section#infoscreen #infoscreen_flex{
 section#infoscreen div.infobox{
   padding-bottom: var(--ga-sml);
 }
+section#infoscreen div.infobox :first-child{
+  color: var(--co-hauptfarbe);
+}
 section#infoscreen div.infobox :last-child{
   color: var(--co-hauptfarbe-50);
 }
@@ -272,6 +295,7 @@ section#game article{
 }
 
 /*Cockpit*/
+/*Basics*/
 section#game article#ct_cockpit{
   margin-top: calc( var(--ga-around) * -1 );
   padding: calc( var(--ga-around) * 1.5 ) calc( var(--ga-around) / 2 ) calc( var(--ga-around) / 2 ) calc( var(--ga-around) / 2 );
@@ -282,7 +306,9 @@ section#game article#ct_cockpit p,
 section#game article#ct_cockpit_added p{
   font: var(--f-s-bold);
   width: 100%;
+  white-space: nowrap;
 }
+/*Button*/
 section#game article#ct_cockpit span.indicator{
   background-color: var(--co-negativ);
   width: 10px;
@@ -291,19 +317,61 @@ section#game article#ct_cockpit span.indicator{
   display: block;
   margin: 0 auto;
 }
+/*Box für Inhalte*/
 section#game article#ct_cockpit div.timespan{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  position: relative;
+  z-index: 1;
 }
+section#game article#ct_cockpit div.timespan::-webkit-scrollbar{
+  display: none;
+}
+section#game article#ct_cockpit div#journeyInfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: auto;
+}
+/*Linie*/
+article#ct_cockpit hr{
+  width: calc( 100vw - calc( var(--ga-sml) * 2 ) );
+  position: absolute;
+  border: none;
+  border-bottom: 1px solid var(--co-negativ);
+  margin-top: -28px;
+  z-index: 0;
+}
+/*Alle Einzelnen Orte*/
 section#game article#ct_cockpit div.timespan div{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
-  text-align: center;
+  align-items: center;
   width: auto;
+}
+/*Einzelne Orte*/
+section#game article#ct_cockpit div#journeyInfo div{
+  width: 100%;
+  padding: 0 10px;
+}
+section#game article#ct_cockpit div#journeyInfo div:last-of-type span{
+  background-color: var(--co-hauptfarbe);
+  border: 1px solid var(--co-negativ);
+  animation: flashlight 0.5s ease 0s infinite alternate;
+}
+/*Modifikationen*/
+section#game article#ct_cockpit div.timespan div:first-of-type{
+  align-items: flex-start;
+}
+section#game article#ct_cockpit div.timespan div:last-of-type{
+  align-items: flex-end;
 }
 section#game article#ct_cockpit div.timespan>div:last-of-type p{
   color: var(--co-akzent-fancy);
@@ -311,6 +379,7 @@ section#game article#ct_cockpit div.timespan>div:last-of-type p{
 section#game article#ct_cockpit div.timespan>div:last-of-type span{
   background-color: var(--co-akzent-fancy);
 }
+/*Zusatz-Infos*/
 section#game article#ct_cockpit_added{
   padding: 5px calc( var(--ga-around) / 2 );
   background-color: var(--co-akzent-fancy);
@@ -325,16 +394,32 @@ section#game article#loadMore{
 }
 
 /*Zwischenscreens*/
-section#game article#ct_gameWon , section#game article#ct_gameLost , section#game article#ct_journeyinfo , section#game article#ct_freeGameWon{
-  position: fixed;
-  z-index: 10;
-  top: 0;
-  padding: 1.5em;
-  min-height: 100vh;
+section#game article#ct_gameWon, 
+section#game article#ct_gameLost, 
+section#game article#ct_journeyinfo, 
+section#game article#ct_freeGameWon{
+  position: absolute;
+  z-index: 1;
+  padding: var(--ga-around);
+  height: 50vh;
+  overflow-y: hidden;
+  color: var(--co-negativ);
 }
+/*Journey-Info*/
+
 section#game article#ct_journeyinfo{
   background-color: var(--co-hauptfarbe-50);
 }
+section#game article#ct_journeyinfo h2{
+  padding-bottom: var(--ga-around);
+}
+section#game article#ct_journeyinfo img{
+  filter: invert(100);
+  width: 200vw;
+  animation: trainmove 2.4s ease 0s infinite alternate;
+}
+
+/*Gewonnen*/
 section#game article#ct_gameWon{
   background-color: var(--co-akzent-pos);
 }
@@ -398,4 +483,16 @@ section#game button.btnPlace{
 section#game button.btnPlace:last-child{
   background-color: var(--co-negativ);
   color: var(--co-hauptfarbe);
+}
+
+
+/*INHALTSSEITEN******************************/
+section.maincontainer#contentpage{
+  color: var(--co-negativ);
+}
+section.maincontainer#contentpage img{
+  width: 100%;
+}
+section.maincontainer#contentpage p{
+  padding: var(--ga-mini) 0;
 }

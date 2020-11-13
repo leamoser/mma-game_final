@@ -1,7 +1,8 @@
-import {destinations} from "./fetchJson.js";
-import {getData} from "./getData.js";
-import {initCockpit} from "./initCockpit.js";
-import {fetchPlaceEnd} from "./fetchPlaceEnd.js";
+import { destinations } from "./fetchJson.js";
+import { getData } from "./getData.js";
+import { initCockpit } from "./initCockpit.js";
+import { fetchPlaceEnd } from "./fetchPlaceEnd.js";
+import { wait } from "./wait.js";
 
 
 // Variables
@@ -14,15 +15,15 @@ const gameLostSpanMsg = document.querySelector('#gameLostMaxTrans');
 const freeGameWonContainer = document.querySelector('#ct_freeGameWon');
 let counterWon = 0;
 
-function showContainer(container){
+function showContainer(container) {
     scheduleContainer.classList.add('hide');
     loadMoreContainer.classList.add('hide');
     container.classList.remove('hide');
 }
 
-function showSchedule(){
+function showSchedule() {
     scheduleContainer.classList.remove('hide');
-    loadMoreContainer.classList.remove('hide')
+    loadMoreContainer.classList.remove('hide');
 }
 
 let buttonsHideOnClick = document.querySelectorAll('.hideOnClick');
@@ -40,10 +41,10 @@ let checkGoal = (placeStart, placeEnd, gametype, time, nthMove) => {
         if (gametype > 0) {
             // im levelplay modus
             showContainer(gameWonContainer);
-        }else if (gametype === 0){
+        } else if (gametype === 0) {
             // im freeplay modus
             counterWon++;
-            if(destinations[counterWon].destination){
+            if (destinations[counterWon].destination) {
                 showContainer(freeGameWonContainer);
                 // Break Screen  befüllen
                 document.querySelector('#placeEndNew').innerHTML = destinations[counterWon].destination;
@@ -51,15 +52,15 @@ let checkGoal = (placeStart, placeEnd, gametype, time, nthMove) => {
 
                 // Cockpit neu laden
                 initCockpit(time, placeStart, destinations[counterWon].destination)
-            }else{
+            } else {
                 showContainer(gameWonContainer);
             }
 
         }
     }
     //  Prüft, ob Spiel verloren wurde (Nur für Level Modus)
-    if(gametype > 0){
-        if( nthMove >= gametype){
+    if (gametype > 0) {
+        if (nthMove >= gametype) {
             showContainer(gameLostContainer);
             gameLostSpanMsg.innerHTML = nthMove;
         }
@@ -67,4 +68,4 @@ let checkGoal = (placeStart, placeEnd, gametype, time, nthMove) => {
 
 }
 
-export {checkGoal};
+export { checkGoal };

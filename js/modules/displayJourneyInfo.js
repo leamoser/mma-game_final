@@ -18,7 +18,7 @@ let displayJourneyInfo = (placeStart, placeEnd, gametype, time, nthMove) => {
         initCockpit(time, placeStart, placeEnd);
     } else if (nthMove > 0) {
         //Bei jedem Spielzug wird 'Deine Reise' erweitert (ausser beim ersten Spielzug)
-        updateCockpit(time, placeStart);
+        updateCockpit(placeStart);
     }
 
     // Im Freeplay Modus wird Zeit unterwegs berechnet

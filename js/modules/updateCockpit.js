@@ -1,12 +1,21 @@
-let writeContainer = (time, placeStart) => {
-    console.log('write');
+let writeContainer = (placeStart, journeyInfoContainer) => {
+    //Hauptcontainer
+    let newCockpitDot = document.createElement('div');
+    //Dot
+    let newInidcator = document.createElement('span');
+    newInidcator.classList.add('indicator');
+    newCockpitDot.appendChild(newInidcator);
+    //Container
+    let newOrt = document.createElement('p');
+    newOrt.innerHTML = placeStart;
+    newCockpitDot.appendChild(newOrt);
+    //Hauptcontainer anschliessen
+    journeyInfoContainer.appendChild(newCockpitDot);
 }
 
-let updateCockpit = (time, placeStart) => {
+let updateCockpit = (placeStart) => {
     let journeyInfoContainer = document.querySelector('#journeyInfo');
-    console.log(journeyInfoContainer);
-    writeContainer(time, placeStart);
-    // stationsContainer.innerHTML += placeStart + ',' + time + ')' + ', ';
+    writeContainer(placeStart, journeyInfoContainer);
 }
 
 export { updateCockpit };
