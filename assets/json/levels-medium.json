@@ -1,0 +1,12 @@
+{
+    "connections": [
+        {
+            "placeStart": "Grenchen",
+            "placeEnd": "Lugano"
+        },
+        {
+            "placeStart": "Airolo",
+            "placeEnd": "Lausanne"
+        }
+    ]
+}

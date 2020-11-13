@@ -1,0 +1,12 @@
+{
+    "connections": [
+        {
+            "placeStart": "Biel",
+            "placeEnd": "Innertkirchen MIB"
+        },
+        {
+            "placeStart": "Wil SG",
+            "placeEnd": "Chénens"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "connections": [
+        {
+            "placeStart": "Schaffhausen",
+            "placeEnd": "Wittenbach"
+        },
+        {
+            "placeStart": "Zürich",
+            "placeEnd": "Gossau SG"
+        }
+    ]
+}
