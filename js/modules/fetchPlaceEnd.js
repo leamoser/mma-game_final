@@ -8,7 +8,6 @@ const limit = 1;
 
 //Funktion
 let fetchPlaceEnd = (placeEnd) => {
-    console.log(placeEnd)
     //URL
     let url = `https://fahrplan.search.ch/api/stationboard.json?stop=${placeEnd}&show_delays=1&limit=${limit}&transportation_types=train`;
     //Fetch

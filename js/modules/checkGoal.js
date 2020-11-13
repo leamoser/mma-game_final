@@ -1,6 +1,7 @@
 import {destinations} from "./fetchJson.js";
 import {getData} from "./getData.js";
 import {initCockpit} from "./initCockpit.js";
+import {fetchPlaceEnd} from "./fetchPlaceEnd.js";
 
 
 // Variables
@@ -11,6 +12,7 @@ let counterWon = 0;
 
 // Funktion
 let checkGoal = (placeStart, placeEnd, gametype, time) => {
+    console.log(placeStart, placeEnd)
     if (placeStart === placeEnd) {
         if (gametype === 1) {
             // im levelplay modus
@@ -22,6 +24,8 @@ let checkGoal = (placeStart, placeEnd, gametype, time) => {
                 freeGameWonContainer.classList.remove('hide');
                 // Break Screen  befüllen
                 document.querySelector('#placeEndNew').innerHTML = destinations[counterWon].destination;
+                fetchPlaceEnd(destinations[counterWon].destination);
+
                 // Cockpit neu laden
                 initCockpit(time, placeStart, destinations[counterWon].destination)
             }else{
