@@ -29,12 +29,17 @@ document.addEventListener('DOMContentLoaded', function () {
         buttonLoadMore.addEventListener('click', function () {
             let allConns = document.querySelectorAll('button.btn_more');
             allConns[allConns.length - 1].getAttribute('data-placestart');
-            fetchMorePlaces(allConns[allConns.length - 1].getAttribute('data-placestart'), document.querySelector('p#placeEndInfo').innerHTML, allConns[allConns.length - 1].getAttribute('data-time'));
+            if (subpage.search('freeplay') != -1) {
+                fetchMorePlaces(allConns[allConns.length - 1].getAttribute('data-placestart'), document.querySelector('p#placeEndInfo').innerHTML, allConns[allConns.length - 1].getAttribute('data-time'), 0);
+            } else if (subpage.search('play') != -1) {
+                fetchMorePlaces(allConns[allConns.length - 1].getAttribute('data-placestart'), document.querySelector('p#placeEndInfo').innerHTML, allConns[allConns.length - 1].getAttribute('data-time'), 1);
+            }
         })
     }
 
     //INIT*************************************************
     let init = () => {
+
         //Gamemodus
         if (subpage.search('play') != -1) {
             //Laden von Orten mit JSON wenn richtige Unterseite
