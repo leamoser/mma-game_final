@@ -1,11 +1,10 @@
-const whatpage = window.location.pathname;
 let map;
 const btnLayerHills = document.querySelector('#mapButtonMountain');
 const btnLayerWater = document.querySelector('#mapButtonWater');
 let buttonsMap = [btnLayerHills, btnLayerWater];
 
-if (whatpage.search('play') != -1) {
   //Map
+let initMap = () => {
   mapboxgl.accessToken = 'pk.eyJ1IjoiYWxpY2VtbWFyaWUiLCJhIjoiY2tlc2gxZHgwM2JubzJ5bnB5dHYzeGR1diJ9.1wrlj5nw4_9Kt9TaqH91QA';
   let bounds = [
     [5.5, 45.5], // Southwest coordinates
@@ -25,11 +24,10 @@ if (whatpage.search('play') != -1) {
   map.scrollZoom.enable();
 
   map.on('load', function () {
-
     map.setLayoutProperty('hillshade', 'visibility', 'none');
     map.setLayoutProperty('wasser', 'visibility', 'none');
     map.setLayoutProperty('schweiz_overlay_dark', 'visibility', 'none');
-
+    map.setLayoutProperty('schweiz_fill dark', 'visibility', 'none');
   })
 
   buttonsMap.forEach(btn => {
@@ -53,16 +51,18 @@ if (whatpage.search('play') != -1) {
     }
   }
 
-  function switchDarkMode(){
-    if(visibility === 'none'){
-      map.setLayoutProperty('schweiz_overlay_dark', 'visibility', 'visible');
-    }else{
-      map.setLayoutProperty('schweiz_overlay_dark', 'visibility', 'none');
-    }
-  }
-
-} else {
-  map = null;
 }
 
-export { map };
+function switchDarkMode(mode){
+    if(mode === 'dark'){
+      map.setLayoutProperty('schweiz_overlay_dark', 'visibility', 'visible');
+      map.setLayoutProperty('schweiz_fill dark', 'visibility', 'visible');
+    }else if(mode === 'light'){
+      map.setLayoutProperty('schweiz_overlay_dark', 'visibility', 'none');
+      map.setLayoutProperty('schweiz_fill dark', 'visibility', 'none');
+    }
+
+}
+
+
+export { initMap , map, switchDarkMode};

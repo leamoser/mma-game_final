@@ -11,6 +11,7 @@ import { getTime } from './modules/getTime.js';
 import { getPossibleTrainstations } from './modules/getPossibleTrainstations.js';
 import { fetchMorePlaces } from './modules/fetchMorePlaces.js';
 import { checkMode } from './modules/checkMode.js';
+import { initMap } from './modules/map.js';
 
 
 //VARIABELN************************************************
@@ -51,6 +52,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 getData(subpage, getTime());
                 displayGameInterface();
             })
+
+            initMap();
+
         }
         if (subpage.search('freeplay') != -1) {
             let inputField = document.querySelector('input#inputStartPlace');
