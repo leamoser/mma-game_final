@@ -62,6 +62,15 @@ document.addEventListener('DOMContentLoaded', function () {
         navtoggle.addEventListener('click', function () {
             loadNav(event);
         }, false);
+        //Fix Height Issue
+        let fixHeightIssue = () => {
+            let vh = window.innerHeight * 0.01;
+            document.documentElement.style.setProperty('--vh-calc', `${vh}px`);
+        }
+        window.addEventListener('resize', () => {
+            fixHeightIssue();
+        });
+        fixHeightIssue();
 
     }
     init();

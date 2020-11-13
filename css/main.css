@@ -31,6 +31,7 @@
   --sz-w-minusgaps-fix: calc( var(--sz-w-screen-fix) - calc( var(--ga-around) * 2 ) );
   --sz-w-minusgaps: calc( var(--sz-w-screen) - calc( var(--ga-around) * 2 ) );
   --sz-h-minusgaps: calc( 100vh - calc( var(--ga-around) * 2 ) );
+  --sz-h-minusgaps: calc( calc(var(--vh-calc, 1vh) * 100) - calc( var(--ga-around) * 2 ) );
   /*Grids*/
   --gr-dreier: repeat(3, 1fr);
 }
@@ -95,6 +96,7 @@ section.maincontainer{
   max-width: var(--sz-w-screen);
   width: 100%;
   min-height: 100vh;
+  min-height: calc(var(--vh-calc, 1vh) * 100);
   height: auto;
   padding: var(--ga-around);
 }
@@ -151,6 +153,7 @@ div.navigation nav{
   max-width: var(--sz-w-screen);
   width: var(--sz-w-screen-fix);
   height: 100vh;
+  height: calc(var(--vh-calc, 1vh) * 100);
   padding: var(--ga-around);
   background-color: var(--co-akzent-fancy);
   color: var(--co-negativ);
@@ -283,7 +286,6 @@ section#infoscreen div#possiblePlaces p{
 
 /*Gamecontainer*/
 section#game{
-  padding-bottom: 0;
   display: block;
   height: auto;
 }
@@ -392,7 +394,7 @@ section#game article#ct_cockpit_added{
 
 /*Load More Button*/
 section#game article#loadMore{
-  padding: var(--ga-around);
+  padding: var(--ga-around) var(--ga-around) 0 var(--ga-around);
 }
 
 /*Zwischenscreens*/
@@ -404,7 +406,9 @@ section#game article#ct_freeGameWon{
   z-index: 1;
   padding: var(--ga-around);
   height: 50vh;
+  height: calc(var(--vh-calc, 1vh) * 50);
   overflow-y: hidden;
+  overflow-x: hidden;
   color: var(--co-negativ);
 }
 /*Journey-Info*/

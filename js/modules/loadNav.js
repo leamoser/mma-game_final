@@ -3,9 +3,11 @@ let loadNav = (event) => {
     if (navcontainer.classList.contains('open')) {
         navcontainer.classList.remove('open');
         event.target.innerHTML = '=';
+        document.querySelector('main').style.overflowY = 'hidden';
     } else {
         navcontainer.classList.add('open');
         event.target.innerHTML = '  X  ';
+        document.querySelector('main').style.overflowY = '';
     }
 }
 export { loadNav };
