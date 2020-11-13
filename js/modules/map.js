@@ -28,6 +28,7 @@ if (whatpage.search('play') != -1) {
 
     map.setLayoutProperty('hillshade', 'visibility', 'none');
     map.setLayoutProperty('wasser', 'visibility', 'none');
+    map.setLayoutProperty('schweiz_overlay_dark', 'visibility', 'none');
 
   })
 
@@ -51,6 +52,15 @@ if (whatpage.search('play') != -1) {
       map.setLayoutProperty(layer, 'visibility', 'none');
     }
   }
+
+  function switchDarkMode(){
+    if(visibility === 'none'){
+      map.setLayoutProperty('schweiz_overlay_dark', 'visibility', 'visible');
+    }else{
+      map.setLayoutProperty('schweiz_overlay_dark', 'visibility', 'none');
+    }
+  }
+
 } else {
   map = null;
 }

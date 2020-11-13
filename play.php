@@ -58,6 +58,9 @@ $b2_text = 'und los...';
             </div>
         </div>
     </article>
+    <article id="ct_cockpit_added">
+        <p id="availableMoves"></p>
+    </article>
     <?php include('templates/map.php') ?>
     <article id="ct_schedule">
     </article>
@@ -68,6 +71,7 @@ $b2_text = 'und los...';
     </article>
     <article id="ct_journeyinfo" class="hide">
         <h2></h2>
+        <img src="assets/icons/trainIcon.svg" alt="train icon">
     </article>
     <article id="ct_gameWon" class="hide">
         <h2>Du hast gewonnen!</h2>

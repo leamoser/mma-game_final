@@ -51,7 +51,7 @@ $b2_text = 'und los...';
             </div>
         </div>
     </article>
-    <article id="ct_duration">
+    <article id="ct_cockpit_added">
         <p id="journeyDuration"></p>
     </article>
     <?php include('templates/map.php') ?>
