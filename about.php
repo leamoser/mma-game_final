@@ -1,7 +1,6 @@
 <?php include('templates/head.php') ?>
 <section class="maincontainer" id="contentpage">
-    <article>
-        <h1>About</h1>
-    </article>
+    <h2>About</h2>
+    <p>Alice</p>
 </section>
 <?php include('templates/foot.php') ?>
