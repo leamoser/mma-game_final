@@ -174,8 +174,10 @@ div.navigation nav li{
   font: var(--f-l-bold);
   padding: var(--ga-mini) 0;
 }
-body.play div.navigation nav li{
-  font: var(--f-l-bold);
+div.navigation nav li.sml{
+  font: var(--f-m-bold);
+  position: absolute;
+  bottom: var(--ga-around);
 }
 div.navigation nav a{
   color: inherit;
@@ -406,7 +408,6 @@ section#game article#ct_freeGameWon{
   color: var(--co-negativ);
 }
 /*Journey-Info*/
-
 section#game article#ct_journeyinfo{
   background-color: var(--co-hauptfarbe-50);
 }
@@ -490,9 +491,33 @@ section#game button.btnPlace:last-child{
 section.maincontainer#contentpage{
   color: var(--co-negativ);
 }
+section.maincontainer#contentpage a{
+  text-decoration: underline;
+}
+section.maincontainer#contentpage a:hover{
+  text-decoration: none;
+}
 section.maincontainer#contentpage img{
   width: 100%;
 }
 section.maincontainer#contentpage p{
-  padding: var(--ga-mini) 0;
+  font-size: 1rem;
+  padding: 0 0;
+}
+section.maincontainer#contentpage h2{
+  margin: 0 0;
+  padding: 25px 0 3px 0;
+  font: var(--f-m-bold);
+}
+section.maincontainer#contentpage h3{
+  margin: 0 0;
+  padding: 8px 0 3px 0;
+  font: var(--f-m-bold);
+  font-size: 1rem;
+  color: var(--co-akzent-fancy);
+}
+section.maincontainer#contentpage ul li{
+  font: var(--f-m-light);
+  font-size: 1rem;
+  padding: 5px 0;
 }

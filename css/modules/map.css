@@ -74,6 +74,8 @@ div#map{
 #map{
     cursor: pointer;
     z-index: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 /*ICONs---------------------*/
