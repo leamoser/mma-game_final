@@ -29,8 +29,6 @@ let fetchJson = (path, subpage) => {
                 let index = getRandomValue(data.connections.length);
                 let placeStart = data.connections[index]['placeStart'];
                 let placeEnd = data.connections[index]['placeEnd'];
-
-
                 placeStartContainer.innerHTML = placeStart;
                 placeEndContainer.innerHTML = placeEnd;
             }

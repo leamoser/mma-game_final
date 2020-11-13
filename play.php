@@ -5,7 +5,6 @@ $startort = 'Dein Startort ist:';
 $zielort = 'Dein Zielort ist:';
 $b1_text = 'Anderer Zielort';
 $b2_text = 'und los...';
-$explainer = 'Um diesen Ort zu erreichen brauchst du mindestens 2 Umstiege und hast maximal 10 Umstiege zur Verfügung.';
 ?>
 
 <?php include('templates/head.php') ?>
@@ -24,7 +23,9 @@ $explainer = 'Um diesen Ort zu erreichen brauchst du mindestens 2 Umstiege und h
                 <h2><?php echo $zielort ?></h2>
                 <h3 id="placeEnd">...</h3>
             </div>
-            <p><?php echo $explainer ?></p>
+            <p>
+                Um diesen Ort zu erreichen hast du maximal <span id="maxTransitions"></span> Umstiege zur Verfügung.
+            </p>
         </article>
         <article>
             <button class="full" id="placeNew">
