@@ -1,8 +1,8 @@
 import { map } from "../modules/map.js";
 
-let drawConnection = (oldLon, oldLat, newLon, newLat, round) =>{
-    let layerId = 'route'+round;
-    if(map){
+let drawConnection = (oldLon, oldLat, newLon, newLat, round) => {
+    let layerId = 'route' + round;
+    if (map) {
         map.addSource(layerId, {
             'type': 'geojson',
             'data': {
@@ -26,7 +26,7 @@ let drawConnection = (oldLon, oldLat, newLon, newLat, round) =>{
                 'line-cap': 'round'
             },
             'paint': {
-                'line-color': '#27348B',
+                'line-color': '#E84646',
                 'line-width': 1
             }
         });

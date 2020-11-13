@@ -8,7 +8,17 @@
   border-radius: 50%;
 }
 .placeDotEnd{
-    background-color: var(--co-positiv);
+    background-color: var(--co-akzent-fancy);
+    opacity: 1 !important;
+}
+div.mapboxgl-canvas-container span.old{
+    opacity: 0.2;
+}
+div.mapboxgl-canvas-container span{
+    opacity: 0.5;
+}
+div.mapboxgl-canvas-container :last-child{
+    opacity: 1;
 }
 /*CONTAINER-------------------*/
 div#map{
@@ -23,8 +33,9 @@ div#map{
 .mapboxgl-canvas:focus{
     outline: none;
 }
-canvas.mapboxgl-canvas{
-    width: 100vw;
+div#map{
+    transform: scale(1.1);
+    overflow-x: hidden;
 }
 /*BUTTONS--------------------*/
 #mapButtons{
