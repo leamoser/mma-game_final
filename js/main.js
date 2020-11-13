@@ -19,12 +19,6 @@ const navtoggle = document.querySelector('#nav_toggle');
 
 //AUSFÜHRUNG***********************************************
 document.addEventListener('DOMContentLoaded', function () {
-    let buttonsHideOnClick = document.querySelectorAll('.hideOnClick');
-    buttonsHideOnClick.forEach(button => {
-        button.onclick = function () {
-            button.parentElement.classList.add('hide');
-        }
-    })
     let buttonLoadMore = document.querySelector('#loadMoreConnections');
     if (buttonLoadMore) {
         buttonLoadMore.addEventListener('click', function () {

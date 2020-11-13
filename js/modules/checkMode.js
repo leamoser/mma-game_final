@@ -9,8 +9,8 @@ let checkMode  = (mode) => {
         maxTransitionContainer.innerHTML = '11';
 
     }else if(mode === 'hard'){
-        maxTransitionContainer.setAttribute('data-maxTransitions', '16')
-        maxTransitionContainer.innerHTML = '16';
+        maxTransitionContainer.setAttribute('data-maxTransitions', '15')
+        maxTransitionContainer.innerHTML = '15';
     }
 }
 

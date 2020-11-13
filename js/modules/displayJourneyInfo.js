@@ -27,7 +27,7 @@ let displayJourneyInfo = (placeStart, placeEnd, gametype, time, nthMove) => {
     }
 
     // Abfrage, ob Ziel erreicht
-    checkGoal(placeStart, placeEnd, gametype, time);
+    checkGoal(placeStart, placeEnd, gametype, time, nthMove);
 
 }
 export { displayJourneyInfo };

@@ -32,9 +32,7 @@ let fetchPlace = (placeStart, placeEnd, time, gametype) => {
     // PlaceEnd wird immer aktualisiert, wenn sich Wert im Cockpit ändert
     // (relevant für Freeplay, wo sich PlaceEnd ändert)#
     let placeEndDom = document.querySelector('#placeEndInfo').innerHTML;
-    console.log(placeEndDom)
     if(placeEndDom){
-        console.log('ist nicht null')
         if(placeEndDom != placeEnd){
             placeEnd = document.querySelector('#placeEndInfo').innerHTML;
         }
