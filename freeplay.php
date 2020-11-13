@@ -13,12 +13,12 @@ $b2_text = 'und los...';
             <div class="infobox">
                 <h2><?php echo $startort ?></h2>
                 <input type="text" placeholder="<?php echo $startort_placeholder ?>" name="startPlace" id="inputStartPlace" autocomplete="off">
-                <select id="possiblePlaces" name="possiblePlaces" size="5"></select>
-            </div>
-            <div class="infobox">
-                <h2><?php echo $zielort ?></h2>
-                <h3 id="placeEnd">...</h3>
-            </div>
+                <div id="possiblePlaces" name="possiblePlaces">
+                </div>
+                <div class="infobox">
+                    <h2><?php echo $zielort ?></h2>
+                    <h3 id="placeEnd">...</h3>
+                </div>
         </article>
         <article>
             <button class="full" id="placeNew">

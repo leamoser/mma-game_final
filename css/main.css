@@ -106,14 +106,6 @@ input[type="text"]{
   border-radius: 0;
   overflow: visible;
 }
-select{
-  width: 100%;
-  background-color: red;
-  display: none;
-}
-select.open{
-  display: block;
-}
 
 /*NAVIGATION*****************************************/
 /*Toggle*/
@@ -207,6 +199,8 @@ section#choosemode div.flex input[type="submit"]{
 }
 
 /*Freeplay UND Play******************************************/
+/*Freeplay UND Play******************************************/
+
 /*Infoscreeen*/
 section#infoscreen{
   background-color: var(--co-negativ);
@@ -234,6 +228,34 @@ section#infoscreen button.full{
   color: var(--co-negativ);
   margin-top: var(--ga-sml);
 }
+
+/*Infoscreeen Freeplay Drobdown*/
+section[data-level="freeplay"] div.infobox{
+  margin-top: var(--ga-around);
+}
+section#infoscreen div#possiblePlaces{
+  background-color: var(--co-hauptfarbe-50);
+  width: 100%;
+  display: none;
+  border-radius: 0px;
+  border: none;
+  font: var(--f-m-bold);
+}
+section#infoscreen div.open#possiblePlaces{
+  display: block;
+  margin-top:var(--ga-mini);
+}
+section#infoscreen div#possiblePlaces p{
+  cursor: pointer;
+  color: var(--co-negativ);
+  opacity: 0.5;
+  font: var(--f-m-bold);
+  padding: var(--ga-mini);
+  border-bottom: 1px solid var(--co-negativ);
+  width: 100%;
+  margin: 0 0;
+}
+
 /*Gamecontainer*/
 section#game{
   padding-bottom: 0;
@@ -248,6 +270,7 @@ section#game article{
   width: var(--sz-w-screen-fix);
   margin-left: calc( var(--ga-around) * -1 );
 }
+
 /*Cockpit*/
 section#game article#ct_cockpit{
   margin-top: calc( var(--ga-around) * -1 );
@@ -355,6 +378,7 @@ section#game div.info_extended{
   flex-wrap: nowrap;
   width: auto;
   overflow-x: scroll;
+  overflow-y: hidden;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -365,7 +389,7 @@ section#game button.btnPlace{
   background-color: var(--co-hauptfarbe-50);
   color: var(--co-negativ);
   border: none;
-  padding: var(--ga-mini) var(--ga-mini) 0 var(--ga-mini);
+  padding: var(--ga-mini);
   width: auto;
   margin-right: var(--ga-mini);
   white-space: nowrap;
