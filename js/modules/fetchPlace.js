@@ -42,9 +42,6 @@ let fetchPlace = (placeStart, placeEnd, time, gametype) => {
     //Schreiben der Journey-Informationen
     displayJourneyInfo(placeStart, placeEnd, gametype, time, nthMove);
 
-    //Darkmode einstellen
-    darkMode(time);
-
     //URL
     let url = `https://fahrplan.search.ch/api/stationboard.json?stop=${placeStart}&show_delays=1&limit=${limit}&transportation_types=train&time=${time}&time_type=depart`;
 
@@ -91,6 +88,9 @@ let fetchPlace = (placeStart, placeEnd, time, gametype) => {
                 }, false)
             })
         })
+
+    //Darkmode einstellen
+    darkMode(time);
 }
 
 export { fetchPlace };

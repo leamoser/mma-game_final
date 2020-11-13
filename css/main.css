@@ -279,7 +279,7 @@ section#game article#ct_cockpit{
   color: var(--co-negativ);
 }
 section#game article#ct_cockpit p,
-section#game article#ct_duration p{
+section#game article#ct_cockpit_added p{
   font: var(--f-s-bold);
   width: 100%;
 }
@@ -311,7 +311,7 @@ section#game article#ct_cockpit div.timespan>div:last-of-type p{
 section#game article#ct_cockpit div.timespan>div:last-of-type span{
   background-color: var(--co-akzent-fancy);
 }
-section#game article#ct_duration{
+section#game article#ct_cockpit_added{
   padding: 5px calc( var(--ga-around) / 2 );
   background-color: var(--co-akzent-fancy);
   color: var(--co-negativ);
