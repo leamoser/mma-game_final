@@ -31,7 +31,9 @@ $explainer = 'Um diesen Ort zu erreichen brauchst du mindestens 2 Umstiege und h
                 <p><?php echo $b1_text ?></p>
             </button>
             <button class="full" id="startPlay">
-                <p><?php echo $b2_text ?></p>
+                <a href="#">
+                    <p><?php echo $b2_text ?></p>
+                </a>
             </button>
         </article>
     </div>
@@ -57,7 +59,11 @@ $explainer = 'Um diesen Ort zu erreichen brauchst du mindestens 2 Umstiege und h
     </article>
     <?php include('templates/map.php') ?>
     <article id="ct_schedule">
-        <div id="placeCurrentInfo"></div>
+    </article>
+    <article id="loadMore">
+        <button class="full" id="loadMoreConnections">
+            <p>+</p>
+        </button>
     </article>
     <article id="ct_journeyinfo" class="hide">
         <h2></h2>

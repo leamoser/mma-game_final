@@ -218,7 +218,9 @@ section#choosemode div.flex input[type="submit"]{
   width: 100%;
   border: none;
 }
-/*Freeplay UND Play*/
+
+/*Freeplay UND Play******************************************/
+/*Infoscreeen*/
 section#infoscreen{
   background-color: var(--co-negativ);
   color: var(--co-hauptfarbe);
@@ -307,7 +309,12 @@ section#game article#ct_duration{
   z-index: 1;
 }
 
+/*Load More Button*/
+section#game article#loadMore{
+  padding: var(--ga-around);
+}
 
+/*Zwischenscreens*/
 section#game article#ct_gameWon , section#game article#ct_gameLost , section#game article#ct_journeyinfo , section#game article#ct_freeGameWon{
   position: fixed;
   top: 0;
@@ -317,20 +324,18 @@ section#game article#ct_gameWon , section#game article#ct_gameLost , section#gam
 section#game article#ct_journeyinfo{
   background-color: var(--co-hauptfarbe-50);
 }
-
 section#game article#ct_gameWon{
   background-color: var(--co-akzent-pos);
 }
-
 section#game article#ct_gameLost {
   background-color: var(--co-akzent-neg);
 }
-
 section#game article#ct_freeGameWon{
   background-color: var(--co-hauptfarbe-50);
 
 }
 
+/*Fahrplan*/
 section#game div.ct_connection{
   background-color: var(--co-hauptfarbe);
   color: var(--co-negativ);

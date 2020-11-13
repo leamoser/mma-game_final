@@ -9,6 +9,7 @@ import { loadNav } from './modules/loadNav.js';
 import { displayGameInterface } from './modules/gameInterface.js';
 import { getTime } from './modules/getTime.js';
 import { getPossibleTrainstations } from './modules/getPossibleTrainstations.js';
+import { fetchMorePlaces } from './modules/fetchMorePlaces.js';
 
 
 //VARIABELN************************************************
@@ -19,10 +20,19 @@ const navtoggle = document.querySelector('#nav_toggle');
 document.addEventListener('DOMContentLoaded', function () {
     let buttonsHideOnClick = document.querySelectorAll('.hideOnClick');
     buttonsHideOnClick.forEach(button => {
-        button.onclick = function(){
+        button.onclick = function () {
             button.parentElement.classList.add('hide');
         }
     })
+    let buttonLoadMore = document.querySelector('#loadMoreConnections');
+    if (buttonLoadMore) {
+        buttonLoadMore.addEventListener('click', function () {
+            let allConns = document.querySelectorAll('button.btn_more');
+            allConns[allConns.length - 1].getAttribute('data-placestart');
+            fetchMorePlaces(allConns[allConns.length - 1].getAttribute('data-placestart'), document.querySelector('p#placeEndInfo').innerHTML, allConns[allConns.length - 1].getAttribute('data-time'));
+        })
+    }
+
     //INIT*************************************************
     let init = () => {
         //Gamemodus
