@@ -12,7 +12,7 @@ import { getPossibleTrainstations } from './modules/getPossibleTrainstations.js'
 import { fetchMorePlaces } from './modules/fetchMorePlaces.js';
 import { checkMode } from './modules/checkMode.js';
 import { initMap } from './modules/map.js';
-
+import { appendButtonFetchMore } from './modules/appendButtonFetchMore.js';
 
 //VARIABELN************************************************
 const subpage = window.location.pathname;
@@ -20,29 +20,21 @@ const navtoggle = document.querySelector('#nav_toggle');
 
 //AUSFÜHRUNG***********************************************
 document.addEventListener('DOMContentLoaded', function () {
-    let buttonLoadMore = document.querySelector('#loadMoreConnections');
-    if (buttonLoadMore) {
-        buttonLoadMore.addEventListener('click', function () {
-            let allConns = document.querySelectorAll('button.btn_more');
-            allConns[allConns.length - 1].getAttribute('data-placestart');
-            if (subpage.search('freeplay') != -1) {
-                fetchMorePlaces(allConns[allConns.length - 1].getAttribute('data-placestart'), document.querySelector('p#placeEndInfo').innerHTML, allConns[allConns.length - 1].getAttribute('data-time'), 0);
-            } else if (subpage.search('play') != -1) {
-                fetchMorePlaces(allConns[allConns.length - 1].getAttribute('data-placestart'), document.querySelector('p#placeEndInfo').innerHTML, allConns[allConns.length - 1].getAttribute('data-time'), 1);
-            }
-        })
-    }
 
     //INIT*************************************************
     let init = () => {
-
         //Gamemodus
         if (subpage.search('play') != -1) {
             //Laden von Orten mit JSON wenn richtige Unterseite
             let mode = document.querySelector('section#infoscreen').getAttribute('data-level');
             if (mode === 'freeplay') {
+                appendButtonFetchMore(0);
                 fetchJson('/assets/json/freeplay-places.json', subpage);
+
             } else {
+                //add event listener to btn fetch more
+                appendButtonFetchMore(mode);
+                
                 checkMode(mode);
                 fetchJson('/assets/json/levels-' + mode + '.json', subpage);
             }

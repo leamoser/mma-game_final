@@ -35,7 +35,7 @@ buttonsHideOnClick.forEach(button => {
 })
 
 // Funktion
-let checkGoal = (placeStart, placeEnd, gametype, time, nthMove) => {
+let checkGoal = (placeStart, placeEnd, gametype, time, move) => {
     // Prüft, ob Ziel erreicht wurde (freeplay und level modus)
     if (placeStart === placeEnd) {
         if (gametype > 0) {
@@ -60,9 +60,9 @@ let checkGoal = (placeStart, placeEnd, gametype, time, nthMove) => {
     }
     //  Prüft, ob Spiel verloren wurde (Nur für Level Modus)
     if (gametype > 0) {
-        if (nthMove >= gametype) {
+        if (move >= gametype) {
             showContainer(gameLostContainer);
-            gameLostSpanMsg.innerHTML = nthMove;
+            // gameLostSpanMsg.innerHTML = nthMove;
         }
     }
 
