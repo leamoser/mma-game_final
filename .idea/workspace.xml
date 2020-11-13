@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7d80584f-ca39-4cf8-b493-b4e6ceed5801" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freeplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/freeplay.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/leamoser/mma-game_final" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1k0wRMFizEmFPxOOL6nEY8xrLh0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alice\Documents\CODE\35_mma_game_final\mma-game_final\js\modules" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d80584f-ca39-4cf8-b493-b4e6ceed5801" name="Default Changelist" comment="" />
+      <created>1604850807891</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604850807891</updated>
+      <workItem from="1604850809073" duration="11820000" />
+      <workItem from="1604870577530" duration="29000" />
+      <workItem from="1604923553815" duration="7018000" />
+      <workItem from="1605169568291" duration="42842000" />
+      <workItem from="1605225692317" duration="2198000" />
+      <workItem from="1605253546441" duration="14797000" />
+    </task>
+    <task id="LOCAL-00001" summary="testpush">
+      <created>1604850920494</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604850920494</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update map">
+      <created>1604870317288</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604870317288</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update draw connections">
+      <created>1604928081334</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604928081334</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix map zoom">
+      <created>1605172168809</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605172168809</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix a lot">
+      <created>1605178751964</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605178751964</updated>
+    </task>
+    <task id="LOCAL-00006" summary="stand 3.42 uhr">
+      <created>1605192145618</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605192145618</updated>
+    </task>
+    <task id="LOCAL-00007" summary="stand 4.54">
+      <created>1605196473274</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605196473274</updated>
+    </task>
+    <task id="LOCAL-00008" summary="stand 4.54">
+      <created>1605202624179</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605202624179</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update bis auf update placend">
+      <created>1605216937421</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605216937421</updated>
+    </task>
+    <task id="LOCAL-00010" summary="es gails update">
+      <created>1605217908193</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605217908193</updated>
+    </task>
+    <task id="LOCAL-00011" summary="checkGoal merge">
+      <created>1605225937795</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605225937795</updated>
+    </task>
+    <task id="LOCAL-00012" summary="can draw placeEnd freeplay">
+      <created>1605255971822</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605255971822</updated>
+    </task>
+    <task id="LOCAL-00013" summary="gametype als level modu zahl">
+      <created>1605259666475</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605259666475</updated>
+    </task>
+    <task id="LOCAL-00014" summary="container GameLost, GameWon, etc.">
+      <created>1605264258358</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605264258358</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update mesh">
+      <created>1605266054639</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605266054639</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update map darkmode">
+      <created>1605271223951</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1605271223951</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="testpush" />
+    <MESSAGE value="update map" />
+    <MESSAGE value="update draw connections" />
+    <MESSAGE value="fix map zoom" />
+    <MESSAGE value="fix a lot" />
+    <MESSAGE value="stand 3.42 uhr" />
+    <MESSAGE value="stand 4.54" />
+    <MESSAGE value="update bis auf update placend" />
+    <MESSAGE value="es gails update" />
+    <MESSAGE value="checkGoal merge" />
+    <MESSAGE value="can draw placeEnd freeplay" />
+    <MESSAGE value="gametype als level modu zahl" />
+    <MESSAGE value="container GameLost, GameWon, etc." />
+    <MESSAGE value="update mesh" />
+    <MESSAGE value="update map darkmode" />
+    <option name="LAST_COMMIT_MESSAGE" value="update map darkmode" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="310" y="96" key="#Deployment" timestamp="1604851561707">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="310" y="96" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1604851561707" />
+    <state x="433" y="102" key="#Options" timestamp="1604851839800">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="433" y="102" key="#Options/0.0.1920.1040@0.0.1920.1040" timestamp="1604851839800" />
+    <state x="90" y="100" width="1461" height="840" key="DiffContextDialog" timestamp="1605197250065">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="90" y="100" width="1461" height="840" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605197250065" />
+    <state x="90" y="100" width="1453" height="840" key="DirDiffDialog" timestamp="1605226190422">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="90" y="100" width="1453" height="840" key="DirDiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605226190422" />
+    <state x="545" y="217" key="FileChooserDialogImpl" timestamp="1605196557023">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="545" y="217" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605196557023" />
+    <state x="48" y="87" key="MergeDialog" timestamp="1605264365161">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="48" y="87" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605264365161" />
+    <state x="362" y="214" key="MultipleFileMergeDialog" timestamp="1605264365168">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="362" y="214" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605264365168" />
+    <state x="319" y="159" key="SettingsEditor" timestamp="1604851933795">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="319" y="159" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604851933795" />
+    <state x="106" y="172" key="Vcs.Push.Dialog.v2" timestamp="1605271225072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="106" y="172" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605271225072" />
+    <state x="497" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605254110696">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="497" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605254110696" />
+    <state x="483" y="59" width="857" height="852" key="find.popup" timestamp="1605267814848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="483" y="59" width="857" height="852" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605267814848" />
+    <state x="492" y="257" key="git4idea.ui.GitUnstashDialog" timestamp="1605196683573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="492" y="257" key="git4idea.ui.GitUnstashDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605196683573" />
+    <state x="578" y="396" key="publish.login" timestamp="1604923801706">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="578" y="396" key="publish.login/0.0.1920.1040@0.0.1920.1040" timestamp="1604923801706" />
+    <state x="396" y="239" key="run.anything.popup" timestamp="1605260175107">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="396" y="239" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605260175107" />
+    <state x="402" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1605209164224">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="402" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605209164224" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/modules/checkGoal.js</url>
+          <line>11</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

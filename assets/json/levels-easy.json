@@ -1,0 +1,32 @@
+{
+    "connections": [
+        {
+            "placeStart": "Schaffhausen",
+            "placeEnd": "Wittenbach"
+        },
+        {
+            "placeStart": "Zürich",
+            "placeEnd": "Gossau SG"
+        },
+        {
+            "placeStart": "Zürich",
+            "placeEnd": "Gossau SG"
+        },
+        {
+            "placeStart": "Oerlikon",
+            "placeEnd": "Aarau"
+        },
+        {
+            "placeStart": "Delémont",
+            "placeEnd": "Solothurn"
+        },
+        {
+            "placeStart": "Fribourg",
+            "placeEnd": "Génève"
+        },
+        {
+            "placeStart": "Brig",
+            "placeEnd": "Zürich HB"
+        }
+    ]
+}

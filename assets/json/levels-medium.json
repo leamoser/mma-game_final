@@ -1,0 +1,40 @@
+{
+    "connections": [
+        {
+            "placeStart": "Grenchen",
+            "placeEnd": "Lugano"
+        },
+        {
+            "placeStart": "Airolo",
+            "placeEnd": "Lausanne"
+        },
+        {
+            "placeStart": "Bex",
+            "placeEnd": "Payerne"
+        },
+        {
+            "placeStart": "Turgi",
+            "placeEnd": "Bière"
+        },
+        {
+            "placeStart": "Turgi",
+            "placeEnd": "Bière"
+        },
+        {
+            "placeStart": "Frauenfeld",
+            "placeEnd": "Scuol-Tarasp"
+        },
+        {
+            "placeStart": "Sursee",
+            "placeEnd": "Kempthal"
+        },
+        {
+            "placeStart": "Lütisburg",
+            "placeEnd": "Lustmühle"
+        },
+        {
+            "placeStart": "Nottwil",
+            "placeEnd": "Basel Bad Bf"
+        }
+    ]
+}

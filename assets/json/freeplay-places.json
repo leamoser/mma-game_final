@@ -1,0 +1,49 @@
+{
+    "destinations": [
+        {
+            "destination": "Biel/Bienne"
+        },
+        {
+            "destination": "Grenchen Nord"
+        },
+        {
+            "destination": "Bern"
+        },
+        {
+            "destination": "Apples"
+        },
+        {
+            "destination": "Andermatt"
+        },
+        {
+            "destination": "Porrentruy"
+        },
+        {
+            "destination": "Lyss"
+        },
+        {
+            "destination": "Islikon"
+        },
+        {
+            "destination": "Wattwil"
+        },
+        {
+            "destination": "Teufen"
+        },
+        {
+            "destination": "Stans"
+        },
+        {
+            "destination": "Rohrbach"
+        },
+        {
+            "destination": "Biasca"
+        },
+        {
+            "destination": "Bulle"
+        },
+        {
+            "destination": "St. Moritz"
+        }
+    ]
+}

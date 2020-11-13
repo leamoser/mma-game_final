@@ -1,0 +1,44 @@
+{
+    "connections": [
+        {
+            "placeStart": "Biel",
+            "placeEnd": "Innertkirchen MIB"
+        },
+        {
+            "placeStart": "Wil SG",
+            "placeEnd": "Chénens"
+        },
+        {
+            "placeStart": "Chur",
+            "placeEnd": "Orsières"
+        },
+        {
+            "placeStart": "Chur",
+            "placeEnd": "Orsières"
+        },
+        {
+            "placeStart": "Le Locle",
+            "placeEnd": "Engelberg"
+        },
+        {
+            "placeStart": "Turgi",
+            "placeEnd": "Bière"
+        },
+        {
+            "placeStart": "Nesslau-Neu St. Johann",
+            "placeEnd": "Wolfenschiessen"
+        },
+        {
+            "placeStart": "Glarus",
+            "placeEnd": "Gonten"
+        },
+        {
+            "placeStart": "Laufen",
+            "placeEnd": "Ponte Tresa"
+        },
+        {
+            "placeStart": "Poschiavo",
+            "placeEnd": "Escholzmatt"
+        }
+    ]
+}

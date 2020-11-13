@@ -1,0 +1,5417 @@
+[
+  {
+     "haltestelle":"Aadorf"  
+},
+  {
+     "haltestelle":"Aarau"  
+},
+  {
+     "haltestelle":"Aarau Torfeld"  
+},
+  {
+     "haltestelle":"Aarberg"  
+},
+  {
+     "haltestelle":"Aarburg-Oftringen"  
+},
+  {
+     "haltestelle":"Aareschlucht Ost MIB"  
+},
+  {
+     "haltestelle":"Aareschlucht West"  
+},
+  {
+     "haltestelle":"Aarwangen"  
+},
+  {
+     "haltestelle":"Aarwangen Hard"  
+},
+  {
+     "haltestelle":"Aarwangen Schloss"  
+},
+  {
+     "haltestelle":"Aarwangen Vorstadt"  
+},
+  {
+     "haltestelle":"Aathal"  
+},
+  {
+     "haltestelle":"Acla da Fontauna"  
+},
+  {
+     "haltestelle":"Adliswil"  
+},
+  {
+     "haltestelle":"Aefligen"  
+},
+  {
+     "haltestelle":"Aesch BL"  
+},
+  {
+     "haltestelle":"Affoltern am Albis"  
+},
+  {
+     "haltestelle":"Affoltern-Weier"  
+},
+  {
+     "haltestelle":"Agno"  
+},
+  {
+     "haltestelle":"Aigle"  
+},
+  {
+     "haltestelle":"Aigle-Château"  
+},
+  {
+     "haltestelle":"Aigle-Dépôt"  
+},
+  {
+     "haltestelle":"Aigle-Hôpital"  
+},
+  {
+     "haltestelle":"Aigle-Parc Aventure"  
+},
+  {
+     "haltestelle":"Aigle-Place-du-Marché"  
+},
+  {
+     "haltestelle":"Airolo"  
+},
+  {
+     "haltestelle":"Albbruck"  
+},
+  {
+     "haltestelle":"Albeuve"  
+},
+  {
+     "haltestelle":"Algetshausen-Henau"  
+},
+  {
+     "haltestelle":"Allaman"  
+},
+  {
+     "haltestelle":"Alle"  
+},
+  {
+     "haltestelle":"Allensbach"  
+},
+  {
+     "haltestelle":"Allières"  
+},
+  {
+     "haltestelle":"Alp Grüm"  
+},
+  {
+     "haltestelle":"Alpnach Dorf"  
+},
+  {
+     "haltestelle":"Alpnachstad"  
+},
+  {
+     "haltestelle":"Altdorf UR"  
+},
+  {
+     "haltestelle":"Altendorf"  
+},
+  {
+     "haltestelle":"Alter Zoll"  
+},
+  {
+     "haltestelle":"Altmarkt"  
+},
+  {
+     "haltestelle":"Altmatt"  
+},
+  {
+     "haltestelle":"Altnau"  
+},
+  {
+     "haltestelle":"Altstätten SG"  
+},
+  {
+     "haltestelle":"Altstätten Stadt"  
+},
+  {
+     "haltestelle":"Alvaneu"  
+},
+  {
+     "haltestelle":"Ambrì-Piotta"  
+},
+  {
+     "haltestelle":"Amriswil"  
+},
+  {
+     "haltestelle":"Andelfingen"  
+},
+  {
+     "haltestelle":"Andermatt"  
+},
+  {
+     "haltestelle":"Appenzell"  
+},
+  {
+     "haltestelle":"Apples"  
+},
+  {
+     "haltestelle":"Arbon"  
+},
+  {
+     "haltestelle":"Arbon Seemoosriet"  
+},
+  {
+     "haltestelle":"Ardez"  
+},
+  {
+     "haltestelle":"Ardon"  
+},
+  {
+     "haltestelle":"Areuse Les Isles Littorail"  
+},
+  {
+     "haltestelle":"Areuse Littorail"  
+},
+  {
+     "haltestelle":"Arnegg"  
+},
+  {
+     "haltestelle":"Arnex"  
+},
+  {
+     "haltestelle":"Arosa"  
+},
+  {
+     "haltestelle":"Arth-Goldau"  
+},
+  {
+     "haltestelle":"Arveyes"  
+},
+  {
+     "haltestelle":"Arzier"  
+},
+  {
+     "haltestelle":"Assens"  
+},
+  {
+     "haltestelle":"Attiswil"  
+},
+  {
+     "haltestelle":"Au SG"  
+},
+  {
+     "haltestelle":"Au ZH"  
+},
+  {
+     "haltestelle":"Aulendorf"  
+},
+  {
+     "haltestelle":"Ausserberg"  
+},
+  {
+     "haltestelle":"Auvernier"  
+},
+  {
+     "haltestelle":"Auvernier Littorail"  
+},
+  {
+     "haltestelle":"Avenches"  
+},
+  {
+     "haltestelle":"Baar"  
+},
+  {
+     "haltestelle":"Baar Lindenpark"  
+},
+  {
+     "haltestelle":"Baar Neufeld"  
+},
+  {
+     "haltestelle":"Bad Krozingen"  
+},
+  {
+     "haltestelle":"Bad Ragaz"  
+},
+  {
+     "haltestelle":"Bad Säckingen"  
+},
+  {
+     "haltestelle":"Bad Zurzach"  
+},
+  {
+     "haltestelle":"Baden"  
+},
+  {
+     "haltestelle":"Baldegg"  
+},
+  {
+     "haltestelle":"Baldegg Kloster"  
+},
+  {
+     "haltestelle":"Balerna"  
+},
+  {
+     "haltestelle":"Ballens"  
+},
+  {
+     "haltestelle":"Ballens-Froideville"  
+},
+  {
+     "haltestelle":"Ballwil"  
+},
+  {
+     "haltestelle":"Balsthal"  
+},
+  {
+     "haltestelle":"Bannwil"  
+},
+  {
+     "haltestelle":"Bargen BE"  
+},
+  {
+     "haltestelle":"Basel Bad Bf"  
+},
+  {
+     "haltestelle":"Basel Dreispitz"  
+},
+  {
+     "haltestelle":"Basel SBB"  
+},
+  {
+     "haltestelle":"Basel St. Jakob"  
+},
+  {
+     "haltestelle":"Basel St. Johann"  
+},
+  {
+     "haltestelle":"Bassecourt"  
+},
+  {
+     "haltestelle":"Bassersdorf"  
+},
+  {
+     "haltestelle":"Bassins"  
+},
+  {
+     "haltestelle":"Baulmes"  
+},
+  {
+     "haltestelle":"Bauma"  
+},
+  {
+     "haltestelle":"Bavois"  
+},
+  {
+     "haltestelle":"Bazenheid"  
+},
+  {
+     "haltestelle":"Bei den Weihern"  
+},
+  {
+     "haltestelle":"Beinwil am See"  
+},
+  {
+     "haltestelle":"Bel-Air LEB"  
+},
+  {
+     "haltestelle":"Belfaux CFF"  
+},
+  {
+     "haltestelle":"Belfaux-Village"  
+},
+  {
+     "haltestelle":"Bellach"  
+},
+  {
+     "haltestelle":"Bellinzona"  
+},
+  {
+     "haltestelle":"Belmont-sur-Montreux"  
+},
+  {
+     "haltestelle":"Belp"  
+},
+  {
+     "haltestelle":"Belp Steinbach"  
+},
+  {
+     "haltestelle":"Bendlehn"  
+},
+  {
+     "haltestelle":"Benken SG"  
+},
+  {
+     "haltestelle":"Benzenschwil"  
+},
+  {
+     "haltestelle":"Bercher"  
+},
+  {
+     "haltestelle":"Berg"  
+},
+  {
+     "haltestelle":"Bergfrieden"  
+},
+  {
+     "haltestelle":"Bergün/Bravuogn"  
+},
+  {
+     "haltestelle":"Berikon-Widen"  
+},
+  {
+     "haltestelle":"Beringen Bad Bf"  
+},
+  {
+     "haltestelle":"Beringerfeld"  
+},
+  {
+     "haltestelle":"Berlingen"  
+},
+  {
+     "haltestelle":"Bern"  
+},
+  {
+     "haltestelle":"Bern  Europaplatz"  
+},
+  {
+     "haltestelle":"Bern Brünnen Westside"  
+},
+  {
+     "haltestelle":"Bern Bümpliz Nord"  
+},
+  {
+     "haltestelle":"Bern Bümpliz Süd"  
+},
+  {
+     "haltestelle":"Bern Europaplatz"  
+},
+  {
+     "haltestelle":"Bern Felsenau"  
+},
+  {
+     "haltestelle":"Bern Stöckacker"  
+},
+  {
+     "haltestelle":"Bern Tiefenau"  
+},
+  {
+     "haltestelle":"Bern Wankdorf"  
+},
+  {
+     "haltestelle":"Bern Weissenbühl"  
+},
+  {
+     "haltestelle":"Bernina Diavolezza"  
+},
+  {
+     "haltestelle":"Bernina Lagalb"  
+},
+  {
+     "haltestelle":"Bernina Suot"  
+},
+  {
+     "haltestelle":"Betten Talstation"  
+},
+  {
+     "haltestelle":"Bettlach"  
+},
+  {
+     "haltestelle":"Bettwiesen"  
+},
+  {
+     "haltestelle":"Bevaix"  
+},
+  {
+     "haltestelle":"Bever"  
+},
+  {
+     "haltestelle":"Bex"  
+},
+  {
+     "haltestelle":"Bex Pont-Neuf"  
+},
+  {
+     "haltestelle":"Bex-Place-du-Marché"  
+},
+  {
+     "haltestelle":"Biasca"  
+},
+  {
+     "haltestelle":"Bibenlos-Sonnenhof"  
+},
+  {
+     "haltestelle":"Biberach (Riss)"  
+},
+  {
+     "haltestelle":"Biberbrugg"  
+},
+  {
+     "haltestelle":"Biberegg"  
+},
+  {
+     "haltestelle":"Biberist Ost"  
+},
+  {
+     "haltestelle":"Biberist RBS"  
+},
+  {
+     "haltestelle":"Biel (Goms)"  
+},
+  {
+     "haltestelle":"Biel Mett"  
+},
+  {
+     "haltestelle":"Biel/Bienne"  
+},
+  {
+     "haltestelle":"Biel/Bienne Bözingenfeld/Champ"  
+},
+  {
+     "haltestelle":"Bietingen"  
+},
+  {
+     "haltestelle":"Bigenthal"  
+},
+  {
+     "haltestelle":"Biglen"  
+},
+  {
+     "haltestelle":"Bilten"  
+},
+  {
+     "haltestelle":"Binzenhof"  
+},
+  {
+     "haltestelle":"Bioggio"  
+},
+  {
+     "haltestelle":"Bioggio Molinazzo"  
+},
+  {
+     "haltestelle":"Birmensdorf ZH"  
+},
+  {
+     "haltestelle":"Birr"  
+},
+  {
+     "haltestelle":"Birrwil"  
+},
+  {
+     "haltestelle":"Bischofszell Nord"  
+},
+  {
+     "haltestelle":"Bischofszell Stadt"  
+},
+  {
+     "haltestelle":"Bitsch"  
+},
+  {
+     "haltestelle":"Bière"  
+},
+  {
+     "haltestelle":"Blankenburg"  
+},
+  {
+     "haltestelle":"Blausee-Mitholz"  
+},
+  {
+     "haltestelle":"Bleien Liebegg"  
+},
+  {
+     "haltestelle":"Blitzingen"  
+},
+  {
+     "haltestelle":"Blonay"  
+},
+  {
+     "haltestelle":"Blumenau"  
+},
+  {
+     "haltestelle":"Boden"  
+},
+  {
+     "haltestelle":"Bodio TI"  
+},
+  {
+     "haltestelle":"Bois-de-Chexbres"  
+},
+  {
+     "haltestelle":"Boll-Utzigen"  
+},
+  {
+     "haltestelle":"Bollement"  
+},
+  {
+     "haltestelle":"Bolligen"  
+},
+  {
+     "haltestelle":"Boltigen"  
+},
+  {
+     "haltestelle":"Bonaduz"  
+},
+  {
+     "haltestelle":"Boncourt"  
+},
+  {
+     "haltestelle":"Bonfol"  
+},
+  {
+     "haltestelle":"Boniswil"  
+},
+  {
+     "haltestelle":"Bonstetten-Wettswil"  
+},
+  {
+     "haltestelle":"Borgnone-Cadanza"  
+},
+  {
+     "haltestelle":"Bossière"  
+},
+  {
+     "haltestelle":"Bossonnens"  
+},
+  {
+     "haltestelle":"Boswil-Bünzen"  
+},
+  {
+     "haltestelle":"Bottighofen"  
+},
+  {
+     "haltestelle":"Boudry"  
+},
+  {
+     "haltestelle":"Boudry Littorail"  
+},
+  {
+     "haltestelle":"Boudry"  
+},
+  {
+     "haltestelle":"Bouquetins"  
+},
+  {
+     "haltestelle":"Bouveret"  
+},
+  {
+     "haltestelle":"Bovernier"  
+},
+  {
+     "haltestelle":"Bowil"  
+},
+  {
+     "haltestelle":"Bremgarten"  
+},
+  {
+     "haltestelle":"Bremgarten Isenlauf"  
+},
+  {
+     "haltestelle":"Bremgarten Obertor"  
+},
+  {
+     "haltestelle":"Bremgarten West"  
+},
+  {
+     "haltestelle":"Brenzikofen"  
+},
+  {
+     "haltestelle":"Bretonnières"  
+},
+  {
+     "haltestelle":"Brienz"  
+},
+  {
+     "haltestelle":"Brienz West"  
+},
+  {
+     "haltestelle":"Brienzwiler"  
+},
+  {
+     "haltestelle":"Brig"  
+},
+  {
+     "haltestelle":"Brig Bahnhofplatz"  
+},
+  {
+     "haltestelle":"Brittnau-Wikon"  
+},
+  {
+     "haltestelle":"Broc-Fabrique"  
+},
+  {
+     "haltestelle":"Broc-Village"  
+},
+  {
+     "haltestelle":"Bronschhofen"  
+},
+  {
+     "haltestelle":"Bronschhofen AMP"  
+},
+  {
+     "haltestelle":"Brugg AG"  
+},
+  {
+     "haltestelle":"Brunnadern-Neckertal"  
+},
+  {
+     "haltestelle":"Brunnen"  
+},
+  {
+     "haltestelle":"Brusio"  
+},
+  {
+     "haltestelle":"Brügg BE"  
+},
+  {
+     "haltestelle":"Brünig-Hasliberg"  
+},
+  {
+     "haltestelle":"Brüttelen"  
+},
+  {
+     "haltestelle":"Bubendorf"  
+},
+  {
+     "haltestelle":"Bubikon"  
+},
+  {
+     "haltestelle":"Buchli"  
+},
+  {
+     "haltestelle":"Buchrain"  
+},
+  {
+     "haltestelle":"Buchs AG"  
+},
+  {
+     "haltestelle":"Buchs SG"  
+},
+  {
+     "haltestelle":"Buchs-Dällikon"  
+},
+  {
+     "haltestelle":"Buckten"  
+},
+  {
+     "haltestelle":"Bugnei"  
+},
+  {
+     "haltestelle":"Buix"  
+},
+  {
+     "haltestelle":"Bulle"  
+},
+  {
+     "haltestelle":"Burgdorf"  
+},
+  {
+     "haltestelle":"Burgdorf Buchmatt"  
+},
+  {
+     "haltestelle":"Burgdorf Steinhof"  
+},
+  {
+     "haltestelle":"Burghalden"  
+},
+  {
+     "haltestelle":"Burgholz"  
+},
+  {
+     "haltestelle":"Burgistein"  
+},
+  {
+     "haltestelle":"Burglauenen"  
+},
+  {
+     "haltestelle":"Burier"  
+},
+  {
+     "haltestelle":"Bussigny"  
+},
+  {
+     "haltestelle":"Bussnang"  
+},
+  {
+     "haltestelle":"Busswil BE"  
+},
+  {
+     "haltestelle":"Bussy-Chardonney"  
+},
+  {
+     "haltestelle":"Buttes"  
+},
+  {
+     "haltestelle":"Buttogno"  
+},
+  {
+     "haltestelle":"Bäch SZ"  
+},
+  {
+     "haltestelle":"Bäretswil"  
+},
+  {
+     "haltestelle":"Bätterkinden"  
+},
+  {
+     "haltestelle":"Bévieux"  
+},
+  {
+     "haltestelle":"Bôle"  
+},
+  {
+     "haltestelle":"Böblingen"  
+},
+  {
+     "haltestelle":"Bühler"  
+},
+  {
+     "haltestelle":"Bülach"  
+},
+  {
+     "haltestelle":"Büren an der Aare"  
+},
+  {
+     "haltestelle":"Büren zum Hof"  
+},
+  {
+     "haltestelle":"Bürglen TG"  
+},
+  {
+     "haltestelle":"Bütschwil"  
+},
+  {
+     "haltestelle":"Cadenazzo"  
+},
+  {
+     "haltestelle":"Cadera"  
+},
+  {
+     "haltestelle":"Camedo"  
+},
+  {
+     "haltestelle":"Campascio"  
+},
+  {
+     "haltestelle":"Campocologno"  
+},
+  {
+     "haltestelle":"Cantello-Gaggiolo"  
+},
+  {
+     "haltestelle":"Capolago-Riva S. Vitale"  
+},
+  {
+     "haltestelle":"Cappella-Agnuzzo"  
+},
+  {
+     "haltestelle":"Carolina"  
+},
+  {
+     "haltestelle":"Caslano"  
+},
+  {
+     "haltestelle":"Castione-Arbedo"  
+},
+  {
+     "haltestelle":"Castrisch"  
+},
+  {
+     "haltestelle":"Cavadürli"  
+},
+  {
+     "haltestelle":"Cavaglia"  
+},
+  {
+     "haltestelle":"Cavigliano"  
+},
+  {
+     "haltestelle":"Cazis"  
+},
+  {
+     "haltestelle":"Celerina"  
+},
+  {
+     "haltestelle":"Celerina Staz"  
+},
+  {
+     "haltestelle":"Cery-Fleur-de-Lys"  
+},
+  {
+     "haltestelle":"Cham"  
+},
+  {
+     "haltestelle":"Cham Alpenblick"  
+},
+  {
+     "haltestelle":"Chambrelien"  
+},
+  {
+     "haltestelle":"Chamby"  
+},
+  {
+     "haltestelle":"Chamby-Musée"  
+},
+  {
+     "haltestelle":"Chambésy"  
+},
+  {
+     "haltestelle":"Chamoson-St-Pierre-de-Clages"  
+},
+  {
+     "haltestelle":"Champ-du-Moulin"  
+},
+  {
+     "haltestelle":"Champéry"  
+},
+  {
+     "haltestelle":"Champéry-Village"  
+},
+  {
+     "haltestelle":"Chantemerle-près-Blonay"  
+},
+  {
+     "haltestelle":"Chardonney-Château"  
+},
+  {
+     "haltestelle":"Charrat-Fully"  
+},
+  {
+     "haltestelle":"Chaulin-Cornaux"  
+},
+  {
+     "haltestelle":"Chavornay"  
+},
+  {
+     "haltestelle":"Chemex"  
+},
+  {
+     "haltestelle":"Chernex"  
+},
+  {
+     "haltestelle":"Cheseaux"  
+},
+  {
+     "haltestelle":"Chexbres-Village"  
+},
+  {
+     "haltestelle":"Cheyres"  
+},
+  {
+     "haltestelle":"Chez-le-Maître-Ecoles"  
+},
+  {
+     "haltestelle":"Chiasso"  
+},
+  {
+     "haltestelle":"Chigny"  
+},
+  {
+     "haltestelle":"Chur"  
+},
+  {
+     "haltestelle":"Chur Altstadt"  
+},
+  {
+     "haltestelle":"Chur West"  
+},
+  {
+     "haltestelle":"Chur Wiesental"  
+},
+  {
+     "haltestelle":"Château-d'Hauteville"  
+},
+  {
+     "haltestelle":"Château-d'Oex"  
+},
+  {
+     "haltestelle":"Château-d'Oex La Palaz"  
+},
+  {
+     "haltestelle":"Château-de-Blonay"  
+},
+  {
+     "haltestelle":"Châteauneuf-Conthey"  
+},
+  {
+     "haltestelle":"Châtel-St-Denis"  
+},
+  {
+     "haltestelle":"Châtelard VD"  
+},
+  {
+     "haltestelle":"Châtillens"  
+},
+  {
+     "haltestelle":"Chénens"  
+},
+  {
+     "haltestelle":"Chêne-Bourg"  
+},
+  {
+     "haltestelle":"Cinuos-chel-Brail"  
+},
+  {
+     "haltestelle":"Clarens"  
+},
+  {
+     "haltestelle":"Clies"  
+},
+  {
+     "haltestelle":"Coimo"  
+},
+  {
+     "haltestelle":"Col-de-Bretaye"  
+},
+  {
+     "haltestelle":"Col-de-Soud"  
+},
+  {
+     "haltestelle":"Collombey"  
+},
+  {
+     "haltestelle":"Collombey-Muraz"  
+},
+  {
+     "haltestelle":"Colmegna"  
+},
+  {
+     "haltestelle":"Colombier NE"  
+},
+  {
+     "haltestelle":"Colombier NE Allées Littorail"  
+},
+  {
+     "haltestelle":"Colombier NE Littorail"  
+},
+  {
+     "haltestelle":"Colombier NE"  
+},
+  {
+     "haltestelle":"Combe-Tabeillon"  
+},
+  {
+     "haltestelle":"Concise"  
+},
+  {
+     "haltestelle":"Coppet"  
+},
+  {
+     "haltestelle":"Corbier"  
+},
+  {
+     "haltestelle":"Corcapolo"  
+},
+  {
+     "haltestelle":"Corcelles BE"  
+},
+  {
+     "haltestelle":"Corcelles-Nord"  
+},
+  {
+     "haltestelle":"Corcelles-Peseux"  
+},
+  {
+     "haltestelle":"Corcelles-Sud"  
+},
+  {
+     "haltestelle":"Corgémont"  
+},
+  {
+     "haltestelle":"Cormoret"  
+},
+  {
+     "haltestelle":"Cornaux NE"  
+},
+  {
+     "haltestelle":"Corseaux-Cornalles"  
+},
+  {
+     "haltestelle":"Cortébert"  
+},
+  {
+     "haltestelle":"Cossonay-Penthalaz"  
+},
+  {
+     "haltestelle":"Cottens FR"  
+},
+  {
+     "haltestelle":"Courchavon"  
+},
+  {
+     "haltestelle":"Courfaivre"  
+},
+  {
+     "haltestelle":"Courgenay"  
+},
+  {
+     "haltestelle":"Court"  
+},
+  {
+     "haltestelle":"Courtelary"  
+},
+  {
+     "haltestelle":"Courtemaîche"  
+},
+  {
+     "haltestelle":"Courtepin"  
+},
+  {
+     "haltestelle":"Courtételle"  
+},
+  {
+     "haltestelle":"Cousset"  
+},
+  {
+     "haltestelle":"Couvet"  
+},
+  {
+     "haltestelle":"Creggio"  
+},
+  {
+     "haltestelle":"Cressier FR"  
+},
+  {
+     "haltestelle":"Cressier NE"  
+},
+  {
+     "haltestelle":"Creux-de-Genthod"  
+},
+  {
+     "haltestelle":"Croix-du-Nant"  
+},
+  {
+     "haltestelle":"Croy-Romainmôtier"  
+},
+  {
+     "haltestelle":"Crémines"  
+},
+  {
+     "haltestelle":"Crémines-Zoo"  
+},
+  {
+     "haltestelle":"Cugy FR"  
+},
+  {
+     "haltestelle":"Cully"  
+},
+  {
+     "haltestelle":"Dachsen"  
+},
+  {
+     "haltestelle":"Dagmersellen"  
+},
+  {
+     "haltestelle":"Dallenwil"  
+},
+  {
+     "haltestelle":"Davos Dorf"  
+},
+  {
+     "haltestelle":"Davos Frauenkirch"  
+},
+  {
+     "haltestelle":"Davos Glaris"  
+},
+  {
+     "haltestelle":"Davos Laret"  
+},
+  {
+     "haltestelle":"Davos Monstein"  
+},
+  {
+     "haltestelle":"Davos Platz"  
+},
+  {
+     "haltestelle":"Davos Wiesen"  
+},
+  {
+     "haltestelle":"Davos Wolfgang"  
+},
+  {
+     "haltestelle":"Degersheim"  
+},
+  {
+     "haltestelle":"Deisswil"  
+},
+  {
+     "haltestelle":"Deitingen"  
+},
+  {
+     "haltestelle":"Delémont"  
+},
+  {
+     "haltestelle":"Denges-Echandens"  
+},
+  {
+     "haltestelle":"Dielsdorf"  
+},
+  {
+     "haltestelle":"Dieni"  
+},
+  {
+     "haltestelle":"Diepflingen"  
+},
+  {
+     "haltestelle":"Diesbach-Betschwanden"  
+},
+  {
+     "haltestelle":"Diessenhofen"  
+},
+  {
+     "haltestelle":"Dietfurt"  
+},
+  {
+     "haltestelle":"Dietikon"  
+},
+  {
+     "haltestelle":"Dietikon Schöneggstrasse"  
+},
+  {
+     "haltestelle":"Dietikon Stoffelbach"  
+},
+  {
+     "haltestelle":"Dietlikon"  
+},
+  {
+     "haltestelle":"Dinhard"  
+},
+  {
+     "haltestelle":"Disentis/Mustér"  
+},
+  {
+     "haltestelle":"Distelberg"  
+},
+  {
+     "haltestelle":"Dogern"  
+},
+  {
+     "haltestelle":"Domat/Ems"  
+},
+  {
+     "haltestelle":"Domdidier"  
+},
+  {
+     "haltestelle":"Domodossola"  
+},
+  {
+     "haltestelle":"Dompierre FR"  
+},
+  {
+     "haltestelle":"Donaueschingen"  
+},
+  {
+     "haltestelle":"Dornach-Arlesheim"  
+},
+  {
+     "haltestelle":"Dottikon-Dintikon"  
+},
+  {
+     "haltestelle":"Dotzigen"  
+},
+  {
+     "haltestelle":"Druogno"  
+},
+  {
+     "haltestelle":"Duggingen"  
+},
+  {
+     "haltestelle":"Dulliken"  
+},
+  {
+     "haltestelle":"Däniken SO"  
+},
+  {
+     "haltestelle":"Därligen"  
+},
+  {
+     "haltestelle":"Därstetten"  
+},
+  {
+     "haltestelle":"Döttingen"  
+},
+  {
+     "haltestelle":"Dübendorf"  
+},
+  {
+     "haltestelle":"Düdingen"  
+},
+  {
+     "haltestelle":"Dürrenroth"  
+},
+  {
+     "haltestelle":"Ebikon"  
+},
+  {
+     "haltestelle":"Ebligen"  
+},
+  {
+     "haltestelle":"Ebnat-Kappel"  
+},
+  {
+     "haltestelle":"Echallens"  
+},
+  {
+     "haltestelle":"Eclépens"  
+},
+  {
+     "haltestelle":"Ecublens-Rue"  
+},
+  {
+     "haltestelle":"Effretikon"  
+},
+  {
+     "haltestelle":"Egerkingen"  
+},
+  {
+     "haltestelle":"Egg"  
+},
+  {
+     "haltestelle":"Eggerberg"  
+},
+  {
+     "haltestelle":"Eglisau"  
+},
+  {
+     "haltestelle":"Egnach"  
+},
+  {
+     "haltestelle":"Ei im Emmental"  
+},
+  {
+     "haltestelle":"Eifeld"  
+},
+  {
+     "haltestelle":"Eigerwand"  
+},
+  {
+     "haltestelle":"Eiken"  
+},
+  {
+     "haltestelle":"Einsiedeln"  
+},
+  {
+     "haltestelle":"Eismeer"  
+},
+  {
+     "haltestelle":"Elgg"  
+},
+  {
+     "haltestelle":"Embrach-Rorbas"  
+},
+  {
+     "haltestelle":"Emmat"  
+},
+  {
+     "haltestelle":"Emmenbrücke"  
+},
+  {
+     "haltestelle":"Emmenbrücke Gersag"  
+},
+  {
+     "haltestelle":"Emmenmatt"  
+},
+  {
+     "haltestelle":"Ems Werk"  
+},
+  {
+     "haltestelle":"En Charnet"  
+},
+  {
+     "haltestelle":"Enge im Simmental"  
+},
+  {
+     "haltestelle":"Engelberg"  
+},
+  {
+     "haltestelle":"Engen"  
+},
+  {
+     "haltestelle":"Ennenda"  
+},
+  {
+     "haltestelle":"Enney"  
+},
+  {
+     "haltestelle":"Entlebuch"  
+},
+  {
+     "haltestelle":"Ependes VD"  
+},
+  {
+     "haltestelle":"Epesses"  
+},
+  {
+     "haltestelle":"Erdmannlistein"  
+},
+  {
+     "haltestelle":"Erlen"  
+},
+  {
+     "haltestelle":"Erlenbach ZH"  
+},
+  {
+     "haltestelle":"Erlenbach im Simmental"  
+},
+  {
+     "haltestelle":"Ermatingen"  
+},
+  {
+     "haltestelle":"Ermensee"  
+},
+  {
+     "haltestelle":"Erstfeld"  
+},
+  {
+     "haltestelle":"Erzingen (Baden)"  
+},
+  {
+     "haltestelle":"Eschenbach LU"  
+},
+  {
+     "haltestelle":"Eschenz"  
+},
+  {
+     "haltestelle":"Eschlikon TG"  
+},
+  {
+     "haltestelle":"Escholzmatt"  
+},
+  {
+     "haltestelle":"Essert-Pittet"  
+},
+  {
+     "haltestelle":"Essert-sous-Champvent"  
+},
+  {
+     "haltestelle":"Esslingen"  
+},
+  {
+     "haltestelle":"Estavayer-le-Lac"  
+},
+  {
+     "haltestelle":"Etagnières"  
+},
+  {
+     "haltestelle":"Etiez"  
+},
+  {
+     "haltestelle":"Etoy"  
+},
+  {
+     "haltestelle":"Ettenhausen-Emmetschloo"  
+},
+  {
+     "haltestelle":"Etzwilen"  
+},
+  {
+     "haltestelle":"Evionnaz"  
+},
+  {
+     "haltestelle":"Ewil Maxon"  
+},
+  {
+     "haltestelle":"Exergillod"  
+},
+  {
+     "haltestelle":"Eyholz"  
+},
+  {
+     "haltestelle":"Faido"  
+},
+  {
+     "haltestelle":"Faoug"  
+},
+  {
+     "haltestelle":"Fayaux"  
+},
+  {
+     "haltestelle":"Fayot"  
+},
+  {
+     "haltestelle":"Fehraltorf"  
+},
+  {
+     "haltestelle":"Felben-Wellhausen"  
+},
+  {
+     "haltestelle":"Feldbach"  
+},
+  {
+     "haltestelle":"Feldbrunnen"  
+},
+  {
+     "haltestelle":"Felsberg"  
+},
+  {
+     "haltestelle":"Ferenbalm-Gurbrü"  
+},
+  {
+     "haltestelle":"Feuerthalen"  
+},
+  {
+     "haltestelle":"Fey"  
+},
+  {
+     "haltestelle":"Fideris"  
+},
+  {
+     "haltestelle":"Fiesch"  
+},
+  {
+     "haltestelle":"Fiesch Feriendorf"  
+},
+  {
+     "haltestelle":"Filisur"  
+},
+  {
+     "haltestelle":"Finhaut"  
+},
+  {
+     "haltestelle":"Fischenthal"  
+},
+  {
+     "haltestelle":"Flamatt"  
+},
+  {
+     "haltestelle":"Flamatt Dorf"  
+},
+  {
+     "haltestelle":"Flawil"  
+},
+  {
+     "haltestelle":"Flendruz"  
+},
+  {
+     "haltestelle":"Fleurier"  
+},
+  {
+     "haltestelle":"Flumenthal"  
+},
+  {
+     "haltestelle":"Flums"  
+},
+  {
+     "haltestelle":"Flüelen"  
+},
+  {
+     "haltestelle":"Folsogno-Dissimo"  
+},
+  {
+     "haltestelle":"Fontanivent"  
+},
+  {
+     "haltestelle":"Fontannaz-Seulaz"  
+},
+  {
+     "haltestelle":"Fontanney"  
+},
+  {
+     "haltestelle":"Forch"  
+},
+  {
+     "haltestelle":"Foyer Dents-du-Midi"  
+},
+  {
+     "haltestelle":"Fraubrunnen"  
+},
+  {
+     "haltestelle":"Frauenfeld"  
+},
+  {
+     "haltestelle":"Frauenfeld Marktplatz"  
+},
+  {
+     "haltestelle":"Freiburg (Breisgau) Hbf"  
+},
+  {
+     "haltestelle":"Freienbach SBB"  
+},
+  {
+     "haltestelle":"Freienbach SOB"  
+},
+  {
+     "haltestelle":"Frenkendorf-Füllinsdorf"  
+},
+  {
+     "haltestelle":"Fribourg/Freiburg"  
+},
+  {
+     "haltestelle":"Fribourg/Freiburg Poya"  
+},
+  {
+     "haltestelle":"Frick"  
+},
+  {
+     "haltestelle":"Friedrichshafen Flughafen"  
+},
+  {
+     "haltestelle":"Friedrichshafen Stadt"  
+},
+  {
+     "haltestelle":"Frinvillier-Taubenloch"  
+},
+  {
+     "haltestelle":"Frutigen"  
+},
+  {
+     "haltestelle":"Fräschels"  
+},
+  {
+     "haltestelle":"Ftan Baraigla"  
+},
+  {
+     "haltestelle":"Furka DFB"  
+},
+  {
+     "haltestelle":"Furna"  
+},
+  {
+     "haltestelle":"Fürgangen-Bellwald Talstation"  
+},
+  {
+     "haltestelle":"Gagnone-Orcesco"  
+},
+  {
+     "haltestelle":"Gais"  
+},
+  {
+     "haltestelle":"Galmiz"  
+},
+  {
+     "haltestelle":"Gammenthal"  
+},
+  {
+     "haltestelle":"Gampel-Steg"  
+},
+  {
+     "haltestelle":"Gampelen"  
+},
+  {
+     "haltestelle":"Gasel"  
+},
+  {
+     "haltestelle":"Gelfingen"  
+},
+  {
+     "haltestelle":"Gelterkinden"  
+},
+  {
+     "haltestelle":"Genolier"  
+},
+  {
+     "haltestelle":"Genthod-Bellevue"  
+},
+  {
+     "haltestelle":"Genève"  
+},
+  {
+     "haltestelle":"Genève-Aéroport"  
+},
+  {
+     "haltestelle":"Genève-Champel"  
+},
+  {
+     "haltestelle":"Genève-Eaux-Vives"  
+},
+  {
+     "haltestelle":"Genève-Stade"  
+},
+  {
+     "haltestelle":"Genève-Sécheron"  
+},
+  {
+     "haltestelle":"Gerlafingen"  
+},
+  {
+     "haltestelle":"Gerolfingen"  
+},
+  {
+     "haltestelle":"Gerra (Gambarogno)"  
+},
+  {
+     "haltestelle":"Geschinen"  
+},
+  {
+     "haltestelle":"Gettnau"  
+},
+  {
+     "haltestelle":"Gfeld"  
+},
+  {
+     "haltestelle":"Gibswil"  
+},
+  {
+     "haltestelle":"Gilamont"  
+},
+  {
+     "haltestelle":"Gisikon-Root"  
+},
+  {
+     "haltestelle":"Giswil"  
+},
+  {
+     "haltestelle":"Giubiasco"  
+},
+  {
+     "haltestelle":"Givisiez"  
+},
+  {
+     "haltestelle":"Givrins"  
+},
+  {
+     "haltestelle":"Gland"  
+},
+  {
+     "haltestelle":"Glanzenberg"  
+},
+  {
+     "haltestelle":"Glarus"  
+},
+  {
+     "haltestelle":"Glattbrugg"  
+},
+  {
+     "haltestelle":"Glattfelden"  
+},
+  {
+     "haltestelle":"Gletsch"  
+},
+  {
+     "haltestelle":"Glovelier"  
+},
+  {
+     "haltestelle":"Gluringen"  
+},
+  {
+     "haltestelle":"Goldach"  
+},
+  {
+     "haltestelle":"Gonten"  
+},
+  {
+     "haltestelle":"Gonten Alpsteinblick"  
+},
+  {
+     "haltestelle":"Gontenbad"  
+},
+  {
+     "haltestelle":"Gontenschwil"  
+},
+  {
+     "haltestelle":"Goppenstein"  
+},
+  {
+     "haltestelle":"Gordola"  
+},
+  {
+     "haltestelle":"Gorgier-St-Aubin"  
+},
+  {
+     "haltestelle":"Gossau SG"  
+},
+  {
+     "haltestelle":"Gottmadingen"  
+},
+  {
+     "haltestelle":"Grafenort"  
+},
+  {
+     "haltestelle":"Grafenried"  
+},
+  {
+     "haltestelle":"Grand-Moulin"  
+},
+  {
+     "haltestelle":"Grandgourt"  
+},
+  {
+     "haltestelle":"Grandson"  
+},
+  {
+     "haltestelle":"Grandval"  
+},
+  {
+     "haltestelle":"Grandvaux"  
+},
+  {
+     "haltestelle":"Granges-Marnand"  
+},
+  {
+     "haltestelle":"Grellingen"  
+},
+  {
+     "haltestelle":"Grenchen Nord"  
+},
+  {
+     "haltestelle":"Grenchen Süd"  
+},
+  {
+     "haltestelle":"Grengiols"  
+},
+  {
+     "haltestelle":"Grenzach"  
+},
+  {
+     "haltestelle":"Griesbach"  
+},
+  {
+     "haltestelle":"Grindelwald"  
+},
+  {
+     "haltestelle":"Grolley"  
+},
+  {
+     "haltestelle":"Grosshöchstetten"  
+},
+  {
+     "haltestelle":"Gruben"  
+},
+  {
+     "haltestelle":"Grubenwald"  
+},
+  {
+     "haltestelle":"Gruyères"  
+},
+  {
+     "haltestelle":"Gryon"  
+},
+  {
+     "haltestelle":"Gryon Bois-Gentil"  
+},
+  {
+     "haltestelle":"Gryon-Chalméry"  
+},
+  {
+     "haltestelle":"Gränichen"  
+},
+  {
+     "haltestelle":"Gränichen Oberdorf"  
+},
+  {
+     "haltestelle":"Gränichen Töndler"  
+},
+  {
+     "haltestelle":"Grésaley"  
+},
+  {
+     "haltestelle":"Grüenfeld"  
+},
+  {
+     "haltestelle":"Grünenmatt"  
+},
+  {
+     "haltestelle":"Grüsch"  
+},
+  {
+     "haltestelle":"Gstaad"  
+},
+  {
+     "haltestelle":"Guarda"  
+},
+  {
+     "haltestelle":"Guntershausen"  
+},
+  {
+     "haltestelle":"Gutenburg"  
+},
+  {
+     "haltestelle":"Gänsbrunnen"  
+},
+  {
+     "haltestelle":"Göschenen"  
+},
+  {
+     "haltestelle":"Gümligen"  
+},
+  {
+     "haltestelle":"Gümmenen"  
+},
+  {
+     "haltestelle":"Güttingen"  
+},
+  {
+     "haltestelle":"Hagneck"  
+},
+  {
+     "haltestelle":"Haldenstein"  
+},
+  {
+     "haltestelle":"Hallwil"  
+},
+  {
+     "haltestelle":"Hard-Mumenthal"  
+},
+  {
+     "haltestelle":"Hasle LU"  
+},
+  {
+     "haltestelle":"Hasle-Rüegsau"  
+},
+  {
+     "haltestelle":"Hauptwil"  
+},
+  {
+     "haltestelle":"Hausach"  
+},
+  {
+     "haltestelle":"Hauteville"  
+},
+  {
+     "haltestelle":"Hebrig"  
+},
+  {
+     "haltestelle":"Hedingen"  
+},
+  {
+     "haltestelle":"Heerbrugg"  
+},
+  {
+     "haltestelle":"Hegne"  
+},
+  {
+     "haltestelle":"Heiden"  
+},
+  {
+     "haltestelle":"Heimberg"  
+},
+  {
+     "haltestelle":"Hemishofen"  
+},
+  {
+     "haltestelle":"Hendschiken"  
+},
+  {
+     "haltestelle":"Henggart"  
+},
+  {
+     "haltestelle":"Henniez"  
+},
+  {
+     "haltestelle":"Herblingen"  
+},
+  {
+     "haltestelle":"Herbriggen"  
+},
+  {
+     "haltestelle":"Hergiswil Matt"  
+},
+  {
+     "haltestelle":"Hergiswil NW"  
+},
+  {
+     "haltestelle":"Herisau"  
+},
+  {
+     "haltestelle":"Herisau Wilen"  
+},
+  {
+     "haltestelle":"Herrliberg-Feldmeilen"  
+},
+  {
+     "haltestelle":"Herzogenbuchsee"  
+},
+  {
+     "haltestelle":"Hettlingen"  
+},
+  {
+     "haltestelle":"Hindelbank"  
+},
+  {
+     "haltestelle":"Hinteregg"  
+},
+  {
+     "haltestelle":"Hinwil"  
+},
+  {
+     "haltestelle":"Hirschberg"  
+},
+  {
+     "haltestelle":"Hirschlang"  
+},
+  {
+     "haltestelle":"Hirschthal"  
+},
+  {
+     "haltestelle":"Hitzkirch"  
+},
+  {
+     "haltestelle":"Hochdorf"  
+},
+  {
+     "haltestelle":"Hochdorf Schönau"  
+},
+  {
+     "haltestelle":"Hof"  
+},
+  {
+     "haltestelle":"Hohtenn"  
+},
+  {
+     "haltestelle":"Holderbank AG"  
+},
+  {
+     "haltestelle":"Holzhäusern"  
+},
+  {
+     "haltestelle":"Horb"  
+},
+  {
+     "haltestelle":"Horgen"  
+},
+  {
+     "haltestelle":"Horgen Oberdorf"  
+},
+  {
+     "haltestelle":"Horn"  
+},
+  {
+     "haltestelle":"Hornberg (Schwarzw)"  
+},
+  {
+     "haltestelle":"Horw"  
+},
+  {
+     "haltestelle":"Hospental"  
+},
+  {
+     "haltestelle":"Hunzenschwil"  
+},
+  {
+     "haltestelle":"Hurden"  
+},
+  {
+     "haltestelle":"Huttwil"  
+},
+  {
+     "haltestelle":"Huttwil Sportzentrum"  
+},
+  {
+     "haltestelle":"Hägendorf"  
+},
+  {
+     "haltestelle":"Häggenschwil-Winden"  
+},
+  {
+     "haltestelle":"Häusernmoos"  
+},
+  {
+     "haltestelle":"Hölstein"  
+},
+  {
+     "haltestelle":"Hölstein Süd"  
+},
+  {
+     "haltestelle":"Hölstein Weidbächli"  
+},
+  {
+     "haltestelle":"Hünenberg Chämleten"  
+},
+  {
+     "haltestelle":"Hünenberg Zythus"  
+},
+  {
+     "haltestelle":"Hüntwangen-Wil"  
+},
+  {
+     "haltestelle":"Hüswil"  
+},
+  {
+     "haltestelle":"Hüttlingen-Mettendorf"  
+},
+  {
+     "haltestelle":"Igis"  
+},
+  {
+     "haltestelle":"Ilanz"  
+},
+  {
+     "haltestelle":"Illnau"  
+},
+  {
+     "haltestelle":"Im Holz"  
+},
+  {
+     "haltestelle":"Immensee"  
+},
+  {
+     "haltestelle":"Innertkirchen Grimseltor"  
+},
+  {
+     "haltestelle":"Innertkirchen MIB"  
+},
+  {
+     "haltestelle":"Innertkirchen Unterwasser"  
+},
+  {
+     "haltestelle":"Ins"  
+},
+  {
+     "haltestelle":"Ins Dorf"  
+},
+  {
+     "haltestelle":"Interlaken Ost"  
+},
+  {
+     "haltestelle":"Interlaken West"  
+},
+  {
+     "haltestelle":"Intragna"  
+},
+  {
+     "haltestelle":"Ipsach"  
+},
+  {
+     "haltestelle":"Ipsach Herdi"  
+},
+  {
+     "haltestelle":"Isella-Olgia"  
+},
+  {
+     "haltestelle":"Iselle di Trasquera"  
+},
+  {
+     "haltestelle":"Islikon"  
+},
+  {
+     "haltestelle":"Itingen"  
+},
+  {
+     "haltestelle":"Ittigen bei Bern"  
+},
+  {
+     "haltestelle":"Jakobsbad"  
+},
+  {
+     "haltestelle":"Jakobstal"  
+},
+  {
+     "haltestelle":"Jegenstorf"  
+},
+  {
+     "haltestelle":"Jenaz"  
+},
+  {
+     "haltestelle":"Jestetten"  
+},
+  {
+     "haltestelle":"Jona"  
+},
+  {
+     "haltestelle":"Jor"  
+},
+  {
+     "haltestelle":"Jouxtens-Mézery"  
+},
+  {
+     "haltestelle":"Kaiseraugst"  
+},
+  {
+     "haltestelle":"Kaiserstuhl AG"  
+},
+  {
+     "haltestelle":"Kaiserstuhl OW"  
+},
+  {
+     "haltestelle":"Kallnach"  
+},
+  {
+     "haltestelle":"Kalpetran"  
+},
+  {
+     "haltestelle":"Kaltbrunn"  
+},
+  {
+     "haltestelle":"Kaltenherberg"  
+},
+  {
+     "haltestelle":"Kandersteg"  
+},
+  {
+     "haltestelle":"Kaufdorf"  
+},
+  {
+     "haltestelle":"Kehlhof"  
+},
+  {
+     "haltestelle":"Kehrsatz"  
+},
+  {
+     "haltestelle":"Kehrsatz Nord"  
+},
+  {
+     "haltestelle":"Kempraten"  
+},
+  {
+     "haltestelle":"Kempten"  
+},
+  {
+     "haltestelle":"Kemptthal"  
+},
+  {
+     "haltestelle":"Kerzers"  
+},
+  {
+     "haltestelle":"Kerzers Papiliorama"  
+},
+  {
+     "haltestelle":"Kesswil"  
+},
+  {
+     "haltestelle":"Kiesen"  
+},
+  {
+     "haltestelle":"Kilchberg ZH"  
+},
+  {
+     "haltestelle":"Killwangen-Spreitenbach"  
+},
+  {
+     "haltestelle":"Kirchberg-Alchenflüh"  
+},
+  {
+     "haltestelle":"Kleindietwil"  
+},
+  {
+     "haltestelle":"Klingnau"  
+},
+  {
+     "haltestelle":"Klosters Dorf"  
+},
+  {
+     "haltestelle":"Klosters Platz"  
+},
+  {
+     "haltestelle":"Klosters Selfranga"  
+},
+  {
+     "haltestelle":"Kloten"  
+},
+  {
+     "haltestelle":"Kloten Balsberg"  
+},
+  {
+     "haltestelle":"Klus"  
+},
+  {
+     "haltestelle":"Knonau"  
+},
+  {
+     "haltestelle":"Koblenz"  
+},
+  {
+     "haltestelle":"Koblenz Dorf"  
+},
+  {
+     "haltestelle":"Kollbrunn"  
+},
+  {
+     "haltestelle":"Konolfingen"  
+},
+  {
+     "haltestelle":"Konstanz"  
+},
+  {
+     "haltestelle":"Konstanz-Wollmatingen"  
+},
+  {
+     "haltestelle":"Kradolf"  
+},
+  {
+     "haltestelle":"Kreuzlingen"  
+},
+  {
+     "haltestelle":"Kreuzlingen Bernrain"  
+},
+  {
+     "haltestelle":"Kreuzlingen Hafen"  
+},
+  {
+     "haltestelle":"Kreuzstrasse"  
+},
+  {
+     "haltestelle":"Kriens Mattenhof"  
+},
+  {
+     "haltestelle":"Krummenau"  
+},
+  {
+     "haltestelle":"Kurzrickenbach Seepark"  
+},
+  {
+     "haltestelle":"Kölliken"  
+},
+  {
+     "haltestelle":"Kölliken Oberdorf"  
+},
+  {
+     "haltestelle":"Köniz"  
+},
+  {
+     "haltestelle":"Küblis"  
+},
+  {
+     "haltestelle":"Küngoldingen"  
+},
+  {
+     "haltestelle":"Küsnacht Goldbach"  
+},
+  {
+     "haltestelle":"Küsnacht ZH"  
+},
+  {
+     "haltestelle":"Küssnacht am Rigi"  
+},
+  {
+     "haltestelle":"L'Asse"  
+},
+  {
+     "haltestelle":"L'Isle"  
+},
+  {
+     "haltestelle":"La Barboleuse"  
+},
+  {
+     "haltestelle":"La Brinaz"  
+},
+  {
+     "haltestelle":"La Chaudanne-Les Moulins"  
+},
+  {
+     "haltestelle":"La Chaux-d'Abel"  
+},
+  {
+     "haltestelle":"La Chaux-de-Fonds"  
+},
+  {
+     "haltestelle":"La Chaux-de-Fonds-Est"  
+},
+  {
+     "haltestelle":"La Chaux-de-Fonds-Grenier"  
+},
+  {
+     "haltestelle":"La Chaux-des-Breuleux"  
+},
+  {
+     "haltestelle":"La Chiésaz"  
+},
+  {
+     "haltestelle":"La Chèvrerie-Monteret"  
+},
+  {
+     "haltestelle":"La Cibourg"  
+},
+  {
+     "haltestelle":"La Clairière"  
+},
+  {
+     "haltestelle":"La Combe"  
+},
+  {
+     "haltestelle":"La Conversion"  
+},
+  {
+     "haltestelle":"La Corbatière"  
+},
+  {
+     "haltestelle":"La Cour"  
+},
+  {
+     "haltestelle":"La Cure"  
+},
+  {
+     "haltestelle":"La Douay"  
+},
+  {
+     "haltestelle":"La Faverge"  
+},
+  {
+     "haltestelle":"La Ferrière"  
+},
+  {
+     "haltestelle":"La Givrine"  
+},
+  {
+     "haltestelle":"La Gottaz"  
+},
+  {
+     "haltestelle":"La Heutte"  
+},
+  {
+     "haltestelle":"La Joy-Clinique"  
+},
+  {
+     "haltestelle":"La Large-Journée"  
+},
+  {
+     "haltestelle":"La Médettaz"  
+},
+  {
+     "haltestelle":"La Neuveville"  
+},
+  {
+     "haltestelle":"La Plaine"  
+},
+  {
+     "haltestelle":"La Presta Mines d'asphalte"  
+},
+  {
+     "haltestelle":"La Punt Chamues-ch"  
+},
+  {
+     "haltestelle":"La Roulaz"  
+},
+  {
+     "haltestelle":"La Ruaz"  
+},
+  {
+     "haltestelle":"La Sagne"  
+},
+  {
+     "haltestelle":"La Sagne-Eglise"  
+},
+  {
+     "haltestelle":"La Sarraz"  
+},
+  {
+     "haltestelle":"La Tine"  
+},
+  {
+     "haltestelle":"La Tour-de-Peilz"  
+},
+  {
+     "haltestelle":"La Tour-de-Trême"  
+},
+  {
+     "haltestelle":"La Tour-de-Trême Parqueterie"  
+},
+  {
+     "haltestelle":"La Tour-de-Trême Ronclina"  
+},
+  {
+     "haltestelle":"La Verrerie"  
+},
+  {
+     "haltestelle":"La Vuarpillière"  
+},
+  {
+     "haltestelle":"Lachen SZ"  
+},
+  {
+     "haltestelle":"Lalden"  
+},
+  {
+     "haltestelle":"Lally"  
+},
+  {
+     "haltestelle":"Lamone-Cadempino"  
+},
+  {
+     "haltestelle":"Lampenberg-Ramlinsburg"  
+},
+  {
+     "haltestelle":"Lancy-Bachet"  
+},
+  {
+     "haltestelle":"Lancy-Pont-Rouge"  
+},
+  {
+     "haltestelle":"Landquart"  
+},
+  {
+     "haltestelle":"Landquart Ried"  
+},
+  {
+     "haltestelle":"Landschlacht"  
+},
+  {
+     "haltestelle":"Langendorf"  
+},
+  {
+     "haltestelle":"Langenthal"  
+},
+  {
+     "haltestelle":"Langenthal Gaswerk"  
+},
+  {
+     "haltestelle":"Langenthal Industrie Nord"  
+},
+  {
+     "haltestelle":"Langenthal Süd"  
+},
+  {
+     "haltestelle":"Langnau i.E."  
+},
+  {
+     "haltestelle":"Langnau-Gattikon"  
+},
+  {
+     "haltestelle":"Langwies GR"  
+},
+  {
+     "haltestelle":"Langwies ZH"  
+},
+  {
+     "haltestelle":"Langwiesen"  
+},
+  {
+     "haltestelle":"Lanzenhäusern"  
+},
+  {
+     "haltestelle":"Lattigen bei Spiez"  
+},
+  {
+     "haltestelle":"Lattrigen"  
+},
+  {
+     "haltestelle":"Lauchringen"  
+},
+  {
+     "haltestelle":"Lauchringen West"  
+},
+  {
+     "haltestelle":"Laufen"  
+},
+  {
+     "haltestelle":"Laufenburg"  
+},
+  {
+     "haltestelle":"Laufenburg (Baden)"  
+},
+  {
+     "haltestelle":"Laufenburg (Baden) Ost"  
+},
+  {
+     "haltestelle":"Laupen BE"  
+},
+  {
+     "haltestelle":"Lausanne"  
+},
+  {
+     "haltestelle":"Lausanne-Chauderon"  
+},
+  {
+     "haltestelle":"Lausen"  
+},
+  {
+     "haltestelle":"Lauterbrunnen"  
+},
+  {
+     "haltestelle":"Lavin"  
+},
+  {
+     "haltestelle":"Lavorgo"  
+},
+  {
+     "haltestelle":"Lax"  
+},
+  {
+     "haltestelle":"Le Boéchet"  
+},
+  {
+     "haltestelle":"Le Brassus"  
+},
+  {
+     "haltestelle":"Le Bémont JU"  
+},
+  {
+     "haltestelle":"Le Châble VS"  
+},
+  {
+     "haltestelle":"Le Châtelard VS"  
+},
+  {
+     "haltestelle":"Le Châtelard-Frontière"  
+},
+  {
+     "haltestelle":"Le Creux-des-Biches"  
+},
+  {
+     "haltestelle":"Le Crêt-du-Locle"  
+},
+  {
+     "haltestelle":"Le Day"  
+},
+  {
+     "haltestelle":"Le Landeron"  
+},
+  {
+     "haltestelle":"Le Lieu"  
+},
+  {
+     "haltestelle":"Le Locle"  
+},
+  {
+     "haltestelle":"Le Locle Le Chalet"  
+},
+  {
+     "haltestelle":"Le Locle-Col-des-Roches"  
+},
+  {
+     "haltestelle":"Le Lussex"  
+},
+  {
+     "haltestelle":"Le Manège"  
+},
+  {
+     "haltestelle":"Le Marais"  
+},
+  {
+     "haltestelle":"Le Muids"  
+},
+  {
+     "haltestelle":"Le Noirmont"  
+},
+  {
+     "haltestelle":"Le Pied-d'Or"  
+},
+  {
+     "haltestelle":"Le Pont"  
+},
+  {
+     "haltestelle":"Le Prese"  
+},
+  {
+     "haltestelle":"Le Pâquier-Montbarry"  
+},
+  {
+     "haltestelle":"Le Reymond"  
+},
+  {
+     "haltestelle":"Le Rocheray"  
+},
+  {
+     "haltestelle":"Le Sentier-L'Orient"  
+},
+  {
+     "haltestelle":"Le Solliat-La Golisse"  
+},
+  {
+     "haltestelle":"Le Stand"  
+},
+  {
+     "haltestelle":"Le Séchey"  
+},
+  {
+     "haltestelle":"Le Sépey"  
+},
+  {
+     "haltestelle":"Le Trétien"  
+},
+  {
+     "haltestelle":"Leimbach AG"  
+},
+  {
+     "haltestelle":"Leissigen"  
+},
+  {
+     "haltestelle":"Lengnau BE"  
+},
+  {
+     "haltestelle":"Lengwil"  
+},
+  {
+     "haltestelle":"Lenk im Simmental"  
+},
+  {
+     "haltestelle":"Lenzburg"  
+},
+  {
+     "haltestelle":"Les Arnoux"  
+},
+  {
+     "haltestelle":"Les Avants"  
+},
+  {
+     "haltestelle":"Les Aviolats"  
+},
+  {
+     "haltestelle":"Les Bois"  
+},
+  {
+     "haltestelle":"Les Bovets"  
+},
+  {
+     "haltestelle":"Les Brenets"  
+},
+  {
+     "haltestelle":"Les Breuleux"  
+},
+  {
+     "haltestelle":"Les Breuleux-Eglise"  
+},
+  {
+     "haltestelle":"Les Cases"  
+},
+  {
+     "haltestelle":"Les Charbonnières"  
+},
+  {
+     "haltestelle":"Les Chevalleyres"  
+},
+  {
+     "haltestelle":"Les Coeudres"  
+},
+  {
+     "haltestelle":"Les Coeudres-Est"  
+},
+  {
+     "haltestelle":"Les Combes"  
+},
+  {
+     "haltestelle":"Les Deurres"  
+},
+  {
+     "haltestelle":"Les Diablerets"  
+},
+  {
+     "haltestelle":"Les Echenards"  
+},
+  {
+     "haltestelle":"Les Emibois"  
+},
+  {
+     "haltestelle":"Les Esserts-de-Rive"  
+},
+  {
+     "haltestelle":"Les Evouettes"  
+},
+  {
+     "haltestelle":"Les Fontanelles"  
+},
+  {
+     "haltestelle":"Les Frêtes"  
+},
+  {
+     "haltestelle":"Les Fumeaux"  
+},
+  {
+     "haltestelle":"Les Geneveys-sur-Coffrane"  
+},
+  {
+     "haltestelle":"Les Granges (Orbe)"  
+},
+  {
+     "haltestelle":"Les Granges-Gérignoz"  
+},
+  {
+     "haltestelle":"Les Hauts-Geneveys"  
+},
+  {
+     "haltestelle":"Les Marches"  
+},
+  {
+     "haltestelle":"Les Marécottes"  
+},
+  {
+     "haltestelle":"Les Neys"  
+},
+  {
+     "haltestelle":"Les Nicolets"  
+},
+  {
+     "haltestelle":"Les Planches (Aigle)"  
+},
+  {
+     "haltestelle":"Les Plantaz"  
+},
+  {
+     "haltestelle":"Les Pléiades"  
+},
+  {
+     "haltestelle":"Les Ponts-de-Martel"  
+},
+  {
+     "haltestelle":"Les Posses"  
+},
+  {
+     "haltestelle":"Les Pralies"  
+},
+  {
+     "haltestelle":"Les Reussilles"  
+},
+  {
+     "haltestelle":"Les Ripes"  
+},
+  {
+     "haltestelle":"Les Salines"  
+},
+  {
+     "haltestelle":"Les Sciernes"  
+},
+  {
+     "haltestelle":"Les Tuileries"  
+},
+  {
+     "haltestelle":"Lessoc"  
+},
+  {
+     "haltestelle":"Leuggelbach"  
+},
+  {
+     "haltestelle":"Leuk"  
+},
+  {
+     "haltestelle":"Leysin-Feydey"  
+},
+  {
+     "haltestelle":"Leysin-Grand-Hôtel"  
+},
+  {
+     "haltestelle":"Leysin-Village"  
+},
+  {
+     "haltestelle":"Li Curt"  
+},
+  {
+     "haltestelle":"Lichtensteig"  
+},
+  {
+     "haltestelle":"Liebefeld"  
+},
+  {
+     "haltestelle":"Liestal"  
+},
+  {
+     "haltestelle":"Ligerz"  
+},
+  {
+     "haltestelle":"Lindau Hbf"  
+},
+  {
+     "haltestelle":"Lindenholz"  
+},
+  {
+     "haltestelle":"Linthal"  
+},
+  {
+     "haltestelle":"Linthal Braunwaldbahn"  
+},
+  {
+     "haltestelle":"Littau"  
+},
+  {
+     "haltestelle":"Litzirüti"  
+},
+  {
+     "haltestelle":"Locarno"  
+},
+  {
+     "haltestelle":"Locarno FART"  
+},
+  {
+     "haltestelle":"Locarno S. Antonio"  
+},
+  {
+     "haltestelle":"Lohn-Lüterkofen"  
+},
+  {
+     "haltestelle":"Lommiswil"  
+},
+  {
+     "haltestelle":"Lonay-Préverenges"  
+},
+  {
+     "haltestelle":"Lottstetten"  
+},
+  {
+     "haltestelle":"Lotzwil"  
+},
+  {
+     "haltestelle":"Lucens"  
+},
+  {
+     "haltestelle":"Luchsingen-Hätzingen"  
+},
+  {
+     "haltestelle":"Lugano"  
+},
+  {
+     "haltestelle":"Lugano FLP"  
+},
+  {
+     "haltestelle":"Lugano-Paradiso"  
+},
+  {
+     "haltestelle":"Lungern"  
+},
+  {
+     "haltestelle":"Lupfig"  
+},
+  {
+     "haltestelle":"Lustmühle"  
+},
+  {
+     "haltestelle":"Luterbach-Attisholz"  
+},
+  {
+     "haltestelle":"Lutry"  
+},
+  {
+     "haltestelle":"Luzern"  
+},
+  {
+     "haltestelle":"Luzern Allmend/Messe"  
+},
+  {
+     "haltestelle":"Luzern Verkehrshaus"  
+},
+  {
+     "haltestelle":"Lyss"  
+},
+  {
+     "haltestelle":"Lyss Grien"  
+},
+  {
+     "haltestelle":"Lyssach"  
+},
+  {
+     "haltestelle":"Lädeli"  
+},
+  {
+     "haltestelle":"Läufelfingen"  
+},
+  {
+     "haltestelle":"Léchelles"  
+},
+  {
+     "haltestelle":"Lörrach"  
+},
+  {
+     "haltestelle":"Lüdem"  
+},
+  {
+     "haltestelle":"Lüen-Castiel"  
+},
+  {
+     "haltestelle":"Lüscherz"  
+},
+  {
+     "haltestelle":"Lütisburg"  
+},
+  {
+     "haltestelle":"Lütschental"  
+},
+  {
+     "haltestelle":"Lützelflüh-Goldbach"  
+},
+  {
+     "haltestelle":"Maccagno"  
+},
+  {
+     "haltestelle":"Madiswil"  
+},
+  {
+     "haltestelle":"Madulain"  
+},
+  {
+     "haltestelle":"Magadino-Vira"  
+},
+  {
+     "haltestelle":"Magliaso"  
+},
+  {
+     "haltestelle":"Magliaso Paese"  
+},
+  {
+     "haltestelle":"Maiacher"  
+},
+  {
+     "haltestelle":"Maienfeld"  
+},
+  {
+     "haltestelle":"Malans GR"  
+},
+  {
+     "haltestelle":"Malesco"  
+},
+  {
+     "haltestelle":"Malleray-Bévilard"  
+},
+  {
+     "haltestelle":"Malters"  
+},
+  {
+     "haltestelle":"Mammern"  
+},
+  {
+     "haltestelle":"Mannenbach-Salenstein"  
+},
+  {
+     "haltestelle":"Marin-Epagnier"  
+},
+  {
+     "haltestelle":"Markelfingen"  
+},
+  {
+     "haltestelle":"Maroggia-Melano"  
+},
+  {
+     "haltestelle":"Marone"  
+},
+  {
+     "haltestelle":"Marthalen"  
+},
+  {
+     "haltestelle":"Martigny"  
+},
+  {
+     "haltestelle":"Martigny-Bourg"  
+},
+  {
+     "haltestelle":"Martigny-Croix"  
+},
+  {
+     "haltestelle":"Martigny-Expo"  
+},
+  {
+     "haltestelle":"Masera"  
+},
+  {
+     "haltestelle":"Massongex"  
+},
+  {
+     "haltestelle":"Matran"  
+},
+  {
+     "haltestelle":"Matten i.S."  
+},
+  {
+     "haltestelle":"Matzingen"  
+},
+  {
+     "haltestelle":"Mauraz"  
+},
+  {
+     "haltestelle":"Meggen"  
+},
+  {
+     "haltestelle":"Meggen Zentrum"  
+},
+  {
+     "haltestelle":"Meilen"  
+},
+  {
+     "haltestelle":"Meiringen"  
+},
+  {
+     "haltestelle":"Meiringen Alpbach"  
+},
+  {
+     "haltestelle":"Melide"  
+},
+  {
+     "haltestelle":"Mellikon"  
+},
+  {
+     "haltestelle":"Mellingen Heitersberg"  
+},
+  {
+     "haltestelle":"Mels"  
+},
+  {
+     "haltestelle":"Mendrisio"  
+},
+  {
+     "haltestelle":"Mendrisio S. Martino"  
+},
+  {
+     "haltestelle":"Menziken"  
+},
+  {
+     "haltestelle":"Menznau"  
+},
+  {
+     "haltestelle":"Merlischachen"  
+},
+  {
+     "haltestelle":"Mettmenstetten"  
+},
+  {
+     "haltestelle":"Meyrin"  
+},
+  {
+     "haltestelle":"Mezzovico"  
+},
+  {
+     "haltestelle":"Mies"  
+},
+  {
+     "haltestelle":"Miralago"  
+},
+  {
+     "haltestelle":"Mitlödi"  
+},
+  {
+     "haltestelle":"Mittelhäusern"  
+},
+  {
+     "haltestelle":"Mittelmuhen"  
+},
+  {
+     "haltestelle":"Mogelsberg"  
+},
+  {
+     "haltestelle":"Mols"  
+},
+  {
+     "haltestelle":"Montbovon"  
+},
+  {
+     "haltestelle":"Monthey"  
+},
+  {
+     "haltestelle":"Monthey-En Place"  
+},
+  {
+     "haltestelle":"Monthey-Hôpital"  
+},
+  {
+     "haltestelle":"Monthey-Ville"  
+},
+  {
+     "haltestelle":"Montreux"  
+},
+  {
+     "haltestelle":"Montreux-Collège"  
+},
+  {
+     "haltestelle":"Montricher"  
+},
+  {
+     "haltestelle":"Montétan"  
+},
+  {
+     "haltestelle":"Moos"  
+},
+  {
+     "haltestelle":"Moosseedorf"  
+},
+  {
+     "haltestelle":"Moreillon"  
+},
+  {
+     "haltestelle":"Morges"  
+},
+  {
+     "haltestelle":"Morges-St-Jean"  
+},
+  {
+     "haltestelle":"Morteratsch"  
+},
+  {
+     "haltestelle":"Mosen"  
+},
+  {
+     "haltestelle":"Moudon"  
+},
+  {
+     "haltestelle":"Moutier"  
+},
+  {
+     "haltestelle":"Muhen"  
+},
+  {
+     "haltestelle":"Muhen Nord"  
+},
+  {
+     "haltestelle":"Mumpf"  
+},
+  {
+     "haltestelle":"Mumpé Tujetsch"  
+},
+  {
+     "haltestelle":"Muntelier-Löwenberg"  
+},
+  {
+     "haltestelle":"Muolen"  
+},
+  {
+     "haltestelle":"Murg"  
+},
+  {
+     "haltestelle":"Murg (Baden)"  
+},
+  {
+     "haltestelle":"Murgenthal"  
+},
+  {
+     "haltestelle":"Muri AG"  
+},
+  {
+     "haltestelle":"Muriaux"  
+},
+  {
+     "haltestelle":"Murkart"  
+},
+  {
+     "haltestelle":"Murten/Morat"  
+},
+  {
+     "haltestelle":"Mussachen"  
+},
+  {
+     "haltestelle":"Muttbach-Belvédère"  
+},
+  {
+     "haltestelle":"Muttenz"  
+},
+  {
+     "haltestelle":"Mägenwil"  
+},
+  {
+     "haltestelle":"Männedorf"  
+},
+  {
+     "haltestelle":"Märstetten"  
+},
+  {
+     "haltestelle":"Märwil"  
+},
+  {
+     "haltestelle":"Môtiers NE"  
+},
+  {
+     "haltestelle":"Möhlin"  
+},
+  {
+     "haltestelle":"Mörel"  
+},
+  {
+     "haltestelle":"Mörigen"  
+},
+  {
+     "haltestelle":"Mörschwil"  
+},
+  {
+     "haltestelle":"Mühlau"  
+},
+  {
+     "haltestelle":"Mühlehorn"  
+},
+  {
+     "haltestelle":"Mülenen"  
+},
+  {
+     "haltestelle":"Müllheim (Baden)"  
+},
+  {
+     "haltestelle":"Müllheim-Wigoltingen"  
+},
+  {
+     "haltestelle":"Münchenbuchsee"  
+},
+  {
+     "haltestelle":"Münchenstein"  
+},
+  {
+     "haltestelle":"Münchenwiler-Courgevaux"  
+},
+  {
+     "haltestelle":"Münchwilen Pflegeheim"  
+},
+  {
+     "haltestelle":"Münchwilen TG"  
+},
+  {
+     "haltestelle":"Münsingen"  
+},
+  {
+     "haltestelle":"Münster VS"  
+},
+  {
+     "haltestelle":"Münsterlingen Spital"  
+},
+  {
+     "haltestelle":"Münsterlingen-Scherzingen"  
+},
+  {
+     "haltestelle":"Müntschemier"  
+},
+  {
+     "haltestelle":"Mürren BLM"  
+},
+  {
+     "haltestelle":"Nebikon"  
+},
+  {
+     "haltestelle":"Neirivue"  
+},
+  {
+     "haltestelle":"Nesslau-Neu St. Johann"  
+},
+  {
+     "haltestelle":"Netstal"  
+},
+  {
+     "haltestelle":"Neuchâtel"  
+},
+  {
+     "haltestelle":"Neuchâtel"  
+},
+  {
+     "haltestelle":"Neuchâtel"  
+},
+  {
+     "haltestelle":"Neuchâtel"  
+},
+  {
+     "haltestelle":"Neuchâtel"  
+},
+  {
+     "haltestelle":"Neuchâtel"  
+},
+  {
+     "haltestelle":"Neuchâtel-Serrières"  
+},
+  {
+     "haltestelle":"Neue Forch"  
+},
+  {
+     "haltestelle":"Neuenegg"  
+},
+  {
+     "haltestelle":"Neuenhof"  
+},
+  {
+     "haltestelle":"Neuhaus bei Hinteregg"  
+},
+  {
+     "haltestelle":"Neuhausen"  
+},
+  {
+     "haltestelle":"Neuhausen Bad Bf"  
+},
+  {
+     "haltestelle":"Neuhausen Rheinfall"  
+},
+  {
+     "haltestelle":"Neukirch-Egnach"  
+},
+  {
+     "haltestelle":"Neumühle"  
+},
+  {
+     "haltestelle":"Neunkirch"  
+},
+  {
+     "haltestelle":"Neustadt (Schwarzw)"  
+},
+  {
+     "haltestelle":"Neuthal"  
+},
+  {
+     "haltestelle":"Neyruz FR"  
+},
+  {
+     "haltestelle":"Nidau"  
+},
+  {
+     "haltestelle":"Nidau Beunden"  
+},
+  {
+     "haltestelle":"Nidfurn-Haslen"  
+},
+  {
+     "haltestelle":"Nieder- und Oberurnen"  
+},
+  {
+     "haltestelle":"Niederbipp"  
+},
+  {
+     "haltestelle":"Niederbipp Dorf"  
+},
+  {
+     "haltestelle":"Niederbipp Industrie"  
+},
+  {
+     "haltestelle":"Niederdorf"  
+},
+  {
+     "haltestelle":"Niederglatt ZH"  
+},
+  {
+     "haltestelle":"Niederhasli"  
+},
+  {
+     "haltestelle":"Niederrickenbach Station"  
+},
+  {
+     "haltestelle":"Niederried"  
+},
+  {
+     "haltestelle":"Niederscherli"  
+},
+  {
+     "haltestelle":"Niederteufen"  
+},
+  {
+     "haltestelle":"Niederwald"  
+},
+  {
+     "haltestelle":"Niederwangen"  
+},
+  {
+     "haltestelle":"Niederweningen"  
+},
+  {
+     "haltestelle":"Niederweningen Dorf"  
+},
+  {
+     "haltestelle":"Noiraigue"  
+},
+  {
+     "haltestelle":"Nottwil"  
+},
+  {
+     "haltestelle":"Nyon"  
+},
+  {
+     "haltestelle":"Näfels-Mollis"  
+},
+  {
+     "haltestelle":"Nänikon-Greifensee"  
+},
+  {
+     "haltestelle":"Nätschen"  
+},
+  {
+     "haltestelle":"Oberaach"  
+},
+  {
+     "haltestelle":"Oberalppass"  
+},
+  {
+     "haltestelle":"Oberbipp"  
+},
+  {
+     "haltestelle":"Oberbuchsiten"  
+},
+  {
+     "haltestelle":"Oberburg"  
+},
+  {
+     "haltestelle":"Oberdiessbach"  
+},
+  {
+     "haltestelle":"Oberdorf BL"  
+},
+  {
+     "haltestelle":"Oberdorf BL Winkelweg"  
+},
+  {
+     "haltestelle":"Oberdorf SO"  
+},
+  {
+     "haltestelle":"Oberei bei Wasen i.E."  
+},
+  {
+     "haltestelle":"Oberentfelden"  
+},
+  {
+     "haltestelle":"Oberentfelden Engelplatz"  
+},
+  {
+     "haltestelle":"Oberentfelden Uerkenbrücke"  
+},
+  {
+     "haltestelle":"Obergesteln"  
+},
+  {
+     "haltestelle":"Oberglatt ZH"  
+},
+  {
+     "haltestelle":"Oberkirch LU"  
+},
+  {
+     "haltestelle":"Oberkulm"  
+},
+  {
+     "haltestelle":"Oberkulm Post"  
+},
+  {
+     "haltestelle":"Obermuhen"  
+},
+  {
+     "haltestelle":"Oberried am Brienzersee"  
+},
+  {
+     "haltestelle":"Oberrieden"  
+},
+  {
+     "haltestelle":"Oberrieden Dorf"  
+},
+  {
+     "haltestelle":"Oberriet SG"  
+},
+  {
+     "haltestelle":"Oberrüti"  
+},
+  {
+     "haltestelle":"Oberwald"  
+},
+  {
+     "haltestelle":"Oberwangen"  
+},
+  {
+     "haltestelle":"Oberwil im Simmental"  
+},
+  {
+     "haltestelle":"Oberwinterthur"  
+},
+  {
+     "haltestelle":"Oberzollikofen"  
+},
+  {
+     "haltestelle":"Oensingen"  
+},
+  {
+     "haltestelle":"Oeschseite"  
+},
+  {
+     "haltestelle":"Oey-Diemtigen"  
+},
+  {
+     "haltestelle":"Offenburg"  
+},
+  {
+     "haltestelle":"Ollon VD"  
+},
+  {
+     "haltestelle":"Olten"  
+},
+  {
+     "haltestelle":"Olten Hammer"  
+},
+  {
+     "haltestelle":"Ondallaz-L'Alliaz"  
+},
+  {
+     "haltestelle":"Opfikon"  
+},
+  {
+     "haltestelle":"Oppikon"  
+},
+  {
+     "haltestelle":"Orbe"  
+},
+  {
+     "haltestelle":"Oron"  
+},
+  {
+     "haltestelle":"Orsières"  
+},
+  {
+     "haltestelle":"Ospizio Bernina"  
+},
+  {
+     "haltestelle":"Ossingen"  
+},
+  {
+     "haltestelle":"Ostermundigen"  
+},
+  {
+     "haltestelle":"Otelfingen"  
+},
+  {
+     "haltestelle":"Otelfingen Golfpark"  
+},
+  {
+     "haltestelle":"Othmarsingen"  
+},
+  {
+     "haltestelle":"Palagnedra"  
+},
+  {
+     "haltestelle":"Palézieux"  
+},
+  {
+     "haltestelle":"Palézieux-Village"  
+},
+  {
+     "haltestelle":"Pampigny-Sévery"  
+},
+  {
+     "haltestelle":"Papiermühle"  
+},
+  {
+     "haltestelle":"Payerne"  
+},
+  {
+     "haltestelle":"Peist"  
+},
+  {
+     "haltestelle":"Pensier"  
+},
+  {
+     "haltestelle":"Petit-Martel"  
+},
+  {
+     "haltestelle":"Petit-Martel-Est"  
+},
+  {
+     "haltestelle":"Pfungen"  
+},
+  {
+     "haltestelle":"Pfäffikon SZ"  
+},
+  {
+     "haltestelle":"Pfäffikon ZH"  
+},
+  {
+     "haltestelle":"Pieterlen"  
+},
+  {
+     "haltestelle":"Pino-Tronzano"  
+},
+  {
+     "haltestelle":"Plambuit"  
+},
+  {
+     "haltestelle":"Plan Morier"  
+},
+  {
+     "haltestelle":"Planchamp"  
+},
+  {
+     "haltestelle":"Pont de Fayot"  
+},
+  {
+     "haltestelle":"Pont du Rhône"  
+},
+  {
+     "haltestelle":"Pont-Céard"  
+},
+  {
+     "haltestelle":"Pont-de-Drapel"  
+},
+  {
+     "haltestelle":"Pontarlier"  
+},
+  {
+     "haltestelle":"Ponte Brolla"  
+},
+  {
+     "haltestelle":"Ponte Tresa"  
+},
+  {
+     "haltestelle":"Pontenet"  
+},
+  {
+     "haltestelle":"Pontresina"  
+},
+  {
+     "haltestelle":"Porrentruy"  
+},
+  {
+     "haltestelle":"Poschiavo"  
+},
+  {
+     "haltestelle":"Pratteln"  
+},
+  {
+     "haltestelle":"Pratteln Salina Raurica"  
+},
+  {
+     "haltestelle":"Preda"  
+},
+  {
+     "haltestelle":"Preglia"  
+},
+  {
+     "haltestelle":"Prestinone"  
+},
+  {
+     "haltestelle":"Prilly-Chasseur"  
+},
+  {
+     "haltestelle":"Prilly-Malley"  
+},
+  {
+     "haltestelle":"Pré-Petitjean"  
+},
+  {
+     "haltestelle":"Prélaz-sur-Blonay"  
+},
+  {
+     "haltestelle":"Prélionne"  
+},
+  {
+     "haltestelle":"Puidoux"  
+},
+  {
+     "haltestelle":"Pully"  
+},
+  {
+     "haltestelle":"Pully-Nord"  
+},
+  {
+     "haltestelle":"Punt Muragl"  
+},
+  {
+     "haltestelle":"Punt Muragl Staz"  
+},
+  {
+     "haltestelle":"Quartino"  
+},
+  {
+     "haltestelle":"Rabius-Surrein"  
+},
+  {
+     "haltestelle":"Radolfzell"  
+},
+  {
+     "haltestelle":"Rafz"  
+},
+  {
+     "haltestelle":"Ramsei"  
+},
+  {
+     "haltestelle":"Ramsen"  
+},
+  {
+     "haltestelle":"Randa"  
+},
+  {
+     "haltestelle":"Ranzo-S. Abbondio"  
+},
+  {
+     "haltestelle":"Rapperswil SG"  
+},
+  {
+     "haltestelle":"Raron"  
+},
+  {
+     "haltestelle":"Ravensburg"  
+},
+  {
+     "haltestelle":"Re"  
+},
+  {
+     "haltestelle":"Realp"  
+},
+  {
+     "haltestelle":"Realp DFB"  
+},
+  {
+     "haltestelle":"Rebstein-Marbach"  
+},
+  {
+     "haltestelle":"Reckingen VS"  
+},
+  {
+     "haltestelle":"Reconvilier"  
+},
+  {
+     "haltestelle":"Regensdorf-Watt"  
+},
+  {
+     "haltestelle":"Reichenau (Baden)"  
+},
+  {
+     "haltestelle":"Reichenau-Tamins"  
+},
+  {
+     "haltestelle":"Reichenbach im Kandertal"  
+},
+  {
+     "haltestelle":"Reichenburg"  
+},
+  {
+     "haltestelle":"Reiden"  
+},
+  {
+     "haltestelle":"Reinach AG"  
+},
+  {
+     "haltestelle":"Reinach AG Mitte"  
+},
+  {
+     "haltestelle":"Reinach AG Nord"  
+},
+  {
+     "haltestelle":"Rekingen AG"  
+},
+  {
+     "haltestelle":"Remaufens"  
+},
+  {
+     "haltestelle":"Renan BE"  
+},
+  {
+     "haltestelle":"Renens VD"  
+},
+  {
+     "haltestelle":"Rennaz (Leysin)"  
+},
+  {
+     "haltestelle":"Reppischhof"  
+},
+  {
+     "haltestelle":"Reuchenette-Péry"  
+},
+  {
+     "haltestelle":"Reutlingen"  
+},
+  {
+     "haltestelle":"Reverolle"  
+},
+  {
+     "haltestelle":"Rheineck"  
+},
+  {
+     "haltestelle":"Rheinfelden"  
+},
+  {
+     "haltestelle":"Rheinfelden Augarten"  
+},
+  {
+     "haltestelle":"Rhäzüns"  
+},
+  {
+     "haltestelle":"Riazzino"  
+},
+  {
+     "haltestelle":"Ribellasca"  
+},
+  {
+     "haltestelle":"Richterswil"  
+},
+  {
+     "haltestelle":"Rickenbach-Attikon"  
+},
+  {
+     "haltestelle":"Riddes"  
+},
+  {
+     "haltestelle":"Riedbach"  
+},
+  {
+     "haltestelle":"Riedholz"  
+},
+  {
+     "haltestelle":"Riedmatt SZ"  
+},
+  {
+     "haltestelle":"Riehen"  
+},
+  {
+     "haltestelle":"Riehen Niederholz"  
+},
+  {
+     "haltestelle":"Rietheim"  
+},
+  {
+     "haltestelle":"Rietli"  
+},
+  {
+     "haltestelle":"Rikon"  
+},
+  {
+     "haltestelle":"Ringgenberg"  
+},
+  {
+     "haltestelle":"Ringlikon"  
+},
+  {
+     "haltestelle":"Ringoldingen"  
+},
+  {
+     "haltestelle":"Rivaz"  
+},
+  {
+     "haltestelle":"Rivera-Bironico"  
+},
+  {
+     "haltestelle":"Roche VD"  
+},
+  {
+     "haltestelle":"Roches Grises"  
+},
+  {
+     "haltestelle":"Rodels-Realta"  
+},
+  {
+     "haltestelle":"Roggwil Buchägerten"  
+},
+  {
+     "haltestelle":"Roggwil Dorf"  
+},
+  {
+     "haltestelle":"Roggwil Schmitten"  
+},
+  {
+     "haltestelle":"Roggwil-Berg"  
+},
+  {
+     "haltestelle":"Roggwil-Wynau"  
+},
+  {
+     "haltestelle":"Rohrbach"  
+},
+  {
+     "haltestelle":"Rolle"  
+},
+  {
+     "haltestelle":"Romanel-sur-Lausanne"  
+},
+  {
+     "haltestelle":"Romanshorn"  
+},
+  {
+     "haltestelle":"Romont FR"  
+},
+  {
+     "haltestelle":"Root D4"  
+},
+  {
+     "haltestelle":"Rorschach"  
+},
+  {
+     "haltestelle":"Rorschach Hafen"  
+},
+  {
+     "haltestelle":"Rorschach Stadt"  
+},
+  {
+     "haltestelle":"Rosental"  
+},
+  {
+     "haltestelle":"Rosshäusern"  
+},
+  {
+     "haltestelle":"Rossinière"  
+},
+  {
+     "haltestelle":"Rosé"  
+},
+  {
+     "haltestelle":"Rothenbrunnen"  
+},
+  {
+     "haltestelle":"Rothenburg"  
+},
+  {
+     "haltestelle":"Rothenburg Dorf"  
+},
+  {
+     "haltestelle":"Rothenthurm"  
+},
+  {
+     "haltestelle":"Rothrist"  
+},
+  {
+     "haltestelle":"Rotkreuz"  
+},
+  {
+     "haltestelle":"Rottweil"  
+},
+  {
+     "haltestelle":"Rougemont"  
+},
+  {
+     "haltestelle":"Route de Morgins"  
+},
+  {
+     "haltestelle":"Rubigen"  
+},
+  {
+     "haltestelle":"Ruderbach"  
+},
+  {
+     "haltestelle":"Rudolfstetten"  
+},
+  {
+     "haltestelle":"Rudolfstetten Hofacker"  
+},
+  {
+     "haltestelle":"Rueras"  
+},
+  {
+     "haltestelle":"Rueun"  
+},
+  {
+     "haltestelle":"Rupperswil"  
+},
+  {
+     "haltestelle":"Russin"  
+},
+  {
+     "haltestelle":"Rämismühle-Zell"  
+},
+  {
+     "haltestelle":"Räterschen"  
+},
+  {
+     "haltestelle":"Rümikon AG"  
+},
+  {
+     "haltestelle":"Rümlang"  
+},
+  {
+     "haltestelle":"Rümlingen"  
+},
+  {
+     "haltestelle":"Rüschlikon"  
+},
+  {
+     "haltestelle":"Rüthi SG"  
+},
+  {
+     "haltestelle":"Rüti GL"  
+},
+  {
+     "haltestelle":"Rüti ZH"  
+},
+  {
+     "haltestelle":"S-chanf"  
+},
+  {
+     "haltestelle":"S-chanf Marathon"  
+},
+  {
+     "haltestelle":"S. Antonino"  
+},
+  {
+     "haltestelle":"S. Maria Maggiore"  
+},
+  {
+     "haltestelle":"S. Martino"  
+},
+  {
+     "haltestelle":"S. Nazzaro"  
+},
+  {
+     "haltestelle":"Saanen"  
+},
+  {
+     "haltestelle":"Saanenmöser"  
+},
+  {
+     "haltestelle":"Saas im Prättigau"  
+},
+  {
+     "haltestelle":"Sachseln"  
+},
+  {
+     "haltestelle":"Safenwil"  
+},
+  {
+     "haltestelle":"Sagliains"  
+},
+  {
+     "haltestelle":"Saignelégier"  
+},
+  {
+     "haltestelle":"Saland"  
+},
+  {
+     "haltestelle":"Salez-Sennwald"  
+},
+  {
+     "haltestelle":"Salgesch"  
+},
+  {
+     "haltestelle":"Salvan"  
+},
+  {
+     "haltestelle":"Samedan"  
+},
+  {
+     "haltestelle":"Sammelplatz"  
+},
+  {
+     "haltestelle":"Samstagern"  
+},
+  {
+     "haltestelle":"Sandbüchel"  
+},
+  {
+     "haltestelle":"Sargans"  
+},
+  {
+     "haltestelle":"Sarnen"  
+},
+  {
+     "haltestelle":"Sarnen Nord"  
+},
+  {
+     "haltestelle":"Satigny"  
+},
+  {
+     "haltestelle":"Sattel-Aegeri"  
+},
+  {
+     "haltestelle":"Saxon"  
+},
+  {
+     "haltestelle":"Schachen (Gais)"  
+},
+  {
+     "haltestelle":"Schachen (Herisau)"  
+},
+  {
+     "haltestelle":"Schachen LU"  
+},
+  {
+     "haltestelle":"Schaffhausen"  
+},
+  {
+     "haltestelle":"Schaffhausen Bad Bf"  
+},
+  {
+     "haltestelle":"Schafhausen i.E."  
+},
+  {
+     "haltestelle":"Schalunen"  
+},
+  {
+     "haltestelle":"Scharnageln"  
+},
+  {
+     "haltestelle":"Scheuren"  
+},
+  {
+     "haltestelle":"Schiers"  
+},
+  {
+     "haltestelle":"Schindellegi-Feusisberg"  
+},
+  {
+     "haltestelle":"Schinznach Bad"  
+},
+  {
+     "haltestelle":"Schlatt TG"  
+},
+  {
+     "haltestelle":"Schlattingen"  
+},
+  {
+     "haltestelle":"Schlieren"  
+},
+  {
+     "haltestelle":"Schloss Laufen am Rheinfall"  
+},
+  {
+     "haltestelle":"Schmerikon"  
+},
+  {
+     "haltestelle":"Schmitten FR"  
+},
+  {
+     "haltestelle":"Schottikon"  
+},
+  {
+     "haltestelle":"Schwanden GL"  
+},
+  {
+     "haltestelle":"Schwarzenbach SG"  
+},
+  {
+     "haltestelle":"Schwarzenburg"  
+},
+  {
+     "haltestelle":"Schwarzer Bären"  
+},
+  {
+     "haltestelle":"Schwarzwasserbrücke"  
+},
+  {
+     "haltestelle":"Schwende"  
+},
+  {
+     "haltestelle":"Schwendi bei Grindelwald"  
+},
+  {
+     "haltestelle":"Schwendi bei Heiden"  
+},
+  {
+     "haltestelle":"Schwerzenbach ZH"  
+},
+  {
+     "haltestelle":"Schwyz"  
+},
+  {
+     "haltestelle":"Schwäbis"  
+},
+  {
+     "haltestelle":"Schänis"  
+},
+  {
+     "haltestelle":"Schöfflisdorf-Oberweningen"  
+},
+  {
+     "haltestelle":"Schöftland"  
+},
+  {
+     "haltestelle":"Schöftland Nordweg"  
+},
+  {
+     "haltestelle":"Schönbühl RBS"  
+},
+  {
+     "haltestelle":"Schönbühl SBB"  
+},
+  {
+     "haltestelle":"Schönbühl Shoppyland"  
+},
+  {
+     "haltestelle":"Schönenwerd SO"  
+},
+  {
+     "haltestelle":"Schönried"  
+},
+  {
+     "haltestelle":"Schübelbach-Buttikon"  
+},
+  {
+     "haltestelle":"Schüpfen"  
+},
+  {
+     "haltestelle":"Schüpfheim"  
+},
+  {
+     "haltestelle":"Schützengarten"  
+},
+  {
+     "haltestelle":"Scuol-Tarasp"  
+},
+  {
+     "haltestelle":"Sedrun"  
+},
+  {
+     "haltestelle":"Seebleiche"  
+},
+  {
+     "haltestelle":"Seewis-Pardisla"  
+},
+  {
+     "haltestelle":"Seftigen"  
+},
+  {
+     "haltestelle":"Segnas"  
+},
+  {
+     "haltestelle":"Selzach"  
+},
+  {
+     "haltestelle":"Sembrancher"  
+},
+  {
+     "haltestelle":"Sempach-Neuenkirch"  
+},
+  {
+     "haltestelle":"Semsales"  
+},
+  {
+     "haltestelle":"Sendy-Sollard"  
+},
+  {
+     "haltestelle":"Sennhof-Kyburg"  
+},
+  {
+     "haltestelle":"Seon"  
+},
+  {
+     "haltestelle":"Serocca"  
+},
+  {
+     "haltestelle":"Seuzach"  
+},
+  {
+     "haltestelle":"Sevelen"  
+},
+  {
+     "haltestelle":"Siebnen-Wangen"  
+},
+  {
+     "haltestelle":"Siegershausen"  
+},
+  {
+     "haltestelle":"Sierre/Siders"  
+},
+  {
+     "haltestelle":"Siggenthal-Würenlingen"  
+},
+  {
+     "haltestelle":"Signau"  
+},
+  {
+     "haltestelle":"Sihlau"  
+},
+  {
+     "haltestelle":"Sihlwald"  
+},
+  {
+     "haltestelle":"Singen (Hohentwiel)"  
+},
+  {
+     "haltestelle":"Sins"  
+},
+  {
+     "haltestelle":"Sion"  
+},
+  {
+     "haltestelle":"Sirnach"  
+},
+  {
+     "haltestelle":"Siselen-Finsterhennen"  
+},
+  {
+     "haltestelle":"Sisikon"  
+},
+  {
+     "haltestelle":"Sissach"  
+},
+  {
+     "haltestelle":"Sitterdorf"  
+},
+  {
+     "haltestelle":"Six-Fontaines"  
+},
+  {
+     "haltestelle":"Solduno"  
+},
+  {
+     "haltestelle":"Solothurn"  
+},
+  {
+     "haltestelle":"Solothurn Allmend"  
+},
+  {
+     "haltestelle":"Solothurn Baseltor"  
+},
+  {
+     "haltestelle":"Solothurn Sternen"  
+},
+  {
+     "haltestelle":"Solothurn West"  
+},
+  {
+     "haltestelle":"Sommerau"  
+},
+  {
+     "haltestelle":"Sonceboz-Sombeval"  
+},
+  {
+     "haltestelle":"Sonvilier"  
+},
+  {
+     "haltestelle":"Sonzier"  
+},
+  {
+     "haltestelle":"Sood-Oberleimbach"  
+},
+  {
+     "haltestelle":"Sorengo"  
+},
+  {
+     "haltestelle":"Sorengo Laghetto"  
+},
+  {
+     "haltestelle":"Sorvilier"  
+},
+  {
+     "haltestelle":"Speicher"  
+},
+  {
+     "haltestelle":"Spiez"  
+},
+  {
+     "haltestelle":"Spinas"  
+},
+  {
+     "haltestelle":"Spital Zollikerberg"  
+},
+  {
+     "haltestelle":"St-Blaise CFF"  
+},
+  {
+     "haltestelle":"St-Blaise-Lac"  
+},
+  {
+     "haltestelle":"St-Cergue"  
+},
+  {
+     "haltestelle":"St-Cergue Les Cheseaux"  
+},
+  {
+     "haltestelle":"St-Eloi"  
+},
+  {
+     "haltestelle":"St-Gingolph (Suisse)"  
+},
+  {
+     "haltestelle":"St-Imier"  
+},
+  {
+     "haltestelle":"St-Légier-Gare"  
+},
+  {
+     "haltestelle":"St-Légier-Village"  
+},
+  {
+     "haltestelle":"St-Léonard"  
+},
+  {
+     "haltestelle":"St-Maurice"  
+},
+  {
+     "haltestelle":"St-Prex"  
+},
+  {
+     "haltestelle":"St-Saphorin"  
+},
+  {
+     "haltestelle":"St-Sulpice NE"  
+},
+  {
+     "haltestelle":"St-Triphon-Gare"  
+},
+  {
+     "haltestelle":"St-Triphon-Village"  
+},
+  {
+     "haltestelle":"St-Ursanne"  
+},
+  {
+     "haltestelle":"St. Erhard-Knutwil"  
+},
+  {
+     "haltestelle":"St. Gallen"  
+},
+  {
+     "haltestelle":"St. Gallen Birnbäumen"  
+},
+  {
+     "haltestelle":"St. Gallen Bruggen"  
+},
+  {
+     "haltestelle":"St. Gallen Haggen"  
+},
+  {
+     "haltestelle":"St. Gallen Marktplatz"  
+},
+  {
+     "haltestelle":"St. Gallen Notkersegg"  
+},
+  {
+     "haltestelle":"St. Gallen Riethüsli"  
+},
+  {
+     "haltestelle":"St. Gallen Schülerhaus"  
+},
+  {
+     "haltestelle":"St. Gallen Spisertor"  
+},
+  {
+     "haltestelle":"St. Gallen St. Fiden"  
+},
+  {
+     "haltestelle":"St. Gallen Winkeln"  
+},
+  {
+     "haltestelle":"St. Georgen"  
+},
+  {
+     "haltestelle":"St. Katharinen"  
+},
+  {
+     "haltestelle":"St. Katharinental"  
+},
+  {
+     "haltestelle":"St. Margrethen SG"  
+},
+  {
+     "haltestelle":"St. Moritz"  
+},
+  {
+     "haltestelle":"St. Niklaus VS"  
+},
+  {
+     "haltestelle":"St. Peter-Molinis"  
+},
+  {
+     "haltestelle":"St. Stephan"  
+},
+  {
+     "haltestelle":"St. Urban"  
+},
+  {
+     "haltestelle":"St. Urban Ziegelei"  
+},
+  {
+     "haltestelle":"Staad SG"  
+},
+  {
+     "haltestelle":"Stabio"  
+},
+  {
+     "haltestelle":"Stalden i.E."  
+},
+  {
+     "haltestelle":"Stalden-Saas"  
+},
+  {
+     "haltestelle":"Stammheim"  
+},
+  {
+     "haltestelle":"Stans"  
+},
+  {
+     "haltestelle":"Stansstad"  
+},
+  {
+     "haltestelle":"Ste-Croix"  
+},
+  {
+     "haltestelle":"Steckborn"  
+},
+  {
+     "haltestelle":"Steffisburg"  
+},
+  {
+     "haltestelle":"Steg"  
+},
+  {
+     "haltestelle":"Steigbach"  
+},
+  {
+     "haltestelle":"Stein am Rhein"  
+},
+  {
+     "haltestelle":"Stein-Säckingen"  
+},
+  {
+     "haltestelle":"Steinach"  
+},
+  {
+     "haltestelle":"Steinebrunn"  
+},
+  {
+     "haltestelle":"Steinegg"  
+},
+  {
+     "haltestelle":"Steinen"  
+},
+  {
+     "haltestelle":"Steinerberg"  
+},
+  {
+     "haltestelle":"Steinhausen"  
+},
+  {
+     "haltestelle":"Steinhausen Rigiblick"  
+},
+  {
+     "haltestelle":"Steinibach"  
+},
+  {
+     "haltestelle":"Steinmaur"  
+},
+  {
+     "haltestelle":"Sternen bei Teufen"  
+},
+  {
+     "haltestelle":"Stettbach"  
+},
+  {
+     "haltestelle":"Stettlen"  
+},
+  {
+     "haltestelle":"Stoss AR"  
+},
+  {
+     "haltestelle":"Strahlholz"  
+},
+  {
+     "haltestelle":"Studen BE"  
+},
+  {
+     "haltestelle":"Stäfa"  
+},
+  {
+     "haltestelle":"Stöckli"  
+},
+  {
+     "haltestelle":"Suberg-Grossaffoltern"  
+},
+  {
+     "haltestelle":"Sugiez"  
+},
+  {
+     "haltestelle":"Sugnens"  
+},
+  {
+     "haltestelle":"Suhr"  
+},
+  {
+     "haltestelle":"Sulgen"  
+},
+  {
+     "haltestelle":"Sumiswald-Grünen"  
+},
+  {
+     "haltestelle":"Sumvitg-Cumpadials"  
+},
+  {
+     "haltestelle":"Sur Roche"  
+},
+  {
+     "haltestelle":"Sur-le-Buis"  
+},
+  {
+     "haltestelle":"Surava"  
+},
+  {
+     "haltestelle":"Surovas"  
+},
+  {
+     "haltestelle":"Sursee"  
+},
+  {
+     "haltestelle":"Sus-Châtel"  
+},
+  {
+     "haltestelle":"Susch"  
+},
+  {
+     "haltestelle":"Sutz"  
+},
+  {
+     "haltestelle":"Talhaus"  
+},
+  {
+     "haltestelle":"Tann-Dürnten"  
+},
+  {
+     "haltestelle":"Tannay"  
+},
+  {
+     "haltestelle":"Tavanasa-Breil/Brigels"  
+},
+  {
+     "haltestelle":"Tavannes"  
+},
+  {
+     "haltestelle":"Taverne-Torricella"  
+},
+  {
+     "haltestelle":"Tecknau"  
+},
+  {
+     "haltestelle":"Tegna"  
+},
+  {
+     "haltestelle":"Tenero"  
+},
+  {
+     "haltestelle":"Territet"  
+},
+  {
+     "haltestelle":"Teufen AR"  
+},
+  {
+     "haltestelle":"Teufen AR Stofel"  
+},
+  {
+     "haltestelle":"Teufenthal AG"  
+},
+  {
+     "haltestelle":"Thalbrücke"  
+},
+  {
+     "haltestelle":"Thalheim-Altikon"  
+},
+  {
+     "haltestelle":"Thalwil"  
+},
+  {
+     "haltestelle":"Thayngen"  
+},
+  {
+     "haltestelle":"Thun"  
+},
+  {
+     "haltestelle":"Thurnen"  
+},
+  {
+     "haltestelle":"Thusis"  
+},
+  {
+     "haltestelle":"Thörishaus Dorf"  
+},
+  {
+     "haltestelle":"Thörishaus Station"  
+},
+  {
+     "haltestelle":"Tiefenbach DFB"  
+},
+  {
+     "haltestelle":"Tiefencastel"  
+},
+  {
+     "haltestelle":"Tiengen (Hochrhein)"  
+},
+  {
+     "haltestelle":"Tirano"  
+},
+  {
+     "haltestelle":"Titisee"  
+},
+  {
+     "haltestelle":"Tobel-Affeltrangen"  
+},
+  {
+     "haltestelle":"Toffen"  
+},
+  {
+     "haltestelle":"Tramelan"  
+},
+  {
+     "haltestelle":"Tramelan-Chalet"  
+},
+  {
+     "haltestelle":"Tramelan-Dessous"  
+},
+  {
+     "haltestelle":"Trasadingen"  
+},
+  {
+     "haltestelle":"Travers"  
+},
+  {
+     "haltestelle":"Triberg"  
+},
+  {
+     "haltestelle":"Triboltingen"  
+},
+  {
+     "haltestelle":"Trimbach"  
+},
+  {
+     "haltestelle":"Trin"  
+},
+  {
+     "haltestelle":"Trogen"  
+},
+  {
+     "haltestelle":"Trois-Villes"  
+},
+  {
+     "haltestelle":"Troistorrents"  
+},
+  {
+     "haltestelle":"Trontano"  
+},
+  {
+     "haltestelle":"Trubschachen"  
+},
+  {
+     "haltestelle":"Trun"  
+},
+  {
+     "haltestelle":"Trélex"  
+},
+  {
+     "haltestelle":"Trübbach"  
+},
+  {
+     "haltestelle":"Tschamut-Selva"  
+},
+  {
+     "haltestelle":"Tuilerie"  
+},
+  {
+     "haltestelle":"Turbenthal"  
+},
+  {
+     "haltestelle":"Turgi"  
+},
+  {
+     "haltestelle":"Turtmann"  
+},
+  {
+     "haltestelle":"Tusinge"  
+},
+  {
+     "haltestelle":"Tuttlingen"  
+},
+  {
+     "haltestelle":"Twann"  
+},
+  {
+     "haltestelle":"Tägerschen"  
+},
+  {
+     "haltestelle":"Tägertschi"  
+},
+  {
+     "haltestelle":"Tägerwilen Dorf"  
+},
+  {
+     "haltestelle":"Tägerwilen-Gottlieben"  
+},
+  {
+     "haltestelle":"Täsch"  
+},
+  {
+     "haltestelle":"Täsch Monte Rosa"  
+},
+  {
+     "haltestelle":"Täuffelen"  
+},
+  {
+     "haltestelle":"Tüscherz"  
+},
+  {
+     "haltestelle":"Uerikon"  
+},
+  {
+     "haltestelle":"Uetendorf"  
+},
+  {
+     "haltestelle":"Uetendorf Allmend"  
+},
+  {
+     "haltestelle":"Uetikon"  
+},
+  {
+     "haltestelle":"Uetliberg"  
+},
+  {
+     "haltestelle":"Uitikon Waldegg"  
+},
+  {
+     "haltestelle":"Ulm Hbf"  
+},
+  {
+     "haltestelle":"Ulrichen"  
+},
+  {
+     "haltestelle":"Union-Prilly"  
+},
+  {
+     "haltestelle":"Unterentfelden Oberdorf"  
+},
+  {
+     "haltestelle":"Unterentfelden Post"  
+},
+  {
+     "haltestelle":"Unterkulm"  
+},
+  {
+     "haltestelle":"Unterkulm Nord"  
+},
+  {
+     "haltestelle":"Unterterzen"  
+},
+  {
+     "haltestelle":"Untervaz-Trimmis"  
+},
+  {
+     "haltestelle":"Unterzollikofen"  
+},
+  {
+     "haltestelle":"Urdorf"  
+},
+  {
+     "haltestelle":"Urdorf Weihermatt"  
+},
+  {
+     "haltestelle":"Urnäsch"  
+},
+  {
+     "haltestelle":"Urtenen"  
+},
+  {
+     "haltestelle":"Uster"  
+},
+  {
+     "haltestelle":"Uttigen"  
+},
+  {
+     "haltestelle":"Uttwil"  
+},
+  {
+     "haltestelle":"Utzenstorf"  
+},
+  {
+     "haltestelle":"Uznach"  
+},
+  {
+     "haltestelle":"Uzwil"  
+},
+  {
+     "haltestelle":"Val-d'Illiez"  
+},
+  {
+     "haltestelle":"Valendas-Sagogn"  
+},
+  {
+     "haltestelle":"Valeyres-sous-Montagny"  
+},
+  {
+     "haltestelle":"Vallorbe"  
+},
+  {
+     "haltestelle":"Vallorcine"  
+},
+  {
+     "haltestelle":"Varzo"  
+},
+  {
+     "haltestelle":"Vauderens"  
+},
+  {
+     "haltestelle":"Vaulruz-Sud"  
+},
+  {
+     "haltestelle":"Vaumarcus"  
+},
+  {
+     "haltestelle":"Vechigen"  
+},
+  {
+     "haltestelle":"Vendlincourt"  
+},
+  {
+     "haltestelle":"Verdasio"  
+},
+  {
+     "haltestelle":"Verigo"  
+},
+  {
+     "haltestelle":"Vernand-Camarès"  
+},
+  {
+     "haltestelle":"Vernayaz"  
+},
+  {
+     "haltestelle":"Vernayaz MC"  
+},
+  {
+     "haltestelle":"Vernier"  
+},
+  {
+     "haltestelle":"Vers-l'Eglise"  
+},
+  {
+     "haltestelle":"Versam-Safien"  
+},
+  {
+     "haltestelle":"Verschiez"  
+},
+  {
+     "haltestelle":"Verscio"  
+},
+  {
+     "haltestelle":"Versmont"  
+},
+  {
+     "haltestelle":"Versoix"  
+},
+  {
+     "haltestelle":"Vevey"  
+},
+  {
+     "haltestelle":"Vevey Vignerons"  
+},
+  {
+     "haltestelle":"Vevey-Funi"  
+},
+  {
+     "haltestelle":"Veytaux-Chillon"  
+},
+  {
+     "haltestelle":"Villars-Bozon"  
+},
+  {
+     "haltestelle":"Villars-sous-Mont"  
+},
+  {
+     "haltestelle":"Villars-sur-Glâne"  
+},
+  {
+     "haltestelle":"Villars-sur-Ollon"  
+},
+  {
+     "haltestelle":"Villars-sur-Ollon Golf"  
+},
+  {
+     "haltestelle":"Villaz-St-Pierre"  
+},
+  {
+     "haltestelle":"Villeneuve VD"  
+},
+  {
+     "haltestelle":"Villeret"  
+},
+  {
+     "haltestelle":"Villette (Vigezzo)"  
+},
+  {
+     "haltestelle":"Villette VD"  
+},
+  {
+     "haltestelle":"Villingen (Schwarzw)"  
+},
+  {
+     "haltestelle":"Villy"  
+},
+  {
+     "haltestelle":"Vionnaz"  
+},
+  {
+     "haltestelle":"Visp"  
+},
+  {
+     "haltestelle":"Vouvry"  
+},
+  {
+     "haltestelle":"Vuadens-Sud"  
+},
+  {
+     "haltestelle":"Vuarennes"  
+},
+  {
+     "haltestelle":"Vufflens-la-Ville"  
+},
+  {
+     "haltestelle":"Vufflens-le-Château"  
+},
+  {
+     "haltestelle":"Vuiteboeuf"  
+},
+  {
+     "haltestelle":"Vögelinsegg"  
+},
+  {
+     "haltestelle":"Wabern bei Bern"  
+},
+  {
+     "haltestelle":"Walchwil"  
+},
+  {
+     "haltestelle":"Walchwil Hörndli"  
+},
+  {
+     "haltestelle":"Wald ZH"  
+},
+  {
+     "haltestelle":"Waldburg"  
+},
+  {
+     "haltestelle":"Waldenburg"  
+},
+  {
+     "haltestelle":"Waldibrücke"  
+},
+  {
+     "haltestelle":"Waldshut"  
+},
+  {
+     "haltestelle":"Waldstatt"  
+},
+  {
+     "haltestelle":"Walenstadt"  
+},
+  {
+     "haltestelle":"Walkringen"  
+},
+  {
+     "haltestelle":"Wallisellen"  
+},
+  {
+     "haltestelle":"Waltensburg/Vuorz"  
+},
+  {
+     "haltestelle":"Walterswil-Striegel"  
+},
+  {
+     "haltestelle":"Waltikon"  
+},
+  {
+     "haltestelle":"Walzenhausen"  
+},
+  {
+     "haltestelle":"Wangen an der Aare"  
+},
+  {
+     "haltestelle":"Wangen bei Olten"  
+},
+  {
+     "haltestelle":"Warmesberg"  
+},
+  {
+     "haltestelle":"Wartensee"  
+},
+  {
+     "haltestelle":"Wasen i.E."  
+},
+  {
+     "haltestelle":"Wasserauen"  
+},
+  {
+     "haltestelle":"Wattwil"  
+},
+  {
+     "haltestelle":"Wauwil"  
+},
+  {
+     "haltestelle":"Weberei Matzingen"  
+},
+  {
+     "haltestelle":"Wehr-Brennet"  
+},
+  {
+     "haltestelle":"Weinfelden"  
+},
+  {
+     "haltestelle":"Weissbad"  
+},
+  {
+     "haltestelle":"Weissenbach"  
+},
+  {
+     "haltestelle":"Weissenburg"  
+},
+  {
+     "haltestelle":"Werthenstein"  
+},
+  {
+     "haltestelle":"Wettingen"  
+},
+  {
+     "haltestelle":"Wetzikon ZH"  
+},
+  {
+     "haltestelle":"Wichtrach"  
+},
+  {
+     "haltestelle":"Widen Heinrüti"  
+},
+  {
+     "haltestelle":"Wiedlisbach"  
+},
+  {
+     "haltestelle":"Wienacht-Tobel"  
+},
+  {
+     "haltestelle":"Wiesendangen"  
+},
+  {
+     "haltestelle":"Wiesengrund"  
+},
+  {
+     "haltestelle":"Wil SG"  
+},
+  {
+     "haltestelle":"Wila"  
+},
+  {
+     "haltestelle":"Wilchingen-Hallau"  
+},
+  {
+     "haltestelle":"Wildegg"  
+},
+  {
+     "haltestelle":"Wilderswil"  
+},
+  {
+     "haltestelle":"Wildpark-Höfli"  
+},
+  {
+     "haltestelle":"Wilen bei Wollerau"  
+},
+  {
+     "haltestelle":"Wiler"  
+},
+  {
+     "haltestelle":"Willisau"  
+},
+  {
+     "haltestelle":"Wimmis"  
+},
+  {
+     "haltestelle":"Winkel am Zürichsee"  
+},
+  {
+     "haltestelle":"Winteregg"  
+},
+  {
+     "haltestelle":"Winterthur"  
+},
+  {
+     "haltestelle":"Winterthur Grüze"  
+},
+  {
+     "haltestelle":"Winterthur Hegi"  
+},
+  {
+     "haltestelle":"Winterthur Seen"  
+},
+  {
+     "haltestelle":"Winterthur Töss"  
+},
+  {
+     "haltestelle":"Winterthur Wallrüti"  
+},
+  {
+     "haltestelle":"Winterthur Wülflingen"  
+},
+  {
+     "haltestelle":"Wittenbach"  
+},
+  {
+     "haltestelle":"Wohlen AG"  
+},
+  {
+     "haltestelle":"Wohlen Oberdorf"  
+},
+  {
+     "haltestelle":"Wohlen Touch the Air"  
+},
+  {
+     "haltestelle":"Wolfenschiessen"  
+},
+  {
+     "haltestelle":"Wolhusen"  
+},
+  {
+     "haltestelle":"Wolhusen Weid"  
+},
+  {
+     "haltestelle":"Wollerau"  
+},
+  {
+     "haltestelle":"Worb Dorf"  
+},
+  {
+     "haltestelle":"Worb SBB"  
+},
+  {
+     "haltestelle":"Worbboden"  
+},
+  {
+     "haltestelle":"Worblaufen"  
+},
+  {
+     "haltestelle":"Wynigen"  
+},
+  {
+     "haltestelle":"Wädenswil"  
+},
+  {
+     "haltestelle":"Wängi"  
+},
+  {
+     "haltestelle":"Wünnewil"  
+},
+  {
+     "haltestelle":"Würenlos"  
+},
+  {
+     "haltestelle":"Yens"  
+},
+  {
+     "haltestelle":"Yverdon William Barbey"  
+},
+  {
+     "haltestelle":"Yverdon-Champ Pittet"  
+},
+  {
+     "haltestelle":"Yverdon-les-Bains"  
+},
+  {
+     "haltestelle":"Yvonand"  
+},
+  {
+     "haltestelle":"Zell LU"  
+},
+  {
+     "haltestelle":"Zermatt"  
+},
+  {
+     "haltestelle":"Zernez"  
+},
+  {
+     "haltestelle":"Zetzwil"  
+},
+  {
+     "haltestelle":"Ziegelbrücke"  
+},
+  {
+     "haltestelle":"Zihlbrücke"  
+},
+  {
+     "haltestelle":"Zimeysa"  
+},
+  {
+     "haltestelle":"Zizers"  
+},
+  {
+     "haltestelle":"Zofingen"  
+},
+  {
+     "haltestelle":"Zollbrück"  
+},
+  {
+     "haltestelle":"Zollikerberg"  
+},
+  {
+     "haltestelle":"Zollikofen"  
+},
+  {
+     "haltestelle":"Zollikon"  
+},
+  {
+     "haltestelle":"Zornasco"  
+},
+  {
+     "haltestelle":"Zufikon"  
+},
+  {
+     "haltestelle":"Zufikon Belvédère"  
+},
+  {
+     "haltestelle":"Zufikon Hammergut"  
+},
+  {
+     "haltestelle":"Zug"  
+},
+  {
+     "haltestelle":"Zug Casino"  
+},
+  {
+     "haltestelle":"Zug Chollermüli"  
+},
+  {
+     "haltestelle":"Zug Fridbach"  
+},
+  {
+     "haltestelle":"Zug Oberwil"  
+},
+  {
+     "haltestelle":"Zug Postplatz"  
+},
+  {
+     "haltestelle":"Zug Schutzengel"  
+},
+  {
+     "haltestelle":"Zumikon"  
+},
+  {
+     "haltestelle":"Zuoz"  
+},
+  {
+     "haltestelle":"Zweibrücken"  
+},
+  {
+     "haltestelle":"Zweidlen"  
+},
+  {
+     "haltestelle":"Zweilütschinen"  
+},
+  {
+     "haltestelle":"Zweisimmen"  
+},
+  {
+     "haltestelle":"Zwingen"  
+},
+  {
+     "haltestelle":"Zäziwil"  
+},
+  {
+     "haltestelle":"Zürchersmühle"  
+},
+  {
+     "haltestelle":"Zürich Affoltern"  
+},
+  {
+     "haltestelle":"Zürich Altstetten"  
+},
+  {
+     "haltestelle":"Zürich Binz"  
+},
+  {
+     "haltestelle":"Zürich Brunau"  
+},
+  {
+     "haltestelle":"Zürich Enge"  
+},
+  {
+     "haltestelle":"Zürich Flughafen"  
+},
+  {
+     "haltestelle":"Zürich Friesenberg"  
+},
+  {
+     "haltestelle":"Zürich Giesshübel"  
+},
+  {
+     "haltestelle":"Zürich HB"  
+},
+  {
+     "haltestelle":"Zürich HB SZU"  
+},
+  {
+     "haltestelle":"Zürich Hardbrücke"  
+},
+  {
+     "haltestelle":"Zürich Leimbach"  
+},
+  {
+     "haltestelle":"Zürich Manegg"  
+},
+  {
+     "haltestelle":"Zürich Oerlikon"  
+},
+  {
+     "haltestelle":"Zürich Saalsporthalle"  
+},
+  {
+     "haltestelle":"Zürich Schweighof"  
+},
+  {
+     "haltestelle":"Zürich Seebach"  
+},
+  {
+     "haltestelle":"Zürich Selnau"  
+},
+  {
+     "haltestelle":"Zürich Stadelhofen"  
+},
+  {
+     "haltestelle":"Zürich Stadelhofen"  
+},
+  {
+     "haltestelle":"Zürich Tiefenbrunnen"  
+},
+  {
+     "haltestelle":"Zürich Triemli"  
+},
+  {
+     "haltestelle":"Zürich Wiedikon"  
+},
+  {
+     "haltestelle":"Zürich Wipkingen"  
+},
+  {
+     "haltestelle":"Zürich Wollishofen"  
+},
+  {
+     "haltestelle":"Zürich"  
+},
+  {
+     "haltestelle":"Zürich"  
+},
+  {
+     "haltestelle":"Zürich"  
+},
+  {
+     "haltestelle":"Zürich"  
+},
+  {
+     "haltestelle":"Zürich"  
+},
+  {
+     "haltestelle":"Überlingen"  
+}
+]

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="583e410e-a7df-4081-b777-52c718e406db" name="fhgrServer" url="http://web1.fh-htwchur.ch">
+        <fileTransfer rootFolder="/web" host="web1.fh-htwchur.ch" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
