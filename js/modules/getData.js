@@ -6,7 +6,7 @@ import { fetchPlaceEnd } from './fetchPlaceEnd.js';
 
 let placeStart;
 let placeEnd;
-let gametype; // 0 = freeplay , 7 / 11 / 16 = levelmodus
+let gametype; // 0 = freeplay , 7 / 11 / 15 = levelmodus
 
 let getData = (subpage, time) => {
     if (subpage.search('freeplay') != -1) {

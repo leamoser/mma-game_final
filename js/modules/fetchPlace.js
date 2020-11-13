@@ -93,4 +93,4 @@ let fetchPlace = (placeStart, placeEnd, time, gametype) => {
     darkMode(time);
 }
 
-export { fetchPlace };
+export { fetchPlace , nthMove };

@@ -1,6 +1,7 @@
 import { allPlaces, Place } from '../classes/place.js';
 import { fetchStops } from './fetchStops.js';
 import { allConnections, Connection } from '../classes/connection.js';
+import { nthMove } from './fetchPlace.js';
 
 //Variabeln
 const otherParameters = { method: "GET" };

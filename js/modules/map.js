@@ -1,7 +1,8 @@
 let map;
 const btnLayerHills = document.querySelector('#mapButtonMountain');
 const btnLayerWater = document.querySelector('#mapButtonWater');
-let buttonsMap = [btnLayerHills, btnLayerWater];
+const btnLayerCity = document.querySelector('#mapButtonCity');
+let buttonsMap = [btnLayerHills, btnLayerWater , btnLayerCity];
 
   //Map
 let initMap = () => {
@@ -26,6 +27,7 @@ let initMap = () => {
   map.on('load', function () {
     map.setLayoutProperty('hillshade', 'visibility', 'none');
     map.setLayoutProperty('wasser', 'visibility', 'none');
+    map.setLayoutProperty('bigplaces', 'visibility', 'none');
     map.setLayoutProperty('schweiz_overlay_dark', 'visibility', 'none');
     map.setLayoutProperty('schweiz_fill dark', 'visibility', 'none');
   })
@@ -37,7 +39,9 @@ let initMap = () => {
       if(btn.id === 'mapButtonMountain'){
         toggleLayer('hillshade');
       }else if(btn.id === 'mapButtonWater'){
-        toggleLayer('water');
+        toggleLayer('wasser');
+      }else if(btn.id === 'mapButtonCity'){
+        toggleLayer('bigplaces');
       }
     }
   })
@@ -65,4 +69,4 @@ function switchDarkMode(mode){
 }
 
 
-export { initMap , map, switchDarkMode};
+export { initMap , map, switchDarkMode, buttonsMap};
