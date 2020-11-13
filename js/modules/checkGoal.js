@@ -11,8 +11,6 @@ let counterWon = 0;
 
 // Funktion
 let checkGoal = (placeStart, placeEnd, gametype, time) => {
-    console.log('Check goal placeStart: '+ placeStart);
-    console.log('Check goal placeEnd: '+ placeEnd);
 
     if (placeStart === placeEnd) {
         if (gametype === 1) {
@@ -25,6 +23,7 @@ let checkGoal = (placeStart, placeEnd, gametype, time) => {
                 freeGameWonContainer.classList.remove('hide');
                 // Break Screen  befüllen
                 document.querySelector('#placeEndNew').innerHTML = destinations[counterWon].destination;
+
                 // Cockpit neu laden
                 initCockpit(time, placeStart, destinations[counterWon].destination)
             }else{
