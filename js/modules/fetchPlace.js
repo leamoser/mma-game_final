@@ -20,8 +20,9 @@ import { breakScreen} from "./breakScreen.js";
 
 //Variabeln
 const otherParameters = { method: "GET" };
-const limit = 10;
+const limit = 5;
 let nthMove = 0;
+
 
 //Funktion
 let fetchPlace = (placeStart, placeEnd, time, gametype) => {
@@ -29,9 +30,14 @@ let fetchPlace = (placeStart, placeEnd, time, gametype) => {
     document.querySelector('#ct_schedule').innerHTML = '';
 
     // PlaceEnd wird immer aktualisiert, wenn sich Wert im Cockpit ändert
-    // (relevant für Freeplay, wo sich PlaceEnd ändert)
-    if(document.querySelector('#placeEndInfo').innerHTML != ''){
-        placeEnd = document.querySelector('#placeEndInfo').innerHTML;
+    // (relevant für Freeplay, wo sich PlaceEnd ändert)#
+    let placeEndDom = document.querySelector('#placeEndInfo').innerHTML;
+    console.log(placeEndDom)
+    if(placeEndDom){
+        console.log('ist nicht null')
+        if(placeEndDom != placeEnd){
+            placeEnd = document.querySelector('#placeEndInfo').innerHTML;
+        }
     }
 
     //Schreiben der Journey-Informationen
