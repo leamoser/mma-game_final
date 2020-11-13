@@ -59,17 +59,10 @@ let checkGoal = (placeStart, placeEnd, gametype, time, move) => {
         }
     }
     //  Prüft, ob Spiel verloren wurde (Nur für Level Modus)
-<<<<<<< HEAD
     if (gametype > 0) {
         if (move >= gametype) {
             showContainer(gameLostContainer);
             // gameLostSpanMsg.innerHTML = nthMove;
-=======
-    if(gametype > 0){
-        if( move >= gametype){
-            showContainer(gameLostContainer);
-           // gameLostSpanMsg.innerHTML = nthMove;
->>>>>>> 1732ab58503fe529617768e494cd1aa4b5e6b41b
         }
     }
 
