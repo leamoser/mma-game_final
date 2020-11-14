@@ -313,7 +313,7 @@ section#game article#ct_cockpit_added p{
   white-space: nowrap;
 }
 section#game article#ct_cockpit p#levelModus{
-  position: fixed;
+  position: absolute;
   top: 1em;
   left: 1em;
 }

@@ -20,19 +20,16 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d80584f-ca39-4cf8-b493-b4e6ceed5801" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modules/checkGoal.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/checkGoal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modules/loadNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/loadNav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/play.php" beforeDir="false" afterPath="$PROJECT_DIR$/play.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/calculateDuration.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/calculateDuration.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +90,8 @@
       <workItem from="1605278494842" duration="7651000" />
       <workItem from="1605338682813" duration="5854000" />
       <workItem from="1605346554893" duration="1141000" />
-      <workItem from="1605358181734" duration="2064000" />
+      <workItem from="1605358181734" duration="2099000" />
+      <workItem from="1605380099311" duration="1082000" />
     </task>
     <task id="LOCAL-00001" summary="testpush">
       <created>1604850920494</created>
@@ -256,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605347673130</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="fixed underlay (nav open)">
+      <created>1605360272145</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1605360272145</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +272,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -295,7 +312,8 @@
     <MESSAGE value="nthMoves Cockpit" />
     <MESSAGE value="fixed" />
     <MESSAGE value="404 seite etc." />
-    <option name="LAST_COMMIT_MESSAGE" value="404 seite etc." />
+    <MESSAGE value="fixed underlay (nav open)" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed underlay (nav open)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="310" y="96" key="#Deployment" timestamp="1604851561707">
@@ -334,18 +352,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="319" y="159" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604851933795" />
-    <state x="106" y="172" key="Vcs.Push.Dialog.v2" timestamp="1605347674680">
+    <state x="106" y="172" key="Vcs.Push.Dialog.v2" timestamp="1605360273570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="106" y="172" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605347674680" />
+    <state x="106" y="172" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605360273570" />
     <state x="497" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605254110696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="497" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605254110696" />
-    <state x="483" y="59" width="857" height="852" key="find.popup" timestamp="1605359756294">
+    <state x="483" y="59" width="857" height="852" key="find.popup" timestamp="1605380177108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="59" width="857" height="852" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605359756294" />
+    <state x="483" y="59" width="857" height="852" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605380177108" />
     <state x="492" y="257" key="git4idea.ui.GitUnstashDialog" timestamp="1605196683573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
