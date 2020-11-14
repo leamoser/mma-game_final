@@ -25,16 +25,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d80584f-ca39-4cf8-b493-b4e6ceed5801" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/freeplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/freeplay.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modules/checkMode.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/checkMode.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modules/displayJourneyInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/displayJourneyInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modules/fetchPlace.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/fetchPlace.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modules/getPossibleTrainstations.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/getPossibleTrainstations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modules/initCockpit.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/initCockpit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/appendButtonFetchMore.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/appendButtonFetchMore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/checkGoal.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/checkGoal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/fetchJson.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/fetchJson.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/play.php" beforeDir="false" afterPath="$PROJECT_DIR$/play.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navigation.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,8 @@
       <workItem from="1605225692317" duration="2198000" />
       <workItem from="1605253546441" duration="21598000" />
       <workItem from="1605278494842" duration="7651000" />
-      <workItem from="1605338682813" duration="5751000" />
+      <workItem from="1605338682813" duration="5854000" />
+      <workItem from="1605346554893" duration="980000" />
     </task>
     <task id="LOCAL-00001" summary="testpush">
       <created>1604850920494</created>
@@ -242,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605341354384</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fixed">
+      <created>1605345625765</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1605345625765</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +287,8 @@
     <MESSAGE value="finale bug solving" />
     <MESSAGE value="finale push am freitag big problems all solved" />
     <MESSAGE value="nthMoves Cockpit" />
-    <option name="LAST_COMMIT_MESSAGE" value="nthMoves Cockpit" />
+    <MESSAGE value="fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="310" y="96" key="#Deployment" timestamp="1604851561707">
@@ -310,22 +319,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="362" y="214" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605271667059" />
+    <state x="640" y="422" key="NewPhpFileDialog" timestamp="1605346913540">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="422" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605346913540" />
     <state x="319" y="159" key="SettingsEditor" timestamp="1604851933795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="319" y="159" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604851933795" />
-    <state x="106" y="172" key="Vcs.Push.Dialog.v2" timestamp="1605341356466">
+    <state x="106" y="172" key="Vcs.Push.Dialog.v2" timestamp="1605345627961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="106" y="172" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605341356466" />
+    <state x="106" y="172" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605345627961" />
     <state x="497" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605254110696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="497" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605254110696" />
-    <state x="483" y="59" width="857" height="852" key="find.popup" timestamp="1605343611774">
+    <state x="483" y="59" width="857" height="852" key="find.popup" timestamp="1605346601125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="59" width="857" height="852" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605343611774" />
+    <state x="483" y="59" width="857" height="852" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605346601125" />
     <state x="492" y="257" key="git4idea.ui.GitUnstashDialog" timestamp="1605196683573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -338,10 +351,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="396" y="239" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605260175107" />
-    <state x="402" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1605209164224">
+    <state x="402" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1605347468923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="402" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605209164224" />
+    <state x="402" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605347468923" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

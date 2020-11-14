@@ -44,7 +44,6 @@ let checkGoal = (placeStart, placeEnd, gametype, time, move) => {
     // Prüft, ob Ziel erreicht wurde (freeplay und level modus)
     if (placeStart === placeEnd) {
         if (gametype > 0) {
-            console.log('you won level modus')
             // im levelplay modus
             won = true;
             showContainer(gameWonContainer);

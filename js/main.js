@@ -18,6 +18,7 @@ import { appendButtonFetchMore } from './modules/appendButtonFetchMore.js';
 const subpage = window.location.pathname;
 const navtoggle = document.querySelector('#nav_toggle');
 const startPlayBtn = document.querySelector('button#startPlay');
+const navChooseMode = document.querySelector('#navChooseMode');
 
 //AUSFÜHRUNG***********************************************
 document.addEventListener('DOMContentLoaded', function () {
@@ -27,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
         //Gamemodus
         if (subpage.search('play') != -1) {
             //Laden von Orten mit JSON wenn richtige Unterseite
+            navChooseMode.innerHTML = 'Spiel beenden'
             let mode = document.querySelector('section#infoscreen').getAttribute('data-level');
             if (mode === 'freeplay') {
                 appendButtonFetchMore(0);

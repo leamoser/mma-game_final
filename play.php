@@ -31,7 +31,7 @@ $b2_text = 'und los...';
             <button class="full" id="placeNew">
                 <p><?php echo $b1_text ?></p>
             </button>
-            <button class="full" id="startPlay">
+            <button class="full hide" id="startPlay">
                 <a href="#">
                     <p><?php echo $b2_text ?></p>
                 </a>
