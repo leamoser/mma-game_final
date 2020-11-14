@@ -70,7 +70,7 @@ $b2_text = 'und los...';
     </article>
     <article id="ct_gameLost" class="hide">
         <h2>Game Over</h2>
-        <h3>Du hast das Spiel verloren</h3>
+        <h3>Du hast das Spiel verloren, weil du alle deine Züge verbraucht hast.</h3>
     </article>
     <article id="ct_schedule">
     </article>

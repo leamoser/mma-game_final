@@ -25,16 +25,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d80584f-ca39-4cf8-b493-b4e6ceed5801" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freeplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/freeplay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modules/appendButtonFetchMore.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/appendButtonFetchMore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/modules/checkGoal.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/checkGoal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modules/fetchJson.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/fetchJson.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/loadNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/loadNav.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/play.php" beforeDir="false" afterPath="$PROJECT_DIR$/play.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navigation.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +92,8 @@
       <workItem from="1605253546441" duration="21598000" />
       <workItem from="1605278494842" duration="7651000" />
       <workItem from="1605338682813" duration="5854000" />
-      <workItem from="1605346554893" duration="980000" />
+      <workItem from="1605346554893" duration="1141000" />
+      <workItem from="1605358181734" duration="2064000" />
     </task>
     <task id="LOCAL-00001" summary="testpush">
       <created>1604850920494</created>
@@ -250,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605345625765</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="404 seite etc.">
+      <created>1605347673130</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1605347673130</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +294,8 @@
     <MESSAGE value="finale push am freitag big problems all solved" />
     <MESSAGE value="nthMoves Cockpit" />
     <MESSAGE value="fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
+    <MESSAGE value="404 seite etc." />
+    <option name="LAST_COMMIT_MESSAGE" value="404 seite etc." />
   </component>
   <component name="WindowStateProjectService">
     <state x="310" y="96" key="#Deployment" timestamp="1604851561707">
@@ -327,18 +334,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="319" y="159" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604851933795" />
-    <state x="106" y="172" key="Vcs.Push.Dialog.v2" timestamp="1605345627961">
+    <state x="106" y="172" key="Vcs.Push.Dialog.v2" timestamp="1605347674680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="106" y="172" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605345627961" />
+    <state x="106" y="172" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605347674680" />
     <state x="497" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605254110696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="497" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605254110696" />
-    <state x="483" y="59" width="857" height="852" key="find.popup" timestamp="1605346601125">
+    <state x="483" y="59" width="857" height="852" key="find.popup" timestamp="1605359756294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="59" width="857" height="852" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605346601125" />
+    <state x="483" y="59" width="857" height="852" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605359756294" />
     <state x="492" y="257" key="git4idea.ui.GitUnstashDialog" timestamp="1605196683573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -361,7 +368,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/modules/checkGoal.js</url>
-          <line>14</line>
+          <line>11</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (subpage.search('play') != -1) {
             document.querySelector('body').classList.add('play');
         }
-        //Burger
+        //Navigation Burger
         navtoggle.addEventListener('click', function () {
             loadNav(event);
         }, false);

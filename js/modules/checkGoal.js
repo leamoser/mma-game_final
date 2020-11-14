@@ -1,19 +1,15 @@
 import { destinations } from "./fetchJson.js";
-import { getData } from "./getData.js";
 import { initCockpit } from "./initCockpit.js";
 import { fetchPlaceEnd } from "./fetchPlaceEnd.js";
-import { wait } from "./wait.js";
 import {breakScreen} from "./breakScreen.js";
-import {nthMove} from "./fetchPlace.js";
+// import {nthMove} from "./fetchPlace.js";
 
 
 // Variables
 const scheduleContainer = document.querySelector('#ct_schedule');
 const loadMoreContainer = document.querySelector('#loadMore');
-
 const gameWonContainer = document.querySelector('#ct_gameWon');
 const gameLostContainer = document.querySelector('#ct_gameLost');
-const gameLostSpanMsg = document.querySelector('#gameLostMaxTrans');
 const freeGameWonContainer = document.querySelector('#ct_freeGameWon');
 let counterWon = 0;
 
@@ -43,13 +39,12 @@ let checkGoal = (placeStart, placeEnd, gametype, time, move) => {
 
     // Prüft, ob Ziel erreicht wurde (freeplay und level modus)
     if (placeStart === placeEnd) {
+        won = true;
         if (gametype > 0) {
             // im levelplay modus
-            won = true;
             showContainer(gameWonContainer);
         } else if (gametype === 0) {
             // im freeplay modus
-            won = true;
             counterWon++;
             if (destinations[counterWon].destination) {
                 showContainer(freeGameWonContainer);
@@ -70,7 +65,6 @@ let checkGoal = (placeStart, placeEnd, gametype, time, move) => {
         if (move >= gametype) {
             lost = true;
             showContainer(gameLostContainer);
-            // gameLostSpanMsg.innerHTML = nthMove;
         }
     }
 
