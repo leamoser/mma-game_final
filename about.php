@@ -5,6 +5,5 @@
     <p>Falls du Fragen hast, erreichst du uns über:</p>
     <p><a href="mailto:privat@lea-moser.ch">privat@lea-moser.ch</a></p>
     <p><a href="mailto:aliceloher@gmx.ch">aliceloher@gmx.ch</a></p>
-
 </section>
 <?php include('templates/foot.php') ?>

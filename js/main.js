@@ -1,15 +1,10 @@
 //IMPORTS**************************************************
-import { allConnections, Connection } from './classes/connection.js';
-import { allPlaces, Place } from './classes/place.js';
-import { Stop } from './classes/stop.js';
-import { fetchPlace } from './modules/fetchPlace.js';
 import { fetchJson, destinations } from './modules/fetchJson.js';
 import { getData } from './modules/getData.js';
 import { loadNav } from './modules/loadNav.js';
 import { displayGameInterface } from './modules/gameInterface.js';
 import { getTime } from './modules/getTime.js';
 import { getPossibleTrainstations } from './modules/getPossibleTrainstations.js';
-import { fetchMorePlaces } from './modules/fetchMorePlaces.js';
 import { checkMode } from './modules/checkMode.js';
 import { initMap } from './modules/map.js';
 import { appendButtonFetchMore } from './modules/appendButtonFetchMore.js';

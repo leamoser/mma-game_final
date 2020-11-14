@@ -3,7 +3,6 @@ import { allConnections, Connection } from '../classes/connection.js';
 import { allPlaces, Place } from '../classes/place.js';
 import { displayJourneyInfo } from '../modules/displayJourneyInfo.js';
 import { drawConnection } from "./drawConnection.js";
-import { breakScreen } from "./breakScreen.js";
 import { darkMode } from "./darkMode.js";
 
 // Wird jedes mal ausgeführt, wenn neuer Ort ausgewählt wurde
@@ -23,11 +22,12 @@ import { darkMode } from "./darkMode.js";
 const otherParameters = { method: "GET" };
 const limit = 5;
 let nthMove = 0;
+let gametype;
 
 
 //Funktion
-let fetchPlace = (placeStart, placeEnd, time, gametype) => {
-    console.log('FetchPlace Gametype: '+gametype);
+let fetchPlace = (placeStart, placeEnd, time, gameType) => {
+    gametype = gameType;
     allConnections.length = 0;
     document.querySelector('#ct_schedule').innerHTML = '';
 
@@ -41,7 +41,7 @@ let fetchPlace = (placeStart, placeEnd, time, gametype) => {
     }
 
     //Schreiben der Journey-Informationen
-    displayJourneyInfo(placeStart, placeEnd, gametype, time, nthMove);
+    displayJourneyInfo(placeStart, placeEnd, time);
 
     //URL
     let url = `https://fahrplan.search.ch/api/stationboard.json?stop=${placeStart}&show_delays=1&limit=${limit}&transportation_types=train&time=${time}&time_type=depart`;
@@ -91,4 +91,4 @@ let fetchPlace = (placeStart, placeEnd, time, gametype) => {
         })
 }
 
-export { fetchPlace , nthMove };
+export { fetchPlace , nthMove , gametype };
