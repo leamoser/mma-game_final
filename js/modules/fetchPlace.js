@@ -60,7 +60,9 @@ let fetchPlace = (placeStart, placeEnd, time, gametype) => {
 
             //Neue Instanz für alle Connections
             data.connections.forEach((connection) => {
-                new Connection(connection.time, placeStart, connection.terminal.name, connection.line);
+                if(connection.terminal.name){
+                    new Connection(connection.time, placeStart, connection.terminal.name, connection.line);
+                }
             })
 
             //Alle Instanzen im DOM ausgeben

@@ -41,6 +41,7 @@ $b2_text = 'und los...';
 </section>
 <section class="maincontainer hide" id="game">
     <article id="ct_cockpit">
+        <p id="levelModus">Level: </p>
         <div class="timespan">
             <div>
                 <span class="indicator"></span>

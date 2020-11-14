@@ -1,3 +1,5 @@
+const startPlayBtn = document.querySelector('button#startPlay');
+
 let createOption = (name, select) => {
     if (name != undefined) {
         let option = document.createElement('p');
@@ -49,6 +51,7 @@ let getPossibleTrainstations = (event) => {
                         let input = document.querySelector('#inputStartPlace');
                         input.innerHTML = event.target.innerHTML;
                         input.value = event.target.innerHTML;
+                        startPlayBtn.classList.remove('hide');
                     })
                 })
             }

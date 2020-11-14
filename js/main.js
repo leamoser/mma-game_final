@@ -17,6 +17,7 @@ import { appendButtonFetchMore } from './modules/appendButtonFetchMore.js';
 //VARIABELN************************************************
 const subpage = window.location.pathname;
 const navtoggle = document.querySelector('#nav_toggle');
+const startPlayBtn = document.querySelector('button#startPlay');
 
 //AUSFÜHRUNG***********************************************
 document.addEventListener('DOMContentLoaded', function () {
@@ -32,14 +33,16 @@ document.addEventListener('DOMContentLoaded', function () {
                 checkMode(0);
                 fetchJson('/assets/json/freeplay-places.json', subpage);
 
-            } else {
+            } else if(mode=='medium' || mode=='easy' || mode=='hard'){
                 //add event listener to btn fetch more
                 appendButtonFetchMore(mode);
                 checkMode(mode);
                 fetchJson('/assets/json/levels-' + mode + '.json', subpage);
+            } else{
+                window.location.href = "/choose_mode.php";
             }
             //Event wenn man und los klickt
-            document.querySelector('button#startPlay').addEventListener('click', function () {
+            startPlayBtn.addEventListener('click', function () {
                 event.preventDefault();
                 getData(subpage, getTime());
                 displayGameInterface();

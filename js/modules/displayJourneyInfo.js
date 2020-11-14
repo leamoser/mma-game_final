@@ -23,7 +23,7 @@ let displayJourneyInfo = (placeStart, placeEnd, gametype, time, move) => {
 
     // Wenn Spiel neu gestartet wird, wird placestart und placeend befüllt
     if (move === 0) {
-        initCockpit(time, placeStart, placeEnd);
+        initCockpit(time, placeStart, placeEnd, gametype);
     } else if (move > 0) {
         //Bei jedem Spielzug wird 'Deine Reise' erweitert (ausser beim ersten Spielzug)
         updateCockpit(placeStart);

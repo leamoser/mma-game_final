@@ -312,6 +312,11 @@ section#game article#ct_cockpit_added p{
   width: 100%;
   white-space: nowrap;
 }
+section#game article#ct_cockpit p#levelModus{
+  position: fixed;
+  top: 1em;
+  left: 1em;
+}
 /*Button*/
 section#game article#ct_cockpit span.indicator{
   background-color: var(--co-negativ);

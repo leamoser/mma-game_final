@@ -24,7 +24,7 @@ $b2_text = 'und los...';
             <button class="full" id="placeNew">
                 <p><?php echo $b1_text ?></p>
             </button>
-            <button class="full" id="startPlay">
+            <button class="full hide" id="startPlay">
                 <a href="#">
                     <p><?php echo $b2_text ?></p>
                 </a>
@@ -34,6 +34,7 @@ $b2_text = 'und los...';
 </section>
 <section class="maincontainer hide" id="game">
     <article id="ct_cockpit">
+        <p id="levelModus">LEVEL</p>
         <div class="timespan">
             <div>
                 <span class="indicator"></span>
