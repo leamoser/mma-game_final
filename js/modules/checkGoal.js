@@ -18,7 +18,6 @@ const freeGameWonContainer = document.querySelector('#ct_freeGameWon');
 let counterWon = 0;
 
 function showContainer(container) {
-    console.log('show ct wir dausgefüht')
     scheduleContainer.classList.add('hide');
     loadMoreContainer.classList.add('hide');
     container.classList.remove('hide');
@@ -39,24 +38,25 @@ buttonsHideOnClick.forEach(button => {
 
 // Funktion
 let checkGoal = (placeStart, placeEnd, gametype, time, move) => {
-    console.log('PlaceStart: '+placeStart);
-    console.log('PlaceEnd: '+placeEnd);
-    console.log(gametype);
+    let won = false;
+    let lost = false;
+
     // Prüft, ob Ziel erreicht wurde (freeplay und level modus)
     if (placeStart === placeEnd) {
         if (gametype > 0) {
             console.log('you won level modus')
             // im levelplay modus
+            won = true;
             showContainer(gameWonContainer);
         } else if (gametype === 0) {
             // im freeplay modus
+            won = true;
             counterWon++;
             if (destinations[counterWon].destination) {
                 showContainer(freeGameWonContainer);
                 // Break Screen  befüllen
                 document.querySelector('#placeEndNew').innerHTML = destinations[counterWon].destination;
                 fetchPlaceEnd(destinations[counterWon].destination);
-
                 // Cockpit neu laden
                 initCockpit(time, placeStart, destinations[counterWon].destination)
             } else {
@@ -64,16 +64,20 @@ let checkGoal = (placeStart, placeEnd, gametype, time, move) => {
             }
 
         }
-    }else if(placeStart != placeEnd && move>0 ) {
-        // Neuer Ort im Journey Info Break Screen anzeigen
-        breakScreen(placeStart);
     }
+
     //  Prüft, ob Spiel verloren wurde (Nur für Level Modus)
     if (gametype > 0) {
         if (move >= gametype) {
+            lost = true;
             showContainer(gameLostContainer);
             // gameLostSpanMsg.innerHTML = nthMove;
         }
+    }
+
+    // Neuer Ort im Journey Info Break Screen anzeigen
+    if(!won && !lost && move>0 ) {
+        breakScreen(placeStart);
     }
 
 }

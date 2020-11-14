@@ -6,26 +6,29 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d80584f-ca39-4cf8-b493-b4e6ceed5801" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modules/appendButtonFetchMore.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/appendButtonFetchMore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/modules/checkGoal.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/checkGoal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modules/checkMode.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/checkMode.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/modules/displayJourneyInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/displayJourneyInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modules/fetchMorePlaces.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/fetchMorePlaces.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modules/fetchPlace.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/fetchPlace.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modules/fetchStops.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/fetchStops.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/play.php" beforeDir="false" afterPath="$PROJECT_DIR$/play.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +86,8 @@
       <workItem from="1605169568291" duration="42842000" />
       <workItem from="1605225692317" duration="2198000" />
       <workItem from="1605253546441" duration="21598000" />
-      <workItem from="1605278494842" duration="6102000" />
+      <workItem from="1605278494842" duration="7651000" />
+      <workItem from="1605338682813" duration="2155000" />
     </task>
     <task id="LOCAL-00001" summary="testpush">
       <created>1604850920494</created>
@@ -218,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605279889767</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="finale push am freitag big problems all solved">
+      <created>1605284805186</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1605284805186</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,19 +240,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -265,7 +264,8 @@
     <MESSAGE value="update mesh" />
     <MESSAGE value="update map darkmode" />
     <MESSAGE value="finale bug solving" />
-    <option name="LAST_COMMIT_MESSAGE" value="finale bug solving" />
+    <MESSAGE value="finale push am freitag big problems all solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="finale push am freitag big problems all solved" />
   </component>
   <component name="WindowStateProjectService">
     <state x="310" y="96" key="#Deployment" timestamp="1604851561707">
@@ -300,10 +300,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="319" y="159" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604851933795" />
-    <state x="106" y="172" key="Vcs.Push.Dialog.v2" timestamp="1605279891969">
+    <state x="106" y="172" key="Vcs.Push.Dialog.v2" timestamp="1605284806718">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="106" y="172" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605279891969" />
+    <state x="106" y="172" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605284806718" />
     <state x="497" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605254110696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

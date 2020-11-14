@@ -12,6 +12,8 @@ import { nthMove } from './fetchPlace.js';
 // Variablen
 const placeStartContainer = document.querySelector('#placeStartInfo');
 const durationContainer = document.querySelector('#journeyDuration');
+const availableMovesContainer = document.querySelector('#availableMoves');
+const countetMovesContainer = document.querySelector('#counterMoves');
 
 // Funktionen
 let displayJourneyInfo = (placeStart, placeEnd, gametype, time, move) => {
@@ -31,10 +33,17 @@ let displayJourneyInfo = (placeStart, placeEnd, gametype, time, move) => {
     checkGoal(placeStart, placeEnd, gametype, time, nthMove);
 
     // Im Freeplay Modus wird Zeit unterwegs berechnet
+    // Im Level Modus wird die Anzahl Moves angezeigt
     if (gametype === 0) {
         durationContainer.innerHTML = calculateDuration(time, placeStartContainer);
         toggleLayerButtons(0, 0, 0, move);
-
+    }else{
+        if(nthMove == 1){
+            countetMovesContainer.innerHTML = nthMove+' Zug';
+        }else{
+            countetMovesContainer.innerHTML = nthMove+' Zügen';
+        }
+        availableMovesContainer.innerHTML = (gametype-nthMove);
     }
 
     // im Level Modus werden Buttons für Map Layers
@@ -47,9 +56,6 @@ let displayJourneyInfo = (placeStart, placeEnd, gametype, time, move) => {
     if(gametype === '15'){
         toggleLayerButtons(3, 6, 9, move);
     }
-
-
-
 
 
 }

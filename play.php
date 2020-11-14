@@ -56,7 +56,7 @@ $b2_text = 'und los...';
         <hr>
     </article>
     <article id="ct_cockpit_added">
-        <p id="availableMoves">lol</p>
+        <p>Du bist mit <span id="counterMoves"></span> gefahren. Dir verbleiben noch <span id="availableMoves"></span> Züge.</p>
     </article>
     <?php include('templates/map.php') ?>
     <article id="ct_journeyinfo" class="hide">
