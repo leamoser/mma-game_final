@@ -22,12 +22,12 @@ $b2_text = 'und los...';
         </article>
         <article>
             <button class="full" id="placeNew">
-                <p><?php echo $b1_text ?></p>
+                <a href="freeplay">
+                    <p><?php echo $b1_text ?></p>
+                </a>
             </button>
             <button class="full hide" id="startPlay">
-                <a href="#">
-                    <p><?php echo $b2_text ?></p>
-                </a>
+                <p><?php echo $b2_text ?></p>
             </button>
         </article>
     </form>
