@@ -3,7 +3,7 @@
     <h1>
         tschuutsch
     </h1>
-    <a href="choose_mode.php">
+    <a href="choose_mode">
         <button class="full" id="startGame">
             <p>Start</p>
         </button>

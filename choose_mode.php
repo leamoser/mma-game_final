@@ -4,17 +4,17 @@ $titel = 'Wähle deinen Modus';
 //Button 1
 $b1_titel = 'Lerne das Spiel';
 $b1_btn = 'start';
-$b1_link = '/tutorial.php';
+$b1_link = '/tutorial';
 //Button 2
 $b2_titel = 'Entdeckermodus';
 $b2_btn = 'start';
-$b2_link = '/freeplay.php';
+$b2_link = '/freeplay';
 //Button 3
 $b3_titel = 'Spielmodus';
 $b3_btn1 = 'easy';
 $b3_btn2 = 'medium';
 $b3_btn3 = 'hard';
-$b3_link = '/play.php';
+$b3_link = '/play';
 ?>
 
 <?php include('templates/head.php') ?>
