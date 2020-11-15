@@ -1,3 +1,6 @@
+<?php
+$gametitle = 'tschuutschuu';
+?>
 <!DOCTYPE html>
 <html>
 

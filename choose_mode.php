@@ -1,5 +1,4 @@
 <?php
-$titel_game = 'tschutschu';
 $titel = 'Wähle deinen Modus';
 //Button 1
 $b1_titel = 'Lerne das Spiel';
@@ -20,7 +19,7 @@ $b3_link = '/play';
 <?php include('templates/head.php') ?>
 <section class="maincontainer" id="choosemode">
     <article>
-        <h1><?php echo $titel_game ?></h1>
+        <h1><?php echo $gametitle ?></h1>
         <h2><?php echo $titel ?></h2>
     </article>
     <article>

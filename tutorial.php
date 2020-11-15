@@ -9,7 +9,6 @@
     </article>
     <article>
         <h2>Ziel des Spiels:</h2>
-
     </article>
 </section>
 <?php include('templates/foot.php') ?>

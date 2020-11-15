@@ -1,7 +1,7 @@
 <?php include('templates/head.php') ?>
 <section class="maincontainer" id="index">
     <h1>
-        tschuutsch
+        <?php echo $gametitle ?>
     </h1>
     <a href="choose_mode">
         <button class="full" id="startGame">
