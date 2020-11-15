@@ -81,7 +81,7 @@ div#map{
 /*ICONs---------------------*/
 .st0{
     fill:var(--co-hauptfarbe);
-}
+  }
 .st1{
-    fill: var(--co-hauptfarbe-50);
+    fill:var(--co-hauptfarbe-50);
 }
