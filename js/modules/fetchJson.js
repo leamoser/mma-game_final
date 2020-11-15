@@ -6,6 +6,7 @@ import { shuffle } from "./shuffle.js";
 const endPlaceContainer = document.querySelector('#placeEnd');
 const placeStartContainer = document.querySelector('#placeStart');
 const placeEndContainer = document.querySelector('#placeEnd');
+const startPlayButton = document.querySelector('#startPlay');
 let destinations = [];
 
 let fetchJson = (path, subpage) => {
@@ -31,6 +32,7 @@ let fetchJson = (path, subpage) => {
                 let placeEnd = data.connections[index]['placeEnd'];
                 placeStartContainer.innerHTML = placeStart;
                 placeEndContainer.innerHTML = placeEnd;
+                startPlayButton.classList.remove('hide');
             }
         })
         .catch(function (error) {

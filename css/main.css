@@ -312,6 +312,11 @@ section#game article#ct_cockpit_added p{
   width: 100%;
   white-space: nowrap;
 }
+section#game article#ct_cockpit p#levelModus{
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}
 /*Button*/
 section#game article#ct_cockpit span.indicator{
   background-color: var(--co-negativ);
@@ -524,4 +529,8 @@ section.maincontainer#contentpage ul li{
   font: var(--f-m-light);
   font-size: 1rem;
   padding: 5px 0;
+}
+
+.fixed{
+  position:fixed;
 }

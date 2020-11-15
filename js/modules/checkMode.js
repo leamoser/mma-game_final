@@ -1,6 +1,7 @@
 const maxTransitionContainer = document.querySelector('#maxTransitions');
 
 let gametype;
+let gametypeName;
 
 let checkMode = (mode) => {
     if(mode == 'easy'){
@@ -25,4 +26,22 @@ let checkMode = (mode) => {
 
 }
 
-export {checkMode};
+let convertModeToString = (gametype) => {
+    if(gametype == '7'){
+        gametypeName = 'Easy';
+        return gametypeName;
+    }else if(gametype == '11'){
+        gametypeName = 'Medium';
+        return gametypeName;
+    }else if(gametype == '15'){
+        gametypeName = 'Hard';
+        return gametypeName;
+    }else if(gametype == '0'){
+        gametypeName = 'Freeplay';
+        return gametypeName;
+    }else{
+        return 'noConversion';
+    }
+}
+
+export {checkMode , convertModeToString};

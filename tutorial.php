@@ -8,6 +8,7 @@
         <h1>Tutorial</h1>
     </article>
     <article>
+        <h2>Ziel des Spiels:</h2>
 
     </article>
 </section>

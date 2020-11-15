@@ -31,7 +31,7 @@ $b2_text = 'und los...';
             <button class="full" id="placeNew">
                 <p><?php echo $b1_text ?></p>
             </button>
-            <button class="full" id="startPlay">
+            <button class="full hide" id="startPlay">
                 <a href="#">
                     <p><?php echo $b2_text ?></p>
                 </a>
@@ -41,6 +41,7 @@ $b2_text = 'und los...';
 </section>
 <section class="maincontainer hide" id="game">
     <article id="ct_cockpit">
+        <p id="levelModus">Level: </p>
         <div class="timespan">
             <div>
                 <span class="indicator"></span>
@@ -56,7 +57,7 @@ $b2_text = 'und los...';
         <hr>
     </article>
     <article id="ct_cockpit_added">
-        <p id="availableMoves">lol</p>
+        <p>Du bist mit <span id="counterMoves"></span> gefahren. Dir verbleiben noch <span id="availableMoves"></span> Züge.</p>
     </article>
     <?php include('templates/map.php') ?>
     <article id="ct_journeyinfo" class="hide">
@@ -69,7 +70,7 @@ $b2_text = 'und los...';
     </article>
     <article id="ct_gameLost" class="hide">
         <h2>Game Over</h2>
-        <h3>Du hast das Spiel verloren</h3>
+        <h3>Du hast das Spiel verloren, weil du alle deine Züge verbraucht hast.</h3>
     </article>
     <article id="ct_schedule">
     </article>
