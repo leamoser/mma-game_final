@@ -52,6 +52,7 @@ let getPossibleTrainstations = (event) => {
                         input.innerHTML = event.target.innerHTML;
                         input.value = event.target.innerHTML;
                         startPlayBtn.classList.remove('hide');
+                        select.innerHTML = '';
                     })
                 })
             }
