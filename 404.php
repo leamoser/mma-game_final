@@ -1,10 +1,21 @@
 <?php
 include('templates/head.php')
 ?>
-<h2>Diese Seite gibt es nicht</h2>
-<h2><a href="/choose_mode.php">Hier kommst du zurück auf die Startseite.</a></h2>
+<section class="maincontainer" id="error">
+    <article class="errormessage">
+        <h1>404</h1>
+        <h2>Diese Seite gibt es nicht</h2>
+    </article>
+    <article>
+        <p>Hier geht's zurück zur Startseite...</p>
+        <button class="full">
+            <a href="/choose_mode">
+                <p>Startseite</p>
+            </a>
+        </button>
+    </article>
+</section>
 
 <?php
 include('templates/foot.php')
 ?>
-

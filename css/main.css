@@ -20,6 +20,7 @@
   --f-m-bold: 700 1.25rem/110% Heebo, sans-serif;
   --f-s-bold: 700 0.725rem/110% Heebo, sans-serif;
   --f-m-light: 400 1.25rem/110% Heebo, sans-serif;
+  --f-m-textschrift: 400 1rem/110% Heebo, sans-serif;
   /*Abstände*/
   --ga-around: 40px;
   --ga-sml: calc( var(--ga-around) / 2 );
@@ -90,6 +91,9 @@ button p{
 }
 button.full p{
   font: var(--f-l-bold);
+}
+.fixed{
+  position:fixed;
 }
 /*Grundaufbau der Seite über alle Pages*/
 section.maincontainer{
@@ -507,7 +511,7 @@ section#game button.btnPlace:last-child{
 }
 
 
-/*INHALTSSEITEN******************************/
+/*INHALTSSEITEN************************************/
 section.maincontainer#contentpage{
   color: var(--co-negativ);
 }
@@ -537,11 +541,22 @@ section.maincontainer#contentpage h3{
   color: var(--co-akzent-fancy);
 }
 section.maincontainer#contentpage ul li{
-  font: var(--f-m-light);
-  font-size: 1rem;
+  font: var(--f-m-textschrift);
   padding: 5px 0;
 }
 
-.fixed{
-  position:fixed;
+/*404****************************************/
+section.maincontainer#error{
+  color: var(--co-negativ);
+  height: 100vh;
+  height: calc(var(--vh-calc, 1vh) * 100);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section.maincontainer#error article:first-of-type{
+  text-align: center;
+}
+section.maincontainer#error h1{
+  font-size: 5rem;
 }
