@@ -1,6 +1,7 @@
 //-----------------------------------------------------------------
 //IMPORTS----------------------------------------------------------
 import { allPlaces, Place } from '../classes/place.js';
+import { wait } from './wait.js';
 
 
 //-----------------------------------------------------------------
@@ -28,6 +29,7 @@ let fetchPlaceEnd = (placeEnd) => {
         .then((data) => {
             //Ort kreieren
             let place = new Place(data.stop.name, data.stop.lon, data.stop.lat);
+
             place.placeOnMap(0);
         })
 }

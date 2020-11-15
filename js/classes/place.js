@@ -25,12 +25,15 @@ class Place {
         //VARIANTE 2: add Marker als HTML Element
         let dot = document.createElement('span');
         dot.classList.add("placeDot");
-        if(type === 0){
+        if (type === 1) {
+            dot.classList.add("placeDotNotEnd");
+        }
+        if (type === 0) {
             dot.classList.add("placeDotEnd");
         }
         let marker = new mapboxgl.Marker(dot)
-          .setLngLat([this.lon, this.lat])
-          .addTo(map);
+            .setLngLat([this.lon, this.lat])
+            .addTo(map);
     }
 }
 

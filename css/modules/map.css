@@ -1,9 +1,4 @@
 /******************************************/
-/*IMPORTS**********************************/
-/******************************************/
-@import "root.css";
-
-/******************************************/
 /*DOTS*************************************/
 /******************************************/
 @keyframes flashlight {
@@ -26,7 +21,7 @@ div.mapboxgl-canvas-container span.old{
 div.mapboxgl-canvas-container span{
     opacity: 0.5;
 }
-div.mapboxgl-canvas-container :last-child{
+div.mapboxgl-canvas-container .placeNow{
     opacity: 1;
     width: 0.9em;
     height: 0.9em;

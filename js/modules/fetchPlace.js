@@ -6,6 +6,7 @@ import { allPlaces, Place } from '../classes/place.js';
 import { displayJourneyInfo } from '../modules/displayJourneyInfo.js';
 import { drawConnection } from "./drawConnection.js";
 import { darkMode } from "./darkMode.js";
+import { wait } from './wait.js';
 
 
 //-----------------------------------------------------------------
@@ -33,6 +34,16 @@ let gametype;
 
 //-----------------------------------------------------------------
 //FUNKTIONEN-------------------------------------------------------
+let markPlace = () => {
+    wait(100).then(() => {
+        let allDots = document.querySelectorAll('span.placeDotNotEnd');
+        allDots.forEach((dot) => {
+            dot.classList.remove('placeNow');
+        })
+        let numberOfDots = allDots.length;
+        allDots[numberOfDots - 1].classList.add('placeNow');
+    });
+}
 let fetchPlace = (placeStart, placeEnd, time, gameType) => {
     gametype = gameType;
     allConnections.length = 0;
@@ -87,6 +98,7 @@ let fetchPlace = (placeStart, placeEnd, time, gameType) => {
                     fetchStops(event.target.getAttribute('data-placestart'), event.target.getAttribute('data-placeend'), event.target.getAttribute('data-time'), gametype, placeEnd);
                 }, false)
             })
+            markPlace();
         })
 }
 
