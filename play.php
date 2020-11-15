@@ -60,18 +60,9 @@ $b2_text = 'und los...';
         <p>Du bist mit <span id="counterMoves"></span> gefahren. Dir verbleiben noch <span id="availableMoves"></span> Züge.</p>
     </article>
     <?php include('templates/map.php') ?>
-    <article id="ct_journeyinfo" class="hide">
-        <h2></h2>
-        <img src="assets/icons/trainIcon.svg" alt="train icon">
-    </article>
-    <article id="ct_gameWon" class="hide">
-        <h2>Du hast gewonnen!</h2>
-        <h3>Du bist ein Traingame Meister :)</h3>
-    </article>
-    <article id="ct_gameLost" class="hide">
-        <h2>Game Over</h2>
-        <h3>Du hast das Spiel verloren, weil du alle deine Züge verbraucht hast.</h3>
-    </article>
+    <?php include('templates/breakscreens/break.php') ?>
+    <?php include('templates/breakscreens/won.php') ?>
+    <?php include('templates/breakscreens/lost.php') ?>
     <article id="ct_schedule">
     </article>
     <article id="loadMore">

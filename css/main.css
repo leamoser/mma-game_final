@@ -11,8 +11,8 @@
   --co-hauptfarbe: #E84646;
   --co-hauptfarbe-50: #77BDBE;
   --co-akzent-fancy: #F7BB17;
-  --co-akzent-neg: #F36C1A;
-  --co-akzent-pos: #98B342;
+  --co-akzent-neg: #3e0606/*#F36C1A*/;
+  --co-akzent-pos: #42b360/*#98B342*/;
   --co-positiv: #000000;
   --co-negativ: #FFFFFF;
   /*Schriften*/
@@ -559,4 +559,34 @@ section.maincontainer#error article:first-of-type{
 }
 section.maincontainer#error h1{
   font-size: 5rem;
+}
+
+/*Buttonbox******************************/
+div.buttonbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+div.buttonbox>*{
+  padding: var(--ga-buttons);
+  width: 100%;
+  margin: 5px;
+}
+div.buttonbox :first-child{
+  margin-left: 0px;
+}
+div.buttonbox :last-child{
+  margin-right: 0px;
+}
+div.buttonbox button,
+div.buttonbox input[type="submit"]{
+  width: 100%;
+  border: 0px;
+  border-radius: 0px;
+  background-color: var(--co-akzent-fancy);
+}
+div.buttonbox button p,
+div.buttonbox input[type="submit"] p{
+  font: var(--f-m-bold);
 }

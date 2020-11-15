@@ -1,7 +1,7 @@
 import { destinations } from "./fetchJson.js";
 import { initCockpit } from "./initCockpit.js";
 import { fetchPlaceEnd } from "./fetchPlaceEnd.js";
-import {breakScreen} from "./breakScreen.js";
+import { breakScreen } from "./breakScreen.js";
 // import {nthMove} from "./fetchPlace.js";
 
 
@@ -24,11 +24,17 @@ function showSchedule() {
     loadMoreContainer.classList.remove('hide');
 }
 
+let clearJourneyInfo = () => {
+    document.querySelector('div#journeyInfo').innerHTML = '';
+}
+
+//Versteckt die Weiter-Schaltfläche, wenn jemand im Freeplay weitermacht
 let buttonsHideOnClick = document.querySelectorAll('.hideOnClick');
 buttonsHideOnClick.forEach(button => {
     button.onclick = function () {
-        button.parentElement.classList.add('hide');
+        button.parentElement.parentElement.classList.add('hide');
         showSchedule();
+        clearJourneyInfo();
     }
 })
 
@@ -69,7 +75,7 @@ let checkGoal = (placeStart, placeEnd, gametype, time, move) => {
     }
 
     // Neuer Ort im Journey Info Break Screen anzeigen
-    if(!won && !lost && move>0 ) {
+    if (!won && !lost && move > 0) {
         breakScreen(placeStart);
     }
 

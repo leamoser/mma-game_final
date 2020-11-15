@@ -53,29 +53,10 @@ $b2_text = 'und los...';
         <p id="journeyDuration"></p>
     </article>
     <?php include('templates/map.php') ?>
-    <article id="ct_journeyinfo" class="hide">
-        <h2></h2>
-        <img src="assets/icons/trainIcon.svg" alt="train icon">
-    </article>
-    <article id="ct_freeGameWon" class="hide">
-        <h2>Du bist an deinem Zielort angekommen</h2>
-        <h2>Dein Nächster Zielort:</h2>
-        <h3 id="placeEndNew"></h3>
-        <button class="full hideOnClick">
-            <p>Weiter</p>
-        </button>
-        <button class="full">
-            <p>Spiel abbrechen</p>
-        </button>
-    </article>
-    <article id="ct_gameLost" class="hide">
-        <h1>Game Over</h1>
-        <p>Du hast das Spiel verloren</p>
-    </article>
-    <article id="ct_gameWon" class="hide">
-        <h2>Du hast gewonnen!</h2>
-        <h3>Du bist ein Traingame Meister :)</h3>
-    </article>
+    <?php include('templates/breakscreens/break.php') ?>
+    <?php include('templates/breakscreens/next.php') ?>
+    <?php include('templates/breakscreens/lost.php') ?>
+    <?php include('templates/breakscreens/won.php') ?>
     <article id="ct_schedule">
     </article>
     <article id="loadMore">
