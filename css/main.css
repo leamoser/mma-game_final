@@ -18,9 +18,11 @@
   /*Schriften*/
   --f-l-bold: 700  1.875rem/106% Heebo, sans-serif;
   --f-m-bold: 700 1.25rem/110% Heebo, sans-serif;
-  --f-s-bold: 700 0.725rem/110% Heebo, sans-serif;
   --f-m-light: 400 1.25rem/110% Heebo, sans-serif;
+  --f-s-bold: 700 0.725rem/110% Heebo, sans-serif;
+  --f-s-light: 400 0.725rem/110% Heebo, sans-serif;
   --f-m-textschrift: 400 1rem/110% Heebo, sans-serif;
+  
   /*Abstände*/
   --ga-around: 40px;
   --ga-sml: calc( var(--ga-around) / 2 );
@@ -79,6 +81,10 @@ p{
   font: var(--f-m-light);
   margin: 5px 0;
   padding: 0 0;
+}
+p.subinfo{
+  font: var(--f-s-light);
+  margin-bottom: var(--ga-sml);
 }
 button,
 input[type="submit"]{
