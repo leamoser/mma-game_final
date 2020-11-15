@@ -1,3 +1,5 @@
+//-----------------------------------------------------------------
+//FUNKTION---------------------------------------------------------
 let loadNav = (event) => {
     const navcontainer = event.target.parentElement;
     if (navcontainer.classList.contains('open')) {
@@ -11,4 +13,7 @@ let loadNav = (event) => {
         document.querySelector('main').classList.add('fixed');
     }
 }
+
+//-----------------------------------------------------------------
+//EXPORTS----------------------------------------------------------
 export { loadNav };

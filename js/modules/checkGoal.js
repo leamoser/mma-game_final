@@ -1,3 +1,5 @@
+//-----------------------------------------------------------------
+//IMPORTS----------------------------------------------------------
 import { destinations } from "./fetchJson.js";
 import { initCockpit } from "./initCockpit.js";
 import { fetchPlaceEnd } from "./fetchPlaceEnd.js";
@@ -5,7 +7,8 @@ import { breakScreen } from "./breakScreen.js";
 // import {nthMove} from "./fetchPlace.js";
 
 
-// Variables
+//-----------------------------------------------------------------
+//VARIABELN--------------------------------------------------------
 const scheduleContainer = document.querySelector('#ct_schedule');
 const loadMoreContainer = document.querySelector('#loadMore');
 const gameWonContainer = document.querySelector('#ct_gameWon');
@@ -13,21 +16,21 @@ const gameLostContainer = document.querySelector('#ct_gameLost');
 const freeGameWonContainer = document.querySelector('#ct_freeGameWon');
 let counterWon = 0;
 
-function showContainer(container) {
+
+//-----------------------------------------------------------------
+//FUNKTIONEN-------------------------------------------------------
+let showContainer = (container) => {
     scheduleContainer.classList.add('hide');
     loadMoreContainer.classList.add('hide');
     container.classList.remove('hide');
 }
-
-function showSchedule() {
+let showSchedule = () => {
     scheduleContainer.classList.remove('hide');
     loadMoreContainer.classList.remove('hide');
 }
-
 let clearJourneyInfo = () => {
     document.querySelector('div#journeyInfo').innerHTML = '';
 }
-
 //Versteckt die Weiter-Schaltfläche, wenn jemand im Freeplay weitermacht
 let buttonsHideOnClick = document.querySelectorAll('.hideOnClick');
 buttonsHideOnClick.forEach(button => {
@@ -37,12 +40,9 @@ buttonsHideOnClick.forEach(button => {
         clearJourneyInfo();
     }
 })
-
-// Funktion
 let checkGoal = (placeStart, placeEnd, gametype, time, move) => {
     let won = false;
     let lost = false;
-
     // Prüft, ob Ziel erreicht wurde (freeplay und level modus)
     if (placeStart === placeEnd) {
         won = true;
@@ -62,10 +62,8 @@ let checkGoal = (placeStart, placeEnd, gametype, time, move) => {
             } else {
                 showContainer(gameWonContainer);
             }
-
         }
     }
-
     //  Prüft, ob Spiel verloren wurde (Nur für Level Modus)
     if (gametype > 0) {
         if (move >= gametype) {
@@ -73,12 +71,13 @@ let checkGoal = (placeStart, placeEnd, gametype, time, move) => {
             showContainer(gameLostContainer);
         }
     }
-
     // Neuer Ort im Journey Info Break Screen anzeigen
     if (!won && !lost && move > 0) {
         breakScreen(placeStart);
     }
-
 }
 
+
+//-----------------------------------------------------------------
+//EXPORTS----------------------------------------------------------
 export { checkGoal };

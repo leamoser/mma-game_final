@@ -1,13 +1,19 @@
+//-----------------------------------------------------------------
+//IMPORTS----------------------------------------------------------
 import { allPlaces, Place } from '../classes/place.js';
 import { fetchStops } from './fetchStops.js';
 import { allConnections, Connection } from '../classes/connection.js';
 import { nthMove } from './fetchPlace.js';
 
-//Variabeln
+
+//-----------------------------------------------------------------
+//VARIABELN--------------------------------------------------------
 const otherParameters = { method: "GET" };
 const limit = 5;
 
-//Funktion
+
+//-----------------------------------------------------------------
+//FUNKTIONEN-------------------------------------------------------
 let fetchMorePlaces = (placeStart, placeEnd, time, gametype) => {
     console.log(gametype)
     allConnections.length = 0;
@@ -23,12 +29,10 @@ let fetchMorePlaces = (placeStart, placeEnd, time, gametype) => {
             //Ort kreieren
             let place = new Place(data.stop.name, data.stop.lon, data.stop.lat);
             place.setAsInstance();
-
             //Neue Instanz für alle Connections
             data.connections.forEach((connection) => {
                 new Connection(connection.time, placeStart, connection.terminal.name, connection.line);
             })
-
             //Alle Instanzen im DOM ausgeben
             allConnections.forEach((connection) => {
                 connection.outputToDom();
@@ -45,4 +49,7 @@ let fetchMorePlaces = (placeStart, placeEnd, time, gametype) => {
         })
 }
 
+
+//-----------------------------------------------------------------
+//EXPORTS----------------------------------------------------------
 export { fetchMorePlaces };

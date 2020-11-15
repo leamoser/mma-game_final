@@ -1,5 +1,10 @@
+//-----------------------------------------------------------------
+//VARIABELN--------------------------------------------------------
 const startPlayBtn = document.querySelector('button#startPlay');
 
+
+//-----------------------------------------------------------------
+//FUNKTIONEN-------------------------------------------------------
 let createOption = (name, select) => {
     if (name != undefined) {
         let option = document.createElement('p');
@@ -9,7 +14,6 @@ let createOption = (name, select) => {
         select.appendChild(option);
     }
 }
-
 let getPossibleTrainstations = (event) => {
     const otherParameters = { method: "GET", maxjsonlength: '3' };
     let path = '/assets/json/trainstations.json';
@@ -58,4 +62,8 @@ let getPossibleTrainstations = (event) => {
             }
         })
 }
+
+
+//-----------------------------------------------------------------
+//EXPORTS----------------------------------------------------------
 export { getPossibleTrainstations };

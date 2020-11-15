@@ -1,9 +1,11 @@
-//Imports
+//-----------------------------------------------------------------
+//IMPORTS----------------------------------------------------------
 import { Stop } from '../classes/stop.js';
 import { fetchPlace } from '../modules/fetchPlace.js';
-import { allConnections, Connection } from '../classes/connection.js';
 
-//Funktion
+
+//-----------------------------------------------------------------
+//FUNKTIONEN-------------------------------------------------------
 let fetchStops = (placeStart, placeEnd, time, gametype, finalPlaceEnd) => {
     console.log(gametype)
     //Container holen
@@ -43,5 +45,7 @@ let fetchStops = (placeStart, placeEnd, time, gametype, finalPlaceEnd) => {
         })
 }
 
-//Export
+
+//-----------------------------------------------------------------
+//EXPORTS----------------------------------------------------------
 export { fetchStops };

@@ -1,10 +1,14 @@
+//-----------------------------------------------------------------
+//VARIABELN--------------------------------------------------------
 let map;
 const btnLayerHills = document.querySelector('#mapButtonMountain');
 const btnLayerWater = document.querySelector('#mapButtonWater');
 const btnLayerCity = document.querySelector('#mapButtonCity');
-let buttonsMap = [btnLayerHills, btnLayerWater , btnLayerCity];
+let buttonsMap = [btnLayerHills, btnLayerWater, btnLayerCity];
 
-  //Map
+
+//-----------------------------------------------------------------
+//FUNKTION---------------------------------------------------------
 let initMap = () => {
   mapboxgl.accessToken = 'pk.eyJ1IjoiYWxpY2VtbWFyaWUiLCJhIjoiY2tlc2gxZHgwM2JubzJ5bnB5dHYzeGR1diJ9.1wrlj5nw4_9Kt9TaqH91QA';
   let bounds = [
@@ -20,10 +24,8 @@ let initMap = () => {
     maxZoom: 13,
     maxBounds: bounds
   });
-
   map.dragRotate.disable();
   map.scrollZoom.enable();
-
   map.on('load', function () {
     map.setLayoutProperty('hillshade', 'visibility', 'none');
     map.setLayoutProperty('wasser', 'visibility', 'none');
@@ -31,42 +33,40 @@ let initMap = () => {
     map.setLayoutProperty('schweiz_overlay_dark', 'visibility', 'none');
     map.setLayoutProperty('schweiz_fill dark', 'visibility', 'none');
   })
-
   buttonsMap.forEach(btn => {
-    btn.onclick = function(e){
+    btn.onclick = function (e) {
       e.preventDefault();
       e.stopPropagation();
-      if(btn.id === 'mapButtonMountain'){
+      if (btn.id === 'mapButtonMountain') {
         toggleLayer('hillshade');
-      }else if(btn.id === 'mapButtonWater'){
+      } else if (btn.id === 'mapButtonWater') {
         toggleLayer('wasser');
-      }else if(btn.id === 'mapButtonCity'){
+      } else if (btn.id === 'mapButtonCity') {
         toggleLayer('bigplaces');
       }
     }
   })
-
-  function toggleLayer( layer){
+  function toggleLayer(layer) {
     let visibility = map.getLayoutProperty(layer, 'visibility');
-    if(visibility === 'none'){
+    if (visibility === 'none') {
       map.setLayoutProperty(layer, 'visibility', 'visible');
-    }else{
+    } else {
       map.setLayoutProperty(layer, 'visibility', 'none');
     }
+  }
+}
+function switchDarkMode(mode) {
+  if (mode === 'dark') {
+    map.setLayoutProperty('schweiz_overlay_dark', 'visibility', 'visible');
+    map.setLayoutProperty('schweiz_fill dark', 'visibility', 'visible');
+  } else if (mode === 'light') {
+    map.setLayoutProperty('schweiz_overlay_dark', 'visibility', 'none');
+    map.setLayoutProperty('schweiz_fill dark', 'visibility', 'none');
   }
 
 }
 
-function switchDarkMode(mode){
-    if(mode === 'dark'){
-      map.setLayoutProperty('schweiz_overlay_dark', 'visibility', 'visible');
-      map.setLayoutProperty('schweiz_fill dark', 'visibility', 'visible');
-    }else if(mode === 'light'){
-      map.setLayoutProperty('schweiz_overlay_dark', 'visibility', 'none');
-      map.setLayoutProperty('schweiz_fill dark', 'visibility', 'none');
-    }
 
-}
-
-
-export { initMap , map, switchDarkMode, buttonsMap};
+//-----------------------------------------------------------------
+//EXPORTS----------------------------------------------------------
+export { initMap, map, switchDarkMode, buttonsMap };

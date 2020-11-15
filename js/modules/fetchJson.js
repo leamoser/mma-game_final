@@ -1,14 +1,25 @@
+//-----------------------------------------------------------------
+//IMPORTS----------------------------------------------------------
 import { shuffle } from "./shuffle.js";
 
+
+//-----------------------------------------------------------------
+//ERKLÄRUNGEN------------------------------------------------------
 // Wird 1x ausgeführt, wenn Modus gewählt wird
 // Holt Spiel Daten (assets/json/...) und befüllt Infoscreen
 
+
+//-----------------------------------------------------------------
+//VARIABELN--------------------------------------------------------
 const endPlaceContainer = document.querySelector('#placeEnd');
 const placeStartContainer = document.querySelector('#placeStart');
 const placeEndContainer = document.querySelector('#placeEnd');
 const startPlayButton = document.querySelector('#startPlay');
 let destinations = [];
 
+
+//-----------------------------------------------------------------
+//FUNKTIONEN-------------------------------------------------------
 let fetchJson = (path, subpage) => {
     fetch(path)
         .then((response) => {
@@ -40,4 +51,7 @@ let fetchJson = (path, subpage) => {
         });
 }
 
-export { fetchJson , destinations };
+
+//-----------------------------------------------------------------
+//EXPORTS----------------------------------------------------------
+export { fetchJson, destinations };

@@ -1,3 +1,5 @@
+//-----------------------------------------------------------------
+//FUNKTION---------------------------------------------------------
 let writeContainer = (placeStart, journeyInfoContainer) => {
     //Hauptcontainer
     let newCockpitDot = document.createElement('div');
@@ -12,10 +14,12 @@ let writeContainer = (placeStart, journeyInfoContainer) => {
     //Hauptcontainer anschliessen
     journeyInfoContainer.appendChild(newCockpitDot);
 }
-
 let updateCockpit = (placeStart) => {
     let journeyInfoContainer = document.querySelector('#journeyInfo');
     writeContainer(placeStart, journeyInfoContainer);
 }
 
+
+//-----------------------------------------------------------------
+//EXPORTS----------------------------------------------------------
 export { updateCockpit };

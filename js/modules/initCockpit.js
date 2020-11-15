@@ -1,9 +1,17 @@
+//-----------------------------------------------------------------
+//IMPORTS----------------------------------------------------------
 import { convertModeToString } from '../modules/checkMode.js';
 
+
+//-----------------------------------------------------------------
+//VARIABLEN--------------------------------------------------------
 const placeStartContainer = document.querySelector('#placeStartInfo');
 const placeEndContainer = document.querySelector('#placeEndInfo');
 const levelModusContainer = document.querySelector('#levelModus');
 
+
+//-----------------------------------------------------------------
+//FUNKTION---------------------------------------------------------
 let initCockpit = (time, startPlace, endPlace, gametype) => {
     let gameTypeName = convertModeToString(gametype);
     levelModusContainer.innerHTML += gameTypeName;
@@ -12,4 +20,7 @@ let initCockpit = (time, startPlace, endPlace, gametype) => {
     placeEndContainer.innerHTML = endPlace;
 }
 
+
+//-----------------------------------------------------------------
+//EXPORTS----------------------------------------------------------
 export { initCockpit };

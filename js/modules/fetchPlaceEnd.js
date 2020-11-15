@@ -1,12 +1,21 @@
+//-----------------------------------------------------------------
+//IMPORTS----------------------------------------------------------
 import { allPlaces, Place } from '../classes/place.js';
 
+
+//-----------------------------------------------------------------
+//ERKLÄRUNGEN------------------------------------------------------
 // Zielort wird als Instanz vom Place erstellt und auf der Karte gezeichnet
 
-//Variabeln
+
+//-----------------------------------------------------------------
+//VARIABELN--------------------------------------------------------
 const otherParameters = { method: "GET" };
 const limit = 1;
 
-//Funktion
+
+//-----------------------------------------------------------------
+//FUNKTIONEN-------------------------------------------------------
 let fetchPlaceEnd = (placeEnd) => {
     //URL
     let url = `https://fahrplan.search.ch/api/stationboard.json?stop=${placeEnd}&show_delays=1&limit=${limit}&transportation_types=train`;
@@ -24,5 +33,6 @@ let fetchPlaceEnd = (placeEnd) => {
 }
 
 
-
+//-----------------------------------------------------------------
+//EXPORTS----------------------------------------------------------
 export { fetchPlaceEnd };
