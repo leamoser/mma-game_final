@@ -1,20 +1,17 @@
 /*buttons*/
-button:focus{
-    outline: none;
-}
 button{
     border-radius: 0px;
 }
 /*form fields*/
-input:focus{
-    outline: none;
-}
 ::placeholder { 
     color: inherit;
     opacity: 0.5;
 }
 input[type="submit"]{
     border-radius: 0px;
+}
+:focus{
+    outline: none;
 }
 /*page behaviuor*/
 html {
@@ -38,10 +35,10 @@ body section.maincontainer a{
     background: var(--co-hauptfarbe);
     color: var(--co-hauptfarbe-50);
 }
-
+/*Klassen*/
 .hide{
     display: none;
 }
-:focus{
-    outline: none;
-}
+.fixed{
+    position:fixed;
+  }
