@@ -298,7 +298,7 @@ section#game article{
   margin-left: calc( var(--ga-around) * -1 );
 }
 
-/*Cockpit*/
+/*Cockpit*****************************************/
 /*Basics*/
 section#game article#ct_cockpit{
   margin-top: calc( var(--ga-around) * -1 );
@@ -396,13 +396,24 @@ section#game article#ct_cockpit_added{
   position: relative;
   z-index: 1;
 }
+/*Level-Anzeige*/
+section#game article#ct_cockpit p#levelModus{
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: var(--co-akzent-fancy);
+  width: auto;
+  padding: var(--ga-mini);
+  margin: var(--ga-sml);
+}
 
-/*Load More Button*/
+/*Load More Button************************/
 section#game article#loadMore{
   padding: var(--ga-around) var(--ga-around) 0 var(--ga-around);
 }
 
-/*Zwischenscreens*/
+
+/*Zwischenscreens*******************************/
 section#game article#ct_gameWon, 
 section#game article#ct_gameLost, 
 section#game article#ct_journeyinfo, 
