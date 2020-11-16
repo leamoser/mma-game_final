@@ -5,12 +5,12 @@ let loadNav = (event) => {
     if (navcontainer.classList.contains('open')) {
         navcontainer.classList.remove('open');
         event.target.innerHTML = '=';
-        document.querySelector('main').classList.remove('fixed');
+        //document.querySelector('main').classList.remove('fixed');
 
     } else {
         navcontainer.classList.add('open');
         event.target.innerHTML = '  X  ';
-        document.querySelector('main').classList.add('fixed');
+        //document.querySelector('main').classList.add('fixed');
     }
 }
 
