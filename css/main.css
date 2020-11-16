@@ -3,8 +3,6 @@
 /******************************************/
 /*IMPORTS**********************************/
 /******************************************/
-@import "sizes/tablet.css";
-@import "sizes/mobile.css";
 @import "modules/normalize.css";
 @import "modules/map.css";
 @import "modules/fonts.css";
@@ -606,4 +604,16 @@ section.maincontainer#error article:first-of-type{
 }
 section.maincontainer#error h1{
   font-size: 5rem;
+}
+
+/****************************************************************************DESKTOPANPASSUNGEN*/
+
+/******************************************/
+/*IMPORTS**********************************/
+/******************************************/
+@media only screen and (min-width: 1024px) {
+  /*Code*/
+  body{
+      background-color: blue;
+  }
 }
