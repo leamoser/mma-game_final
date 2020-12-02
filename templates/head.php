@@ -1,5 +1,5 @@
 <?php
-$gametitle = 'tschuutschuu';
+$gametitle = 'zug um zug';
 ?>
 <!DOCTYPE html>
 <html>
