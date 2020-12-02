@@ -17,10 +17,15 @@
   --co-hauptfarbe: #E84646;
   --co-hauptfarbe-50: #77BDBE;
   --co-akzent-fancy: #F7BB17;
+  --co-akzent-fancy-switch: #F7BB17;
   --co-akzent-neg: #3e0606/*#F36C1A*/;
   --co-akzent-pos: #42b360/*#98B342*/;
   --co-positiv: #000000;
   --co-negativ: #FFFFFF;
+  /*Schriffarben*/
+  --co-typo-darkred: #860D0D;
+  --co-typo-darkyellow: #7F600B;
+  --co-typo-darkblue: #135657;
   /*Schriften*/
   --f-l-bold: 700  1.875rem/106% Heebo, sans-serif;
   --f-m-bold: 700 1.25rem/110% Heebo, sans-serif;
@@ -67,6 +72,7 @@
 /*Hintergrundfarben Seite*/
 body{
   background-color: var(--co-hauptfarbe);
+  color: var(--co-typo-darkred);
 }
 body.play{
   background-color: var(--co-negativ);
@@ -104,6 +110,12 @@ p.subinfo{
   margin-bottom: var(--ga-sml);
 }
 
+/*Gametitle*/
+.gametitle{
+  opacity: 0.6;
+
+}
+
 
 /******************************************/
 /*NAVIGATION*******************************/
@@ -112,7 +124,7 @@ p.subinfo{
 div.navigation p{
   cursor: pointer;
   position: fixed;
-  color: var(--co-negativ);
+  color: var(--co-typo-darkyellow);
   background-color: var(--co-akzent-fancy);
   padding: 10px;
   top: 0;
@@ -124,7 +136,7 @@ div.navigation p{
 }
 div.navigation.open p{
   color: var(--co-akzent-fancy);
-  background-color: var(--co-negativ);
+  background-color: var(--co-typo-darkyellow);
 }
 /*Navigationscontainer*/
 div.navigation nav{
@@ -134,7 +146,7 @@ div.navigation nav{
   height: calc(var(--vh-calc, 1vh) * 100);
   padding: var(--ga-around);
   background-color: var(--co-akzent-fancy);
-  color: var(--co-negativ);
+  color: var(--co-typo-darkyellow);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -172,7 +184,7 @@ div.navigation nav a{
 /*Buttons*/
 button{
   background-color: var(--co-akzent-fancy);
-  color: var(--co-negativ);
+  color: var(--co-typo-darkyellow);
   cursor: pointer;
   padding: var(--ga-buttons) 0;
 }
@@ -191,7 +203,7 @@ button.full p{
 /*Input Submit*/
 input[type="submit"]{
   background-color: var(--co-akzent-fancy);
-  color: var(--co-negativ);
+  color: var(--co-typo-darkyellow);
   font: var(--f-m-bold);
   cursor: pointer;
   padding: var(--ga-buttons) 0;
@@ -234,6 +246,7 @@ div.buttonbox input[type="submit"]{
   border: 0px;
   border-radius: 0px;
   background-color: var(--co-akzent-fancy);
+  color: var(--co-typo-darkyellow);
 }
 div.buttonbox button p,
 div.buttonbox input[type="submit"] p{
@@ -273,6 +286,7 @@ section#infoscreen div.infobox :last-child{
 }
 section#infoscreen button.full{
   background-color: var(--co-hauptfarbe);
+  color: var(--co-typo-darkred);
   margin-top: var(--ga-sml);
 }
 /*Dropdown im Freeplay*/
@@ -322,7 +336,7 @@ section#game article#ct_cockpit{
   margin-top: calc( var(--ga-around) * -1 );
   padding: calc( var(--ga-around) * 1.5 ) calc( var(--ga-around) / 2 ) calc( var(--ga-around) / 2 ) calc( var(--ga-around) / 2 );
   background-color: var(--co-hauptfarbe);
-  color: var(--co-negativ);
+  color: var(--co-typo-darkred);
 }
 section#game article#ct_cockpit p,
 section#game article#ct_cockpit_added p{
@@ -337,7 +351,7 @@ section#game article#ct_cockpit p#levelModus{
 }
 /*Button*/
 section#game article#ct_cockpit span.indicator{
-  background-color: var(--co-negativ);
+  background-color: var(--co-typo-darkred);
   width: 10px;
   height: 10px;
   border-radius: 100%;
@@ -371,7 +385,7 @@ article#ct_cockpit hr{
   width: calc( 100vw - calc( var(--ga-sml) * 2 ) );
   position: absolute;
   border: none;
-  border-bottom: 1px solid var(--co-negativ);
+  border-bottom: 1px solid var(--co-typo-darkred);
   margin-top: -28px;
   z-index: 0;
 }
@@ -390,15 +404,15 @@ section#game article#ct_cockpit div#journeyInfo div{
 }
 section#game article#ct_cockpit div#journeyInfo div:last-of-type span{
   background-color: var(--co-hauptfarbe);
-  border: 1px solid var(--co-negativ);
+  border: 1px solid var(--co-typo-darkred);
   animation: flashlight 0.5s ease 0s infinite alternate;
 }
 /*Modifikationen*/
 section#game article#ct_cockpit div.timespan>div:last-of-type p{
-  color: var(--co-akzent-fancy);
+  color: var(--co-akzent-fancy-switch);
 }
 section#game article#ct_cockpit div.timespan>div:last-of-type span{
-  background-color: var(--co-akzent-fancy);
+  background-color: var(--co-akzent-fancy-switch);
 }
 /*Level-Anzeige*/
 section#game article#ct_cockpit p#levelModus{
@@ -406,6 +420,7 @@ section#game article#ct_cockpit p#levelModus{
   left: 0;
   top: 0;
   background-color: var(--co-akzent-fancy);
+  color: var(--co-typo-darkyellow);
   width: auto;
   padding: var(--ga-mini);
   margin: var(--ga-sml);
@@ -414,7 +429,7 @@ section#game article#ct_cockpit p#levelModus{
 section#game article#ct_cockpit_added{
   padding: 5px calc( var(--ga-around) / 2 );
   background-color: var(--co-akzent-fancy);
-  color: var(--co-negativ);
+  color: var(--co-typo-darkyellow);
   position: relative;
   z-index: 1;
 }
@@ -422,7 +437,7 @@ section#game article#ct_cockpit_added{
 /*Fahrplan**********************/
 section#game div.ct_connection{
   background-color: var(--co-hauptfarbe);
-  color: var(--co-negativ);
+  color: var(--co-typo-darkred);
   padding: var(--ga-sml);
 }
 section#game div.ct_connection:not(:first-of-type){
@@ -437,7 +452,7 @@ section#game div.ct_connection div.info_basic{
 }
 section#game button.btn_more{
   background-color: var(--co-hauptfarbe-50);
-  color: var(--co-negativ);
+  color: var(--co-typo-darkblue);
   font: var(--f-m-bold);
   border: none;
   height: auto;
@@ -460,7 +475,7 @@ section#game div.info_extended::-webkit-scrollbar{
 }
 section#game button.btnPlace{
   background-color: var(--co-hauptfarbe-50);
-  color: var(--co-negativ);
+  color: var(--co-typo-darkblue);
   border: none;
   padding: var(--ga-mini);
   width: auto;
@@ -469,8 +484,8 @@ section#game button.btnPlace{
   font: var(--f-m-light);
 }
 section#game button.btnPlace:last-child{
-  background-color: var(--co-negativ);
-  color: var(--co-hauptfarbe);
+  background-color: var(--co-typo-darkblue);
+  color: var(--co-hauptfarbe-50);
 }
 
 /*Load More Button*******************/
@@ -514,6 +529,7 @@ section#game article#ct_gameLost {
 }
 section#game article#ct_freeGameWon{
   background-color: var(--co-hauptfarbe-50);
+  color: var(--co-typo-darkblue);
 }
 
 
@@ -524,7 +540,7 @@ section#game article#ct_freeGameWon{
 /*Startseite********************/
 section#index{
   background-color: var(--co-hauptfarbe);
-  color: var(--co-negativ);
+  color: var(--co-typo-darkred);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -535,7 +551,7 @@ section#index{
 /*Modusseite********************/
 section#choosemode{
   background-color: var(--co-hauptfarbe);
-  color: var(--co-negativ);
+  color: var(--co-typo-darkred);
   display: flex;
   flex-direction: column;
   justify-content: space-between;

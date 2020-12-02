@@ -22,7 +22,7 @@ $b3_link = '/play';
 <?php include('templates/head.php') ?>
 <section class="maincontainer" id="choosemode">
     <article>
-        <h1><?php echo $gametitle ?></h1>
+        <h1 class="gametitle"><?php echo $gametitle ?></h1>
         <h2><?php echo $titel ?></h2>
     </article>
     <article>
