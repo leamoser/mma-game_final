@@ -5,14 +5,14 @@
     "short_name": "abgefahren",
     "scope": "/",
     "display": "fullscreen",
-    "start_url": "https://mmafinal.lea-moser.ch/",
+    "start_url": "https://abgefahren.fun/",
     "background_color": "#135657",
     "theme_color": "transparent",
     "description": "Abgefahren is ein Game, in dem man mit dem Zug spielerisch die Schweiz und ihr Streckennetz kennenlernt.",
     "orientation": "any",
     "related_applications": [],
     "prefer_related_applications": false,
-    "url": "https://mmafinal.lea-moser.ch/",
+    "url": "https://abgefahren.fun/",
     "icons": [
         {
             "src": "/assets/pwaicons/abgefahren_icon-44x44.png",

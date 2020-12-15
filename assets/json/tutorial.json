@@ -1,32 +1,32 @@
 {
     "anleitungsteil": [
         {
-            "titel": "Ziel des Spiels",
+            "titel": "1/6: Ziel des Spiels",
             "text": "In diesem Spiel lernst du die Schweiz per Zug kennen. Das Ziel des Spiels ist es, jeweils eine Zugreise von A nach B zu absolvieren, und das ganz ohne Fahrplan, sondern nur mit geografischen Kenntnissen und ein bisschen ausprobieren ;)",
             "bild": false
         },
         {
-            "titel": "Die Modi",
+            "titel": "2/6: Die Modi",
             "text": "Du kannst das Spiel auf zwei Unterschiedliche Arten spielen, entweder kannst du im Spielmodus ein Level auswählen, und dann dort eine Strecke absolvieren. Im Spielmodus bekommst du jeweils Start- und Endort vorgegeben und musst diese Strecke dann mit weniger Umstiegen als angegeben schaffen, sonst hast du verloren. Im Entdeckermodus kannst du deinen Startort selber bestimmen und das Streckennetz ohne Einschränkungen kennenlernen.",
             "bild": "modi_small.gif"
         },
         {
-            "titel": "Das Cockpit",
+            "titel": "3/6: Das Cockpit",
             "text": "Zuoberst findest du dein Cockpit. Dort werden dir alle relevanten Infos zu deiner Reise angezeigt. Zuoberst siehst du was für ein Level du absolvierst. In der Mitte befindet sich der Zeitstrahl, dort werden dir alle deine Stationen angezeigt. Ganz links siehst du den Ort, an dem du gestartet bist, Gelb markiert deinen Zielort. Blinkend siehst du, wo du dich aktuell befindest. Darunter hast du noch eine Übersicht, wie viele Umstiege du noch zur Verfügung hast.",
             "bild": "cockpit_small.gif"
         },
         {
-            "titel": "Die Karte",
+            "titel": "4/6: Die Karte",
             "text": "Darunter hast du die Karte. Auf dieser siehst du die Route, die du schon gefahren bist eingezeichnet. Wie im Cockpit ist der Zielort hier gelb markiert und der Ort, an dem du aktuell bist, ist blinkend. Die drei Icons unten links sind die Hilfslayer, die du bei bedarf einblenden kannst. Sie zeigen dir entweder die Topografie der Schweiz, alle Seen und Flüsse oder die grössten Städte.",
             "bild": "karte_small.gif"
         },
         {
-            "titel": "Der Fahrplan",
+            "titel": "5/6: Der Fahrplan",
             "text": "Zuunterst kommt dein Fahrplan. Hier siehst du alle Verbindungen, die du von dem Ort an dem du aktuell bist, alles machen kannst. Mit einem Klick auf das Plus neben der Verbindung, werden alle Orte geladen, an denen dieser Zug hält. So kannst du bestimmen, wo du gerne als nächstes hinfahren möchtest. Mit dem grossen Plus-Knopf unten kannst du weitere Verbindungen laden.",
             "bild": "fahrplan_small.gif"
         },
         {
-            "titel": "Das wars ;)",
+            "titel": "6/6: Das wars ;)",
             "text": "<button class='full'><p><a href='/choose_mode'>Jetzt spielen!</a></p></button>",
             "bild": false
         }
