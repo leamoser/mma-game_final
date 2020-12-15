@@ -34,13 +34,6 @@ $b3_link = '/play';
                 </a></button>
         </div>
         <div>
-            <h2><?php echo $b2_titel ?></h2>
-            <p class="subinfo"><?php echo $b2_explainer ?></p>
-            <button class="full"><a href="<?php echo $b2_link ?>">
-                    <p><?php echo $b2_btn ?>
-                </a></p></button>
-        </div>
-        <div>
             <h2><?php echo $b3_titel ?></h2>
             <p class="subinfo"><?php echo $b3_explainer ?></p>
             <div class="flex">
@@ -57,6 +50,13 @@ $b3_link = '/play';
                     <input type="submit" value="<?php echo $b3_btn3 ?>" name="levelSend">
                 </form>
             </div>
+        </div>
+        <div>
+            <h2><?php echo $b2_titel ?></h2>
+            <p class="subinfo"><?php echo $b2_explainer ?></p>
+            <button class="full"><a href="<?php echo $b2_link ?>">
+                    <p><?php echo $b2_btn ?>
+                </a></p></button>
         </div>
     </article>
 </section>
