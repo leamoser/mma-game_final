@@ -29,7 +29,6 @@ let calculateDuration = (actualTimeRaw, placeStartContainer) => {
     let formattetMinutes = ('0' + minutes).slice(-2);
 
     console.log("diff: "+differenceInMinutes)
-    if(d)
 
     // if(differenceInMinutes<oldTime){
     //     baseday++;
