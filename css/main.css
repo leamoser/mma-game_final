@@ -592,6 +592,10 @@ section.maincontainer#contentpage{
 }
 section.maincontainer#contentpage iframe{
   width: 100%;
+  padding-bottom: 25px;
+}
+._2XBDTIVigBJDybhZvL-hU3{
+  height: auto;
 }
 section.maincontainer#contentpage a{
   text-decoration: underline;
@@ -605,6 +609,9 @@ section.maincontainer#contentpage img{
 section.maincontainer#contentpage p{
   font-size: 1rem;
   padding: 0 0 5px 0;
+}
+section.maincontainer.hihi#contentpage button{
+  margin-top: 25px;
 }
 section.maincontainer#contentpage button>p{
   font: var(--f-m-bold);
