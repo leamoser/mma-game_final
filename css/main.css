@@ -344,6 +344,7 @@ section#game article#ct_cockpit_added p{
   width: 100%;
   white-space: nowrap;
 }
+
 section#game article#ct_cockpit p#levelModus{
   position: absolute;
   top: 1em;
@@ -432,6 +433,12 @@ section#game article#ct_cockpit_added{
   color: var(--co-typo-darkyellow);
   position: relative;
   z-index: 1;
+}
+section#game article#ct_cockpit_added.sticky{
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
 }
 
 /*Fahrplan**********************/
