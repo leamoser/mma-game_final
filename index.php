@@ -2,7 +2,7 @@
 <section class="maincontainer" id="index">
     <a href="choose_mode">
         <button class="full" id="startGame">
-            <p>Start</p>
+            <p>Zum Spiel</p>
         </button>
     </a>
 </section>
