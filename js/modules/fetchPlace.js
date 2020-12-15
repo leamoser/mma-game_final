@@ -45,6 +45,13 @@ let markPlace = () => {
     });
 }
 let fetchPlace = (placeStart, placeEnd, time, gameType) => {
+    console.log(placeStart);
+    console.log(placeEnd);
+
+    if(placeStart == placeEnd && nthMove == 0 && gameType == 0){
+        window.location.href =  "/hihi.php";
+    }
+
     gametype = gameType;
     allConnections.length = 0;
     document.querySelector('#ct_schedule').innerHTML = '';
