@@ -8,7 +8,7 @@
         {
             "titel": "Die Modi",
             "text": "Du kannst das Spiel auf zwei Unterschiedliche Arten spielen, entweder kannst du im Spielmodus ein Level auswählen, und dann dort eine Strecke absolvieren. Im Spielmodus bekommst du jeweils Start- und Endort vorgegeben und musst diese Strecke dann mit weniger Umstiegen als angegeben schaffen, sonst hast du verloren. Im Entdeckermodus kannst du deinen Startort selber bestimmen und das Streckennetz ohne Einschränkungen kennenlernen.",
-            "bild": false
+            "bild": "modi_small.gif"
         },
         {
             "titel": "Das Cockpit",
