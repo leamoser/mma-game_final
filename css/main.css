@@ -606,6 +606,30 @@ section.maincontainer#contentpage ul li{
   padding: 5px 0;
 }
 
+/*Anlelitung*********************************/
+section.maincontainer#contentpage article#tutorial{
+  color: var(--co-typo-darkred);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: var(--sz-h-minusgaps);
+  padding-top: 50px;
+}
+section.maincontainer#contentpage article#tutorial div{
+  padding-bottom: 50px;
+}
+section.maincontainer#contentpage article#tutorial button p{
+  font: var(--f-l-bold); 
+}
+section.maincontainer#contentpage article#tutorial button p a{
+  text-decoration: none;
+}
+section.maincontainer#contentpage article#tutorial img{
+  border: 2px solid var(--co-negativ);
+  margin-top: 25px;
+}
+
 /*404****************************************/
 section.maincontainer#error{
   color: var(--co-negativ);

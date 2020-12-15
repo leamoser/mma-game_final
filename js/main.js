@@ -8,6 +8,8 @@ import { getPossibleTrainstations } from './modules/getPossibleTrainstations.js'
 import { checkMode } from './modules/checkMode.js';
 import { initMap } from './modules/map.js';
 import { appendButtonFetchMore } from './modules/appendButtonFetchMore.js';
+import { fetchAnleitung } from './modules/createTutorial.js';
+
 
 //VARIABELN************************************************
 const subpage = window.location.pathname;
@@ -30,12 +32,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 checkMode(0);
                 fetchJson('/assets/json/freeplay-places.json', subpage);
 
-            } else if(mode=='medium' || mode=='easy' || mode=='hard'){
+            } else if (mode == 'medium' || mode == 'easy' || mode == 'hard') {
                 //add event listener to btn fetch more
                 appendButtonFetchMore(mode);
                 checkMode(mode);
                 fetchJson('/assets/json/levels-' + mode + '.json', subpage);
-            } else{
+            } else {
                 window.location.href = "/choose_mode.php";
             }
             //Event wenn man und los klickt
@@ -44,15 +46,17 @@ document.addEventListener('DOMContentLoaded', function () {
                 getData(subpage, getTime());
                 displayGameInterface();
             })
-
             initMap();
-
         }
         if (subpage.search('freeplay') != -1) {
             let inputField = document.querySelector('input#inputStartPlace');
             inputField.addEventListener('keyup', function (event) {
                 getPossibleTrainstations(event);
             })
+        }
+        if (subpage.search('tutorial') != -1) {
+            let tutorialslide = document.querySelector('article#tutorial');
+            fetchAnleitung(tutorialslide);
         }
         //Bodyvariabeln für CSS
         if (subpage.search('play') != -1) {
