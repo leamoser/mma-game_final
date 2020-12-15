@@ -27,11 +27,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d80584f-ca39-4cf8-b493-b4e6ceed5801" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/modules/sunhours.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/json/trainstations.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/json/trainstations.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/modules/calculateDuration.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/calculateDuration.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modules/checkGoal.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/checkGoal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/darkMode.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/darkMode.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/modules/displayJourneyInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/displayJourneyInfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/modules/initCockpit.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/initCockpit.js" afterDir="false" />
     </list>
@@ -115,7 +116,8 @@
       <workItem from="1606751432613" duration="787000" />
       <workItem from="1606864397722" duration="7244000" />
       <workItem from="1607889089722" duration="1221000" />
-      <workItem from="1608018020676" duration="7194000" />
+      <workItem from="1608018020676" duration="15306000" />
+      <workItem from="1608035814933" duration="688000" />
     </task>
     <task id="LOCAL-00001" summary="testpush">
       <created>1604850920494</created>
@@ -313,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606927096142</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="fixed freeplay time">
+      <created>1608026940207</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1608026940207</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,7 +353,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="testpush" />
     <MESSAGE value="update map" />
     <MESSAGE value="update draw connections" />
     <MESSAGE value="fix map zoom" />
@@ -369,7 +377,8 @@
     <MESSAGE value="aufgeräumt" />
     <MESSAGE value="added new gamename" />
     <MESSAGE value="updated colors" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated colors" />
+    <MESSAGE value="fixed freeplay time" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed freeplay time" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -382,7 +391,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/modules/sunhours.js</url>
           <line>19</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

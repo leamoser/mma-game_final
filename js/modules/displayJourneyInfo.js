@@ -37,7 +37,6 @@ let displayJourneyInfo = (placeStart, placeEnd, time) => {
     // Im Freeplay Modus wird Zeit unterwegs berechnet
     // Im Level Modus wird die Anzahl Moves angezeigt
     if (gametype === 0) {
-        console.log(placeStartContainer);
         durationContainer.innerHTML = calculateDuration(time, placeStartContainer);
         toggleLayerButtons(0, 0, 0, nthMove);
     } else {
