@@ -15,6 +15,7 @@ let darkMode = (time) => {
         document.documentElement.style.setProperty('--co-typo-darkyellow', '#F7BB17');
         document.documentElement.style.setProperty('--co-typo-darkblue', '#77BDBE');
         document.documentElement.style.setProperty('--co-akzent-fancy-switch', '#F7BB17');
+        document.documentElement.style.setProperty('--co-akzent-pos', '#0D391C');
         switchDarkMode('dark');
 
     } else {
@@ -26,6 +27,7 @@ let darkMode = (time) => {
         document.documentElement.style.removeProperty('--co-typo-darkyellow');
         document.documentElement.style.removeProperty('--co-typo-darkblue');
         document.documentElement.style.removeProperty('--co-akzent-fancy-switch');
+        document.documentElement.style.removeProperty('--co-akzent-pos');
         switchDarkMode('light');
 
     }
