@@ -22,6 +22,10 @@ let darkMode = (time) => {
         document.documentElement.style.removeProperty('--co-hauptfarbe-50');
         document.documentElement.style.removeProperty('--co-akzent-fancy');
         document.documentElement.style.removeProperty('--co-negativ');
+        document.documentElement.style.removeProperty('--co-typo-darkred');
+        document.documentElement.style.removeProperty('--co-typo-darkyellow');
+        document.documentElement.style.removeProperty('--co-typo-darkblue');
+        document.documentElement.style.removeProperty('--co-akzent-fancy-switch');
         switchDarkMode('light');
 
     }
