@@ -9,6 +9,7 @@ import { checkMode } from './modules/checkMode.js';
 import { initMap } from './modules/map.js';
 import { appendButtonFetchMore } from './modules/appendButtonFetchMore.js';
 import { fetchAnleitung } from './modules/createTutorial.js';
+import { fixInfobar } from './modules/fixInfobar.js';
 
 
 //VARIABELN************************************************
@@ -47,6 +48,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 displayGameInterface();
             })
             initMap();
+            //Scroll-Reaktion des Containers
+            window.onscroll = function () {
+                fixInfobar();
+            }
         }
         if (subpage.search('freeplay') != -1) {
             let inputField = document.querySelector('input#inputStartPlace');

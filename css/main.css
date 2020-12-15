@@ -433,12 +433,17 @@ section#game article#ct_cockpit_added{
   color: var(--co-typo-darkyellow);
   position: relative;
   z-index: 1;
+  transition: 0.5s;
 }
 section#game article#ct_cockpit_added.sticky{
   position: fixed;
   width: 100%;
   top: 0px;
-  left: 0px;
+  height: 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 /*Fahrplan**********************/
