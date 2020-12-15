@@ -527,7 +527,7 @@ section#game article#ct_journeyinfo h2{
   padding-bottom: var(--ga-around);
 }
 section#game article#ct_journeyinfo img{
-  filter: invert(100);
+  /*filter: invert(100);*/
   width: 200vw;
   animation: trainmove 2.4s ease 0s infinite alternate;
 }

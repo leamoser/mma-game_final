@@ -27,11 +27,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d80584f-ca39-4cf8-b493-b4e6ceed5801" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hihi.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/json/levels-hard.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/json/levels-hard.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/json/levels-medium.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/json/levels-medium.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modules/fetchPlace.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/fetchPlace.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/trainIcon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/trainIcon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/json/trainstations.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/json/trainstations.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hihi.php" beforeDir="false" afterPath="$PROJECT_DIR$/hihi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/breakscreens/break.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/breakscreens/break.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +115,7 @@
       <workItem from="1606864397722" duration="7244000" />
       <workItem from="1607889089722" duration="1221000" />
       <workItem from="1608018020676" duration="15306000" />
-      <workItem from="1608035814933" duration="9740000" />
+      <workItem from="1608035814933" duration="12264000" />
     </task>
     <task id="LOCAL-00001" summary="testpush">
       <created>1604850920494</created>
@@ -347,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608046581437</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="hihi.php">
+      <created>1608049795220</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1608049795220</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,7 +386,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix map zoom" />
     <MESSAGE value="fix a lot" />
     <MESSAGE value="stand 3.42 uhr" />
     <MESSAGE value="stand 4.54" />
@@ -403,7 +410,8 @@
     <MESSAGE value="fixed freeplay time" />
     <MESSAGE value="..." />
     <MESSAGE value="user-scalable=no" />
-    <option name="LAST_COMMIT_MESSAGE" value="user-scalable=no" />
+    <MESSAGE value="hihi.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="hihi.php" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
