@@ -590,6 +590,9 @@ section#choosemode div.flex input[type="submit"]{
 section.maincontainer#contentpage{
   color: var(--co-typo-darkred);
 }
+section.maincontainer#contentpage iframe{
+  width: 100%;
+}
 section.maincontainer#contentpage a{
   text-decoration: underline;
 }
@@ -602,6 +605,10 @@ section.maincontainer#contentpage img{
 section.maincontainer#contentpage p{
   font-size: 1rem;
   padding: 0 0 5px 0;
+}
+section.maincontainer#contentpage button>p{
+  font: var(--f-m-bold);
+  padding: 0 0;
 }
 section.maincontainer#contentpage h2{
   margin: 0 0;
