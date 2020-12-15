@@ -9,8 +9,8 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
-      <webServer id="01d16cee-c106-420e-b7cf-ca8a8c72db87" name="funserver">
-        <fileTransfer rootFolder="/public_html/abgefahren.fun/" port="21">
+      <webServer id="01d16cee-c106-420e-b7cf-ca8a8c72db87" name="funserver" url="http://s032.cyon.net">
+        <fileTransfer host="s032.cyon.net" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
