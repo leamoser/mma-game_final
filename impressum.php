@@ -10,6 +10,8 @@
         <h3>Lea Moser, Code und Konzeption</h3>
         <p><a href="mailto:privat@lea-moser.ch">privat@lea-moser.ch</a></p>
     </div>
+    <h2>Adresse</h2>
+    <p>Lea Moser<br>Gottfried-Keller-Strasse 24<br>9000 St. Gallen</p>
     <h2>Quellen und Daten</h2>
     <ul>
         <li><a href="https://opentransportdata.swiss/de/dataset/bav_liste">Liste aller Bahnhöfe Schweiz - Bundesamt für Verkehr BVS</a></li>

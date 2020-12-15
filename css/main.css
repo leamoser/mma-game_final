@@ -574,7 +574,7 @@ section#choosemode div.flex input[type="submit"]{
 
 /*Contentpages********************/
 section.maincontainer#contentpage{
-  color: var(--co-negativ);
+  color: var(--co-typo-darkred);
 }
 section.maincontainer#contentpage a{
   text-decoration: underline;
@@ -587,7 +587,7 @@ section.maincontainer#contentpage img{
 }
 section.maincontainer#contentpage p{
   font-size: 1rem;
-  padding: 0 0;
+  padding: 0 0 5px 0;
 }
 section.maincontainer#contentpage h2{
   margin: 0 0;
@@ -604,6 +604,30 @@ section.maincontainer#contentpage h3{
 section.maincontainer#contentpage ul li{
   font: var(--f-m-textschrift);
   padding: 5px 0;
+}
+
+/*Anlelitung*********************************/
+section.maincontainer#contentpage article#tutorial{
+  color: var(--co-typo-darkred);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: var(--sz-h-minusgaps);
+  padding-top: 50px;
+}
+section.maincontainer#contentpage article#tutorial div{
+  padding-bottom: 50px;
+}
+section.maincontainer#contentpage article#tutorial button p{
+  font: var(--f-l-bold); 
+}
+section.maincontainer#contentpage article#tutorial button p a{
+  text-decoration: none;
+}
+section.maincontainer#contentpage article#tutorial img{
+  border: 2px solid var(--co-negativ);
+  margin-top: 25px;
 }
 
 /*404****************************************/
