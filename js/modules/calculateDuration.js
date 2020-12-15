@@ -4,8 +4,9 @@ let additor = 0;
 //-----------------------------------------------------------------
 //FUNKTION---------------------------------------------------------
 let calculateDuration = (actualTimeRaw, placeStartContainer) => {
-    let startTimeRaw = placeStartContainer.getAttribute('data-time');
+    let startTimeRaw = placeStartContainer.getAttribute('data-initialTime');
     let startTime = new Date(2020, 4, baseday, startTimeRaw.slice(0, 2), startTimeRaw.slice(3, 6));
+    console.log(startTime)
     let actualTime = new Date(2020, 4, baseday, actualTimeRaw.slice(0, 2), actualTimeRaw.slice(3, 6));
     if (startTime.getTime() <= actualTime.getTime() != true) {
         additor = 1;

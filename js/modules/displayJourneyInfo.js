@@ -27,7 +27,7 @@ const countetMovesContainer = document.querySelector('#counterMoves');
 let displayJourneyInfo = (placeStart, placeEnd, time) => {
     // Wenn Spiel neu gestartet wird, wird placestart und placeend befüllt
     if (nthMove === 0) {
-        initCockpit(time, placeStart, placeEnd, gametype);
+        initCockpit(time, placeStart, placeEnd, gametype, nthMove);
     } else if (nthMove > 0) {
         //Bei jedem Spielzug wird 'Deine Reise' erweitert (ausser beim ersten Spielzug)
         updateCockpit(placeStart);
@@ -37,6 +37,7 @@ let displayJourneyInfo = (placeStart, placeEnd, time) => {
     // Im Freeplay Modus wird Zeit unterwegs berechnet
     // Im Level Modus wird die Anzahl Moves angezeigt
     if (gametype === 0) {
+        console.log(placeStartContainer);
         durationContainer.innerHTML = calculateDuration(time, placeStartContainer);
         toggleLayerButtons(0, 0, 0, nthMove);
     } else {

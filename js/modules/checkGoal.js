@@ -58,7 +58,7 @@ let checkGoal = (placeStart, placeEnd, gametype, time, move) => {
                 document.querySelector('#placeEndNew').innerHTML = destinations[counterWon].destination;
                 fetchPlaceEnd(destinations[counterWon].destination);
                 // Cockpit neu laden
-                initCockpit(time, placeStart, destinations[counterWon].destination)
+                initCockpit(time, placeStart, destinations[counterWon].destination, move )
             } else {
                 showContainer(gameWonContainer);
             }
