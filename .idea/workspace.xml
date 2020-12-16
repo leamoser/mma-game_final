@@ -27,12 +27,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d80584f-ca39-4cf8-b493-b4e6ceed5801" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/trainIcon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/trainIcon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/json/trainstations.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/json/trainstations.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hihi.php" beforeDir="false" afterPath="$PROJECT_DIR$/hihi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/breakscreens/break.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/breakscreens/break.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/sunhours.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/sunhours.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/head.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +114,10 @@
       <workItem from="1606864397722" duration="7244000" />
       <workItem from="1607889089722" duration="1221000" />
       <workItem from="1608018020676" duration="15306000" />
-      <workItem from="1608035814933" duration="12264000" />
+      <workItem from="1608035814933" duration="12887000" />
+      <workItem from="1608055263423" duration="866000" />
+      <workItem from="1608066283959" duration="4761000" />
+      <workItem from="1608104112382" duration="6146000" />
     </task>
     <task id="LOCAL-00001" summary="testpush">
       <created>1604850920494</created>
@@ -355,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608049795220</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="final push für heute">
+      <created>1608053593335</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1608053593335</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +395,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix a lot" />
     <MESSAGE value="stand 3.42 uhr" />
     <MESSAGE value="stand 4.54" />
     <MESSAGE value="update bis auf update placend" />
@@ -411,7 +419,8 @@
     <MESSAGE value="..." />
     <MESSAGE value="user-scalable=no" />
     <MESSAGE value="hihi.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="hihi.php" />
+    <MESSAGE value="final push für heute" />
+    <option name="LAST_COMMIT_MESSAGE" value="final push für heute" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -420,11 +429,6 @@
           <url>file://$PROJECT_DIR$/js/modules/checkGoal.js</url>
           <line>14</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/modules/sunhours.js</url>
-          <line>19</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
