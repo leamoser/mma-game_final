@@ -10,7 +10,7 @@ import { initMap } from './modules/map.js';
 import { appendButtonFetchMore } from './modules/appendButtonFetchMore.js';
 import { fetchAnleitung } from './modules/createTutorial.js';
 import { fixInfobar } from './modules/fixInfobar.js';
-import { suncalc } from "./modules/sunhours.js";
+import { sunCalc } from "./modules/sunhours.js";
 
 //VARIABELN************************************************
 const subpage = window.location.pathname;

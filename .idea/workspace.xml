@@ -30,6 +30,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/darkMode.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/darkMode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/fetchPlace.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/fetchPlace.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/modules/sunhours.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/sunhours.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/head.php" afterDir="false" />
     </list>
@@ -117,7 +119,8 @@
       <workItem from="1608035814933" duration="12887000" />
       <workItem from="1608055263423" duration="866000" />
       <workItem from="1608066283959" duration="4761000" />
-      <workItem from="1608104112382" duration="6146000" />
+      <workItem from="1608104112382" duration="6362000" />
+      <workItem from="1608142280339" duration="3877000" />
     </task>
     <task id="LOCAL-00001" summary="testpush">
       <created>1604850920494</created>
@@ -364,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608053593335</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="sonnen  berechnung">
+      <created>1608125906130</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1608125906131</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,7 +405,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="stand 3.42 uhr" />
     <MESSAGE value="stand 4.54" />
     <MESSAGE value="update bis auf update placend" />
     <MESSAGE value="es gails update" />
@@ -420,7 +429,8 @@
     <MESSAGE value="user-scalable=no" />
     <MESSAGE value="hihi.php" />
     <MESSAGE value="final push für heute" />
-    <option name="LAST_COMMIT_MESSAGE" value="final push für heute" />
+    <MESSAGE value="sonnen  berechnung" />
+    <option name="LAST_COMMIT_MESSAGE" value="sonnen  berechnung" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

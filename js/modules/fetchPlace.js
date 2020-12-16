@@ -45,8 +45,6 @@ let markPlace = () => {
     });
 }
 let fetchPlace = (placeStart, placeEnd, time, gameType) => {
-    console.log(placeStart);
-    console.log(placeEnd);
 
     if(placeStart == placeEnd && nthMove == 0 && gameType == 0){
         window.location.href =  "/hihi.php";
@@ -95,7 +93,7 @@ let fetchPlace = (placeStart, placeEnd, time, gameType) => {
                 drawConnection(lastPlace.lon, lastPlace.lat, place.lon, place.lat, nthMove);
             }
             //Darkmode einstellen
-            darkMode(time);
+            darkMode(time, data.stop.lat, data.stop.lon);
         })
         .then(() => {
             //Eventlisteners auf alle Orte

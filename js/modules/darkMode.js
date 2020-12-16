@@ -1,12 +1,19 @@
 //-----------------------------------------------------------------
 //IMPORTS----------------------------------------------------------
 import { switchDarkMode } from './map.js';
+import { sunCalc } from "./sunhours.js";
 
+const today = new Date();
 
 //-----------------------------------------------------------------
 //FUNKTIONEN-------------------------------------------------------
-let darkMode = (time) => {
-    if (parseInt(time.slice(0, 2)) <= 8 || parseInt(time.slice(0, 2)) >= 20) {
+let darkMode = (formattetTime, placeLat, placeLong) => {
+    let sunHours = sunCalc(today, placeLat, placeLong)
+    let hour = parseInt(formattetTime.slice(0, 2));
+    let minute = 1/60*parseInt(formattetTime.slice(3, 5));
+    let time = hour+minute;
+
+    if (time<= sunHours.sunrise || time >= sunHours.sunset) {
         document.documentElement.style.setProperty('--co-hauptfarbe', '#600c0c');
         document.documentElement.style.setProperty('--co-hauptfarbe-50', '#356d6e');
         document.documentElement.style.setProperty('--co-akzent-fancy', '#977005');
@@ -17,7 +24,6 @@ let darkMode = (time) => {
         document.documentElement.style.setProperty('--co-akzent-fancy-switch', '#F7BB17');
         document.documentElement.style.setProperty('--co-akzent-pos', '#0D391C');
         switchDarkMode('dark');
-
     } else {
         document.documentElement.style.removeProperty('--co-hauptfarbe');
         document.documentElement.style.removeProperty('--co-hauptfarbe-50');

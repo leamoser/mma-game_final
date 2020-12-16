@@ -19,7 +19,6 @@ $gametitle = 'abgefahren';
     </script>
     <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
     <script type="module" src="js/main.js"></script>
-    <script type="module" src="js/modules/sunhours.js"></script>
     <link rel="shortcut icon" href="/assets/pwaicons/abgefahren_icon-120x120.png">
     <link rel="icon" type="image/png" href="/assets/pwaicons/abgefahren_icon-36x36.png" sizes="36x36">
     <link rel="icon" type="image/png" href="/assets/pwaicons/abgefahren_icon-96x96.png" sizes="96x96">
