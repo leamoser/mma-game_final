@@ -5,9 +5,6 @@
 // timezone 2: 87 - 303
 
 let timezone = 1;
-const latitutde = 46.87521; // BERN
-const longitude = 8.19580; // BERN
-let now = new Date(2021, 6, 25);
 
 let sunCalc = (now, lat, long) => {
     let dayOfYear = getDayOfYear(now);
