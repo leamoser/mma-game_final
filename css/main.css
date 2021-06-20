@@ -71,11 +71,15 @@
 /******************************************/
 /*Hintergrundfarben Seite*/
 body{
-  background-color: var(--co-hauptfarbe);
   color: var(--co-typo-darkred);
+  background: rgb(240, 240, 240);
+}
+main{
+  background-color: var(--co-hauptfarbe);
 }
 body.play{
-  background-color: var(--co-negativ);
+  background: rgb(240, 240, 240);
+  /*background-color: var(--co-negativ);*/
 }
 /*Hauptcontainer*/
 main{
@@ -681,7 +685,7 @@ section.maincontainer#error h1{
     align-items: center;
     text-align: center;
     position: fixed;
-    left: 0px;
+    /*left: 0px;*/
   }
   /*Aufbau Nav im Container*/
   div.navigation nav li.sml{
@@ -713,4 +717,21 @@ section.maincontainer#error h1{
     width: 100%;
     margin: 0 auto;
   }
+}
+
+
+/* desktop fixes */
+main{
+  overflow: hidden;
+}
+
+div.navigation, #ct_cockpit{
+  position: relative;
+}
+#nav_toggle{
+  position: absolute;
+}
+
+nav#nav_content{
+  width: var(--sz-w-screen);
 }
